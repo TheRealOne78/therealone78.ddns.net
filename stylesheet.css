@@ -62,7 +62,7 @@ font-weight:bold;
 }
 
 .footer {
-background-color: #FFFFFF;
+background-color: black;
 font-family: Arial;
 width: 100%;
 left: 0px;
@@ -71,4 +71,6 @@ color: white;
 text-align: center;
 padding-top: 15px;
 padding-bottom: 15px;
+    position:static;
+    clear:both;
 }
