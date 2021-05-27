@@ -1,0 +1,75 @@
+/*CSS file for  Website
+Authors: Cake and TheRealOne
+*/
+body {
+background-color: #18313a;
+background-image: url("background_background.bmp");
+}
+
+a{
+background: transparent;
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+background: transparent;
+text-decoration: underline;
+}
+
+.maintitle{
+background-color: #2E8B57;
+color: white;
+text-align: center;
+padding-bottom: 42px;
+font-family: calibri;
+width: 100%;
+left: 0;
+top: 0;
+right: 0;
+color: white;
+text-align: center;
+}
+
+.terms {
+border-radius: 30px;
+color: White;
+background-color: rgba(0, 0, 0, 0.6);
+background-opacity: 4;
+font-family: Arial;
+padding: 30px;
+}
+
+.TC {
+font-size: 25px;
+text-align: Center;
+}
+
+.dw_cool {
+border-radius: 30px;
+color: White;
+background-color: rgba(0, 0, 0, 0.6);
+background-opacity: 4;
+font-family: Arial;
+padding: 30px;
+}
+.cent-img-full{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ps {
+font-weight:bold;
+}
+
+.footer {
+background-color: #FFFFFF;
+font-family: Arial;
+position: fixed;
+width: 100%;
+left: 0;
+bottom: 0;
+color: white;
+text-align: center;
+}
