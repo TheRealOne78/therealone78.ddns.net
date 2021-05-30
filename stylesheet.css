@@ -22,6 +22,11 @@ background: transparent;
 text-decoration: underline;
 }
 
+.noURL:hover {
+background:transparent;
+text-decoration: underline;
+}
+
 .maintitle {
 background-color: #2E8B57;
 color: white;
