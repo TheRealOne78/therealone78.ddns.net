@@ -12,7 +12,10 @@ padding: 0;
 }
 
 code{
-background-color:#2f3136
+background-color: #2F3136;
+background: solid;
+padding: 1px 2px 1px 2px;
+border-radius: 3px;
 }
 
 a {
@@ -26,7 +29,7 @@ text-decoration: underline;
 }
 
 .noURL{
-text-decoration:none;
+text-decoration: none;
 }
 
 .noURL:hover {
@@ -71,13 +74,6 @@ margin: 7px;
 .ps {
 font-weight:bold;
 }
-
-#code {
-background-color: #2d2d2d;
-font-family: Arial;
-color: white;
-}
-
 
 .footer {
 background-color: black;
