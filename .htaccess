@@ -8,3 +8,10 @@ ErrorDocument 404 /errors/404.html
 ErrorDocument 500 /errors/500.html
 # 502 BAD GATEWAY
 ErrorDocument 502 /errors/502.html
+
+# -----------------Rem .html and .htm extensions---
+
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}.html -f
+#RewriteRule ^{.*}$ $1.html [NC,L]
