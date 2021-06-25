@@ -1,5 +1,6 @@
 # -- Ignore Optional Files/Dirs ---
 SHG/
+movies/
 
 # -- Ignore Images ----------------
 *.bmp
