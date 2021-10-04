@@ -3,11 +3,11 @@ SHG/
 movies/
 
 # -- Ignore Images ----------------
-*.bmp
-*.png
-*.jpg
-*.jpeg
-*.svg
+#*.bmp
+#*.png
+#*.jpg
+#*.jpeg
+#*.svg
 
 # -- Ignore Videos ----------------
 *.mp4
