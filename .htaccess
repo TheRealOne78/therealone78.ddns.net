@@ -11,7 +11,10 @@ ErrorDocument 502 /errors/502.html
 
 # -----------------Rem .html and .htm extensions---
 
-#RewriteEngine on
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteCond %{REQUEST_FILENAME}.html -f
-#RewriteRule ^{.*}$ $1.html [NC,L]
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ $1.html [L]
+</IfModule>
