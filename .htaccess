@@ -3,18 +3,16 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
 
 # ------------------Error Pages--------------------
 # 404 NOT FOUND
-ErrorDocument 404 /errors/404.html
-# 500 INTERNAL SERVER ERROR
-ErrorDocument 500 /errors/500.html
-# 502 BAD GATEWAY
-ErrorDocument 502 /errors/502.html
+ErrorDocument 404 /404.html
 
 # -----------------Rem .html and .htm extensions---
 
 <IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/?$ $1.html [L]
+	RewriteEngine on
+	RewriteBase /
+        RewriteCond %{REQUEST_URI} !/errors/ [NC]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^([^/]+)/?$ $1.html [L]
 </IfModule>
+
