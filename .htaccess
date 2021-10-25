@@ -3,7 +3,6 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
 
 # ------------------Error Pages--------------------
 # 404 NOT FOUND
-#ErrorDocument 404 /404.html
 
 # -----------------Rem .html and .htm extensions---
 
