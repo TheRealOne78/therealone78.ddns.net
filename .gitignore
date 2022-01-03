@@ -5,6 +5,7 @@ advguild/
 music.git/
 firma/
 firma.html
+.htaccess
 # -- Ignore Images ----------------
 #*.bmp
 #*.png
