@@ -6,6 +6,8 @@ music.git/
 firma/
 firma.html
 .htaccess
+*.swp
+music/
 # -- Ignore Images ----------------
 #*.bmp
 #*.png

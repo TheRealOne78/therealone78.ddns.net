@@ -9,7 +9,8 @@
                         <meta content="AdvGuild RO mirror" property="og:title">
                         <meta content="http(s) and ftp mirror in romania for ftp://advguild.myftp.org" property="og:description">
                         <meta content="https://therealone78.ddns.net/advguild" property="og:url">
-                        <meta content="http://advguild.myftp.org/favicon.ico" property="og:image">
+                        <!--meta property="og:image" content="http://advguild.myftp.org/favicon.ico"-->
+			<meta property="og:image" itemprop="image primaryImageOfPage" content="coming_soon.png">
                         <meta content="#000" data-react-helmet="true" name="theme-color">
         </head>
 <!--body-->
@@ -18,15 +19,39 @@
         #red
         {
         color: red;
-        background-color: rgba(255, 0, 0, 0.3)
+        background-color: rgba(255, 0, 0, 0.3);
         }
         #red:hover{
         background-color: rgba(255, 0, 0, 0.7);
         }
-	.adv-dir
-	{
+
+	.dir{
 	color: white;
-	background-color: rgba(80, 80, 180, 0.8);
+	background-color: rgba(50, 80, 180, 0.8);
+	padding: 20px;
+	border-radius: 10px;
+	}
+	.file{
+	color: white;
+	background-image: linear-gradient(to right, rgba(50, 50, 50, 0.8), rgba(0, 50, 255, 0.80));
+	padding: 20px;
+	border-radius: 10px;
+	}
+	.archive{
+	color: white;
+	background-image: linear-gradient(to right, rgba(255, 165, 0, 0.8), rgba(0, 100, 200, 0.8));
+	padding: 20px;
+	border-radius: 10px;
+	}
+	.exe{
+	color: white;
+	background-image: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(255, 255, 0, 0.8));
+	padding: 20px;
+	border-radius: 10px;
+	}
+	.video{
+	color: white;
+	background-image: linear-gradient(to right, rgba(0, 255, 0, 0.8), rgba(0, 255, 255, 0.8));
 	padding: 20px;
 	border-radius: 10px;
 	}
@@ -36,17 +61,81 @@
         <div id="main">
 
         <div class="maintitle"></br>
-        <h1>AdvGuild FTP Mirror - Europe/Brasov - Romania</h1>
+        <h1>AdvGuild FTP Mirror - Europe/Brasov - Romania <img src="eu.png"> <img src="ro.png" ></h1>
         <a href = "https://therealone78.ddns.net">Home</a> | <a href = "ftp://therealone78.ddns.net">My FTP</a> | <a href="https://therealone78.ddns.net/advguild.myftp.org/advguild.html">AdvGuild Mirror</a>
 	</div>
 	<div class="dw_cool">
 	<h1>About</h1><hr>
 	This webpage serves as a http(s) mirror for <a href="http://advguild.myftp.org">advguild.myftp.org</a> ftp server.<br>
-	This DNS provides as well ftp service for the mirror, running at <a href="ftp://therealone78.ddns.net/advguild">ftp://therealone78.ddns.net/advguild</a>. To access FTP, please use a FTP client like the default terminal FTP client or <a href="https://filezilla-project.org/">FileZilla</a> with username <b>anonymous</b> and no password.
-	<br><h1>Files</h1><hr>
-		<div class=adv-dir>
-		asd	
-		</div>
+	This DNS provides as well ftp service for the mirror, running at <a href="ftp://therealone78.ddns.net/advguild">ftp://therealone78.ddns.net/advguild</a>. To access FTP, please use a FTP client like the default terminal FTP client or <a href="https://filezilla-project.org/">FileZilla</a> with username <b>anonymous</b> and no password.<br>
+	The official server is <a href="http://advguild.myftp.org">advguild.myftp.org</a>, located in Canada.
+	<br><h1>Files</h1><hr><br>
+		<div class=dir>
+		<a href="https://therealone78.ddns.net/advguild/DATA/"><b>DATA</b></a><br><br>
+			<div class="dir">
+				<a href="https://therealone78.ddns.net/advguild/DATA/Fix%20for%20Sept%20Certificate%20Expired/"><b>Fix for Sept Certificate Expired</b></a>
+				<br>A fix for old browser certificates, especially for Windows XP browsers. Google Chrome for Windows XP can no longer access https websites because the installed trusted ssl certificates are outdated. Install these .pem files into your browser's Certificate Settings to resolve this issue.
+			</div><br>
+
+			<div class="archive">
+				<a href="https://therealone78.ddns.net/advguild/DATA/Fxp32.zip"><b>Fxp32.zip</b></a>
+				<br>A proprietary minimalistic FTP Client for Windows. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/">7-zip</a>.
+			</div><br>
+
+			<div class="exe">
+				<a href="https://therealone78.ddns.net/advguild/DATA/HAKTEK.EXE"><b>HAKTEK.EXE</b></a>
+				<br>HakTek is a proprietary pentesting program that can mailbomb, anti-mailbomb, scan ports and scan IPs.
+			</div><br>
+
+			<div class="archive">
+				<a href="https://therealone78.ddns.net/advguild/DATA/InnerSpace.zip"><b>InnerSpace.zip</b></a>
+				<br>To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
+			</div><br>
+
+			<div class="archive">
+				<a href="https://therealone78.ddns.net/advguild/DATA/ZeldaTexturePackmc-15.zip"><b>ZeldaTexturePackmc-15.zip</b></a>
+				<br>A texture pack for minecraft that looks like zelda. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>. To install this texture pack, put the files in your profile's texturepack directory, and in minecraft settings change the texturepack.
+			</div><br>
+			
+			<div class="exe">
+				<a href="https://therealone78.ddns.net/advguild/DATA/flashplayer_32_sa_debug.exe"><b>flashplayer_32_sa_debug.exe</b></a>
+				<br>A standalone FlashPlayer Debugger for Windows.
+			</div><br>
+
+			<div class="archive">
+				<a href="https://therealone78.ddns.net/advguild/DATA/war-ftpd-1.82-RC13-update.zip"><b>war-ftpd-1.82-RC13-update.zip</b></a>
+				<br>War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years.(wikipedia - warftpd) This version is the latest stable release from 2014.
+			</div><br>
+			<div class="exe">
+				<a href="https://therealone78.ddns.net/advguild/DATA/warftpd-1.82-00-RC12-i386.exe"><b>warftpd-1.82-00-RC12-i386.exe</b></a>
+				<br>War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years.(wikipedia - warftpd)
+			</div><br>
+		
+			<div class="exe">
+				<a href="https://therealone78.ddns.net/advguild/DATA/wrar351.exe"><b>wrar351.exe</b></a>
+				<br>This program runs in Windows.
+			</div><!--<br>-->
+
+		</div><br>
+		<div class=dir>
+		<a href="https://therealone78.ddns.net/advguild/Video"><b>Video</b></a><br><br>
+			<div class="dir">
+				<a href="https://therealone78.ddns.net/advguild/Video/The%20Melancholy%20of%20Haruhi%20Suzumiya/"><b>The Melancholy of Haruhi Suzumiya</b><br><br>
+				<div class="video">
+					<a href="https://therealone78.ddns.net/advguild/Video/The%20Melancholy%20of%20Haruhi%20Suzumiya/Movie%20-%20The%20Disappearance%20of%20Haruhi%20Suzumiya.mkv"><b>Movie - The Disappearance of Haruhi Suzumiya.mkv</b></a>
+					<br>The Melancholy of Haruhi Suzumiya - The Disappearance of Haruhi Suzumiya - Anime Movie
+				</div><br>
+				<div class="archive">
+				<a href="https://therealone78.ddns.net/advguild/Video/The%20Melancholy%20of%20Haruhi%20Suzumiya/The%20Melancholy%20of%20Haruhi%20Suzumiya.zip"><b>The Melancholy of Haruhi Suzumiya.zip</b></a>
+				<br>The Melancholy of Haruhi Suzumiya - Anime Series
+				</div>
+			</div>
+		<div></div>
+		</div><br>
+		<div class=dir>
+		<a href="https://therealone78.ddns.net/advguild/upload/"><b>upload</b></a><br><br>
+			<div></div>
+		</div><br>
 	</div>
         
 
