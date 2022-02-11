@@ -8,6 +8,7 @@ firma.html
 .htaccess
 *.swp
 music/
+mc/
 # -- Ignore Images ----------------
 #*.bmp
 #*.png
