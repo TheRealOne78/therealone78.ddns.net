@@ -104,15 +104,15 @@ clear:both;
 
 #main {
   overflow: auto;
-  padding-bottom: 180px;
+  padding-bottom: 200px;
   /* must be same height as the footer */
 }
 
 #footer {
   position: relative;
-  margin-top: -180px;
+  margin-top: -200px;
   /* negative value of footer height */
-  height: 180px;
+  height: 200px;
   clear: both;
   background-color: black;
 }
