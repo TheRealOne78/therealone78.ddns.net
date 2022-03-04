@@ -9,7 +9,8 @@ firma.html
 *.swp
 music/
 mc/
-torrents/
+*.torrent
+
 # -- Ignore Images ----------------
 #*.bmp
 #*.png
