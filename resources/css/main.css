@@ -92,7 +92,6 @@ left: 0px;
 bottom: 0px;
 color: white;
 text-align: center;
-padding-top: 15px;
 position:static;
 clear:both;
 }
@@ -104,15 +103,15 @@ clear:both;
 
 #main {
   overflow: auto;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
   /* must be same height as the footer */
 }
 
 #footer {
   position: relative;
-  margin-top: -200px;
+  margin-top: -250px;
   /* negative value of footer height */
-  height: 200px;
+  height: 250px;
   clear: both;
   background-color: black;
 }
