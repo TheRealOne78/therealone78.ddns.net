@@ -90,9 +90,10 @@ font-family: Arial;
 width: 100%;
 left: 0px;
 bottom: 0px;
+top: 0px;
+right: 0px;
 color: white;
 text-align: center;
-position:static;
 clear:both;
 }
 
