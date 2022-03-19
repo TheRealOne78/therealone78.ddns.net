@@ -71,9 +71,9 @@ margin: 7px;
 }
 
 .cent-img-full {
- display: block;
- margin-left: auto;
- margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .ps {
@@ -99,6 +99,11 @@ color: white;
 font-size: 35px;
 }
 
+.errItemImg{
+padding: 3%;
+color: blue;
+}
+
 .errItemTitle {
 font-family: 'VT323', monospace;
 color: white;
@@ -111,6 +116,8 @@ background-color: black;
 display: grid;
 grid-template-columns: 1fr 2fr;
 grid-gap: 5%;
+align-items: center;
+justify-items: center;
 }
 
 #wrap {
@@ -136,10 +143,10 @@ background-color: black;
 /* Opera Fix thanks to Maleika (Kohoutec) */
 
 body:before {
-  content: "";
-  height: 100%;
-  float: left;
-  width: 0;
-  margin-top: -32767px;
-  /* thank you Erik J - negate effect of float*/
+content: "";
+height: 100%;
+float: left;
+width: 0;
+margin-top: -32767px;
+/* thank you Erik J - negate effect of float*/
 }
