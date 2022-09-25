@@ -134,7 +134,7 @@ switch(extension) {
   case "mpeg":
   case "m4a":
     document.getElementById("file").innerHTML = "video";
-    document.getElementById("img").src = `${err_res_url}img/404.img.svg`;
+    document.getElementById("img").src = `${err_res_url}img/404.video.svg`;
     break;
   /* Web page */
   case "html":
