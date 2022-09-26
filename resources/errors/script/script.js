@@ -20,8 +20,8 @@ for(let i = 0; i < selectedCollection.length; i++)
   selectedCollection[i].style.background = textColorArr[textColor];
 
 const word = [
-  "duck"   , "dukc",
-  "bed"    , "beg" ,
+  "duck"   , "dukc"  ,
+  "bed"    , "beg"   ,
   "yanny"  , "laurel",
   "table"  , "talbe" ,
   "watcha" , "watch" ,
@@ -30,7 +30,28 @@ const word = [
   "windows", "linux" ,
   "tree"   , "free"
 ];
+let wi = Math.floor(Math.random() * word.length);
+if(wi % 2 === 1)
+  wi--;
+document.getElementById("w1").innerHTML = `"${word[wi]}"`;
+document.getElementById("w2").innerHTML = `"${word[wi+1]}"`;
 
+const letterCase = [
+  "towel"  , "TOWEL" ,
+  "house"  , "House" ,
+  "light"  , "lighT" ,
+  "book"   , "booK"  ,
+  "person" , "PERSON",
+  "gel"    , "GEL"   ,
+  "camera" , "cAmera",
+  "pillow" , "Pillow",
+  "smile"  , "sMiLe"
+];
+let li = Math.floor(Math.random() * letterCase.length);
+if(li % 2 === 1)
+  li--;
+document.getElementById("l1").innerHTML = `"${letterCase[li]}"`;
+document.getElementById("l2").innerHTML = `"${letterCase[li+1]}"`;
 
 /* Get filename extension */
 let fileName = document.URL;
@@ -139,6 +160,7 @@ switch(extension) {
   /* Web page */
   case "html":
   case "htm":
+  case "php":
     document.getElementById("file").innerHTML = "web page";
     document.getElementById("img").src = `${err_res_url}img/404.file.svg`;
     break;
