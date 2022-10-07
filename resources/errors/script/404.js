@@ -1,10 +1,10 @@
 const err_res_url = "https://therealone78.ddns.net/resources/errors/";
 
 const word = [
-  "duck"   , "dukc"  ,
-  "bed"    , "beg"   ,
+  "dukc"   , "duck"  ,
+  "beg"    , "bed"   ,
   "yanny"  , "laurel",
-  "table"  , "talbe" ,
+  "talbe"  , "table" ,
   "watcha" , "watch" ,
   "hello"  , "yellow",
   "mask"   , "task"  ,
@@ -37,6 +37,7 @@ document.getElementById("l2").innerHTML = `"${letterCase[li+1]}"`;
 /* Get filename extension */
 let fileName = document.URL;
 let extension = fileName.split(/[#?]/)[0].split('.').pop().trim().toLowerCase();
+let fileCollection = document.getElementsByClassName("file");
 
 switch(extension) {
   /* Images */
@@ -51,7 +52,8 @@ switch(extension) {
   case "heif":
   case "indd":
   case "svg":
-    document.getElementById("file").innerHTML = "image";
+  for(let i = 0; i < fileCollection.length; i++)
+    fileCollection[i].innerHTML = "image";
     document.getElementById("img").src = `${err_res_url}img/404.img.svg`;
     break;
   /* Documents */
@@ -68,7 +70,8 @@ switch(extension) {
   case "pptx":
   case "odp":
   case "txt":
-    document.getElementById("file").innerHTML = "document";
+  for(let i = 0; i < fileCollection.length; i++)
+    fileCollection[i].innerHTML = "document";
     document.getElementById("img").src = `${err_res_url}img/404.file.svg`;
     break;
   /* Archives */
@@ -88,7 +91,8 @@ switch(extension) {
   case "br":
   case "sz":
   case "zst":
-    document.getElementById("file").innerHTML = "archive";
+  for(let i = 0; i < fileCollection.length; i++)
+    fileCollection[i].innerHTML = "archive";
     document.getElementById("img").src = `${err_res_url}img/404.file.svg`;
     break;
   /* Executables */
@@ -108,7 +112,8 @@ switch(extension) {
   case "command":
   case "vbs":
   case "ps1":
-    document.getElementById("file").innerHTML = "program";
+  for(let i = 0; i < fileCollection.length; i++)
+    fileCollection[i].innerHTML = "program";
     document.getElementById("img").src = `${err_res_url}img/404.file.svg`;
     break;
   /* Audio */
@@ -121,7 +126,8 @@ switch(extension) {
   case "wma":
   case "flac":
   case "alac":
-    document.getElementById("file").innerHTML = "audio file";
+  for(let i = 0; i < fileCollection.length; i++)
+    fileCollection[i].innerHTML = "audio file";
     document.getElementById("img").src = `${err_res_url}img/404.music.svg`;
     break;
   /* Video */
@@ -135,14 +141,16 @@ switch(extension) {
   case "webm":
   case "mpeg":
   case "m4a":
-    document.getElementById("file").innerHTML = "video";
+  for(let i = 0; i < fileCollection.length; i++)
+    fileCollection[i].innerHTML = "video";
     document.getElementById("img").src = `${err_res_url}img/404.video.svg`;
     break;
   /* Web page */
   case "html":
   case "htm":
   case "php":
-    document.getElementById("file").innerHTML = "web page";
+  for(let i = 0; i < fileCollection.length; i++)
+    fileCollection[i].innerHTML = "web page";
     document.getElementById("img").src = `${err_res_url}img/404.file.svg`;
     break;
   default:
