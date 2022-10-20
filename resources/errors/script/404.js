@@ -42,6 +42,7 @@ let fileCollection = document.getElementsByClassName("file");
 switch(extension) {
   /* Images */
   case "jpg":
+  case "jpeg":
   case "png":
   case "gif":
   case "webp":
