@@ -103,15 +103,15 @@ a:hover {
 
 #main {
   overflow: auto;
-  padding-bottom: 250px;
+  padding-bottom: 350px;
   /* must be same height as the footer */
 }
 
 #footer {
   position: relative;
-  margin-top: -250px;
+  margin-top: -350px;
   /* negative value of footer height */
-  height: 250px;
+  height: 350px;
   clear: both;
   background-color: black;
 }
