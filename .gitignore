@@ -10,7 +10,7 @@ firma.html
 music/
 mc/
 *.torrent
-upload/
+uploads/
 
 # -- Ignore Images ----------------
 #*.bmp
