@@ -11,6 +11,7 @@ music/
 mc/
 *.torrent
 uploads/
+gameRes/
 
 # -- Ignore Images ----------------
 #*.bmp
