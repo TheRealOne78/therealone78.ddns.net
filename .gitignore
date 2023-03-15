@@ -12,6 +12,7 @@ mc/
 *.torrent
 uploads/
 gameRes/
+resources/custom-browser-homepage/
 
 # -- Ignore Images ----------------
 #*.bmp
