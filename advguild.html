@@ -1,185 +1,49 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<!--Beginning of head.html-->
+<html lang="en">
   <head>
     <title>AdvGuild - Mirror</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://therealone78.ddns.net/resources/css/main.css"?version=1>
-    <link rel = "icon" href="https://therealone78.ddns.net/resources/img/icons/favico.ico" type = "image/x-icon">
+    <link rel="stylesheet" href="/resources/css/main.css?version=1.1">
+    <link rel="stylesheet" href="/resources/css/advguild/main.css?version=1.1">
+    <link rel="stylesheet" href="/resources/css/social-media.css?version=1.1">
+    <link rel="icon" href="/resources/img/icons/favico.svg" type="image/x-icon">
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="AdvGuild FTP Mirror - Europe/Brasov - Romania">
-    <meta name="description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brasov">
+    <meta name="title" content="AdvGuild FTP Mirror - Europe/Brașov - Romania">
+    <meta name="description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brașov">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://therealone78.ddns.net/advguild.html">
-    <meta property="og:title" content="AdvGuild FTP Mirror - Europe/Brasov - Romania">
-    <meta property="og:description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brasov">
+    <meta property="og:title" content="AdvGuild FTP Mirror - Europe/Brașov - Romania">
+    <meta property="og:description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brașov">
     <meta property="og:image" content="http://advguild.myftp.org/favicon.ico">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://therealone78.ddns.net/advguild.html">
-    <meta property="twitter:title" content="AdvGuild FTP Mirror - Europe/Brasov - Romania">
-    <meta property="twitter:description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brasov">
+    <meta property="twitter:title" content="AdvGuild FTP Mirror - Europe/Brașov - Romania">
+    <meta property="twitter:description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brașov">
     <meta property="twitter:image" content="http://advguild.myftp.org/favicon.ico">
   </head>
 
   <body>
-    <style>
-      #red {
-        color: red;
-        background-color: rgba(255, 0, 0, 0.3);
-      }
-      #red:hover {
-        background-color: rgba(255, 0, 0, 0.7);
-      }
-
-      .dir {
-        color: white;
-        background-color: rgba(50, 80, 180, 0.8);
-        padding: 20px;
-        border-radius: 10px;
-        border: gray;
-        border-width: 2px;
-        border-style: solid;
-        transition: border 0.3s ease-out 50ms;
-      }
-      .dir:hover {
-        border: rgba(255, 255, 255, 1);
-        border-width: 2px;
-        border-style: solid;
-      }
-
-      .file {
-        color: white;
-        background-image: linear-gradient(to right, rgba(50, 50, 50, 0.8), rgba(0, 50, 255, 0.80)), url(https://therealone78.ddns.net/resources/img/icons/file-96.png);
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, right bottom;
-        padding: 20px;
-        border-radius: 10px;
-        border: gray;
-        border-width: 2px;
-        border-style: solid;
-        transition: border 0.3s ease-out 50ms;
-      }
-      .file:hover {
-        border: rgba(255, 255, 255, 1);
-        border-width: 2px;
-        border-style: solid;
-      }
-
-      .archive {
-        color: white;
-        background-image: linear-gradient(to right, rgba(0, 100, 200, 0.8), rgba(255, 165, 0, 0.8)), url(https://therealone78.ddns.net/resources/img/icons/archive-96.png);
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, right bottom;
-        padding: 20px;
-        border-radius: 10px;
-        border: gray;
-        border-width: 2px;
-        border-style: solid;
-        transition: border 0.3s ease-out 50ms;
-      }
-      .archive:hover {
-        border: rgba(255, 255, 255, 1);
-        border-width: 2px;
-        border-style: solid;
-      }
-
-      .exe {
-        color: white;
-        background-image: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(255, 255, 0, 0.8)), url(https://therealone78.ddns.net/resources/img/icons/exe-96.png);
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, right bottom;
-        padding: 20px;
-        border-radius: 10px;
-        border: gray;
-        border-width: 2px;
-        border-style: solid;
-        transition: border 0.3s ease-out 50ms;
-      }
-      .exe:hover {
-        border: rgba(255, 255, 255, 1);
-        border-width: 2px;
-        border-style: solid;
-      }
-
-      .video {
-        color: white;
-        background-image: linear-gradient(to right, rgba(0, 255, 0, 0.8), rgba(0, 255, 255, 0.8)), url(https://therealone78.ddns.net/resources/img/icons/vid-96.png);
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, right bottom;
-        padding: 20px;
-        border-radius: 10px;
-        border: gray;
-        border-width: 2px;
-        border-style: solid;
-        transition: border 0.3s ease-out 50ms;
-      }
-      .video:hover {
-        border: rgba(255, 255, 255, 1);
-        border-width: 2px;
-        border-style: solid;
-      }
-
-      .jar {
-        color: white;
-        background-image: linear-gradient(to right, rgba(255, 165, 0, 0.8), rgba(50, 50, 255, 0.8)), url(https://therealone78.ddns.net/resources/img/icons/java-96.png);
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, right bottom;
-        padding: 20px;
-        border-radius: 10px;
-        border: gray;
-        border-width: 2px;
-        border-style: solid;
-        transition: border 0.3s ease-out 50ms;
-      }
-      .jar:hover {
-        background-image: linear-gradient(to right, rgba(255, 165, 0, 0.8), rgba(50, 50, 255, 0.8)), url(https://therealone78.ddns.net/resources/img/icons/java-96.gif);
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, right bottom;
-        border: rgba(255, 255, 255, 1);
-        border-width: 2px;
-        border-style: solid;
-      }
-
-      .embed {
-        color: white;
-        background-image: linear-gradient(to right, rgba(254, 249, 205, 0.8), rgba(255, 20, 255, 0.8)), url(https://therealone78.ddns.net/resources/img/icons/embed-96.png);
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, right bottom;
-        padding: 20px;
-        border-radius: 10px;
-        border: gray;
-        border-width: 2px;
-        border-style: solid;
-        transition: border 0.3s ease-out 50ms;
-      }
-      .embed:hover {
-        border: rgba(255, 255, 255, 1);
-        border-width: 2px;
-        border-style: solid;
-      }
-    </style>
-
-    <link rel="preload" as="image" href="/resources/img/icons/java-96.gif">
-
     <div id="wrap">
       <div id="main">
         <div class="maintitle">
           <br>
-          <h1>AdvGuild FTP Mirror - Europe/Romania - Brasov <img src="./resources/img/icons/flags/ca.png"> => <img src="./resources/img/icons/flags/eu.png"> / <img src="./resources/img/icons/flags/ro.png" ></h1>
-          <a href="https://therealone78.ddns.net">Home</a> | <a href="ftp://therealone78.ddns.net">My FTP</a> | <a href="https://therealone78.ddns.net/IRC.html">My IRC</a> | <a href="https://therealone78.ddns.net/torrents/">Torrents</a> | <a href="https://therealone78.ddns.net/advguild.html">AdvGuild Mirror</a> | <a href="https://therealone78.ddns.net/listIndex.html">URLs List</a>
+          <h1>AdvGuild FTP Mirror - Europe/Romania - Brașov <img src="/resources/img/icons/flags/ca.png"> => <img src="/resources/img/icons/flags/eu.png"> / <img src="/resources/img/icons/flags/ro.png"></h1>
+          <a href="https://therealone78.ddns.net">Home</a> | <a href="/software.html">Software</a> | <a href="ftp://therealone78.ddns.net">My FTP</a> | <a href="/IRC.html">My IRC</a> | <a href="/torrents/">Torrents</a> | <a href="/advguild.html">AdvGuild Mirror</a> | <a href="/listIndex.html">URLs List</a>
         </div>
         <div class="dw_cool">
           <h1>About</h1>
           <hr>
-          This webpage serves as a http(s) mirror for <a href="http://advguild.myftp.org">advguild.myftp.org</a> ftp server.
+          This webpage serves as a HTTP(S) mirror for the <a href="http://advguild.myftp.org">advguild.myftp.org</a> ftp server.
           <br>
-          This DNS provides as well ftp service for the mirror, running at <a href="ftp://therealone78.ddns.net/advguild">ftp://therealone78.ddns.net/advguild</a>. To access FTP, please use a FTP client like the default terminal FTP client or <a href="https://filezilla-project.org/">FileZilla</a> with username <b>anonymous</b> and password <b>anonymous</b>.<br>
+          This domain also provides FTP service for the mirror, running at <a href="ftp://therealone78.ddns.net/advguild" class="therealone78">ftp://therealone78.ddns.net/html/advguildRoot</a>. To access FTP, use a FTP client like the default terminal FTP client or <a href="https://filezilla-project.org/">FileZilla</a> with username <code>anonymous</code> and password <code>anonymous</code>.<br>
           <br>
-          Port 22 SSH/SFTP is open, but can't be accessed by anonymous people, so SFTP mirror service is not available for this DNS. FTPS with port 990 is not open, so FTPS mirror service is not available for this DNS.<br>
+          Port 22 SSH/SFTP is open, but can't be accessed by anonymous people, so SFTP mirror service is not available for this domain. FTPS with port 990 is closed, so FTPS mirror service is not available for this domain.<br>
           <br>
           The official server is <a href="http://advguild.myftp.org">advguild.myftp.org</a>, located in Canada.
           <br><br><br>
@@ -189,243 +53,674 @@
           <h1>Files</h1>
           <hr>
           <br>
-          <div class=dir>
-            <a href="https://therealone78.ddns.net/advguildRoot/DATA/"><b>DATA</b></a><br>
-            <br>
-            <div class="dir">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/Fix%20for%20Sept%20Certificate%20Expired/"><b>Fix for Sept Certificate Expired</b></a><br>
-              A fix for old browser certificates, especially for Windows XP browsers. Google Chrome for Windows XP can no longer access https websites because the installed trusted ssl certificates are outdated. Install these .pem files into your browser's Certificate Settings to resolve this issue.
-              <br><br>
-              <embed type="text/html" src="https://therealone78.ddns.net/advguildRoot/DATA/Fix%20for%20Sept%20Certificate%20Expired/" width=95% height=400px class="embed">
-            </div>
-            <br>
+<!--End of head.html-->
 
-            <div class="archive">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/Fxp32.zip"><b>Fxp32.zip</b></a><br>
-              A proprietary minimalistic FTP Client for Windows. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/">7-zip</a>.
-            </div>
-            <br>
+<!--Beginning of generated HTML code-->
+<div class="dir file-shower">
+<a href="/advguildRoot/./DATA"><b>DATA</b></a><br>
 
-            <div class="exe">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/HAKTEK.EXE"><b>HAKTEK.EXE</b></a><br>
-              HakTek is a proprietary pentesting program that can mailbomb, anti-mailbomb, scan ports and scan IPs.
-            </div>
-            <br>
+<br>
+<div class="exe file-shower">
+<a href="/advguildRoot/./DATA/./warftpd-1.82-00-RC12-i386.exe"><b>warftpd-1.82-00-RC12-i386.exe</b></a><br>
+<br>
+War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href="https://en.wikipedia.org/wiki/War_FTP_Daemon">wikipedia</a>.
+<br>
 
-            <div class="archive">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/InnerSpace.zip"><b>InnerSpace.zip</b></a><br>
-              To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-            </div>
-            <br>
+<br>
+<a href="/advguildRoot/./DATA/./warftpd-1.82-00-RC12-i386.exe" download>Download</a> | Type: Executable | Date and time: 2020-10-25 19:53:32</div>
+<br>
 
-            <div class="archive">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/ZeldaTexturePackmc-15.zip"><b>ZeldaTexturePackmc-15.zip</b></a><br>
-              A texture pack for minecraft that looks like zelda. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>. To install this texture pack, put the files in your profile's texturepack directory, and in minecraft settings change the texturepack.
-            </div>
-            <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/./winrar crack.zip"><b>winrar crack.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/./winrar crack.zip" download>Download</a> | Type: Archive | Date and time: 2021-02-11 17:38:06</div>
+<br>
 
-            <div class="exe">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/flashplayer_32_sa_debug.exe"><b>flashplayer_32_sa_debug.exe</b></a><br>
-              A standalone FlashPlayer Debugger for Windows.
-            </div>
-            <br>
+<div class="exe file-shower">
+<a href="/advguildRoot/./DATA/./miranda-im-v0.10.80-unicode.exe"><b>miranda-im-v0.10.80-unicode.exe</b></a><br>
 
-            <div class="archive">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/war-ftpd-1.82-RC13-update.zip"><b>war-ftpd-1.82-RC13-update.zip</b></a><br>
-              War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href="https://en.wikipedia.org/wiki/War_FTP_Daemon">wikipedia</a><br>
-              This version is the latest stable release from 2014. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-            </div>
-            <br>
+<br>
+<a href="/advguildRoot/./DATA/./miranda-im-v0.10.80-unicode.exe" download>Download</a> | Type: Executable | Date and time: 2022-03-04 02:37:12</div>
+<br>
 
-            <div class="exe">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/warftpd-1.82-00-RC12-i386.exe"><b>warftpd-1.82-00-RC12-i386.exe</b></a><br>
-              War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href="https://en.wikipedia.org/wiki/War_FTP_Daemon">wikipedia</a>
-            </div>
-            <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/./Pinball.zip"><b>Pinball.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/./Pinball.zip" download>Download</a> | Type: Archive | Date and time: 2022-07-17 16:46:28</div>
+<br>
 
-            <div class="exe">
-              <a href="https://therealone78.ddns.net/advguildRoot/DATA/wrar351.exe"><b>wrar351.exe</b></a><br>
-              This program runs in Windows.
-            </div>
-            <!--<br>-->
+<div class="exe file-shower">
+<a href="/advguildRoot/./DATA/./wrar351.exe"><b>wrar351.exe</b></a><br>
+<br>
+This program runs in Microsoft Windows.
+<br>
 
-          </div><!--/DATA directory-->
-          <br>
+<br>
+<a href="/advguildRoot/./DATA/./wrar351.exe" download>Download</a> | Type: Executable | Date and time: 2012-02-26 23:51:46</div>
+<br>
 
-          <div class=dir><!--Video directory-->
-            <a href="https://therealone78.ddns.net/advguildRoot/Video"><b>Video</b></a><br><br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/./Fxp32.zip"><b>Fxp32.zip</b></a><br>
+<br>
+A proprietary minimalistic FTP Client for Windows.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/./Fxp32.zip" download>Download</a> | Type: Archive | Date and time: 2008-10-17 23:18:20</div>
+<br>
 
-            <div class="dir"><!--"The Melancholy of Haruhi Suzumiya" directory-->
-              <a href="https://therealone78.ddns.net/advguildRoot/Video/The%20Melancholy%20of%20Haruhi%20Suzumiya/"><b>The Melancholy of Haruhi Suzumiya</b></a><br>
-              <br>
+<div class="dir file-shower">
+<a href="/advguildRoot/./DATA/./Fix for Sept 2021 Certificate Expired"><b>Fix for Sept 2021 Certificate Expired</b></a><br>
 
-              <div class="video">
-                <a href="https://therealone78.ddns.net/advguildRoot/Video/The%20Melancholy%20of%20Haruhi%20Suzumiya/Movie%20-%20The%20Disappearance%20of%20Haruhi%20Suzumiya.mkv"><b>Movie - The Disappearance of Haruhi Suzumiya.mkv</b></a><br>
-                The Melancholy of Haruhi Suzumiya - The Disappearance of Haruhi Suzumiya - Anime Movie
-              </div>
-              <br>
+<br>
+<div class="file file-shower">
+<a href="/advguildRoot/./DATA/./Fix for Sept 2021 Certificate Expired/./isrg-root-x2.pem"><b>isrg-root-x2.pem</b></a><br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/Video/The%20Melancholy%20of%20Haruhi%20Suzumiya/The%20Melancholy%20of%20Haruhi%20Suzumiya.zip"><b>The Melancholy of Haruhi Suzumiya.zip</b></a><br>
-                The Melancholy of Haruhi Suzumiya - Anime Series
-              </div>
-              <!--<br>-->
+<br>
+<a href="/advguildRoot/./DATA/./Fix for Sept 2021 Certificate Expired/./isrg-root-x2.pem" download>Download</a> | Type: File | Date and time: 2021-10-06 15:52:48</div>
+<br>
 
-            </div>
-            <!--<br>-->
+<div class="file file-shower">
+<a href="/advguildRoot/./DATA/./Fix for Sept 2021 Certificate Expired/./isrgrootx1.pem"><b>isrgrootx1.pem</b></a><br>
 
-          </div><!--/"The Melancholy of Haruhi Suzumiya" directory-->
-          <br>
+<br>
+<a href="/advguildRoot/./DATA/./Fix for Sept 2021 Certificate Expired/./isrgrootx1.pem" download>Download</a> | Type: File | Date and time: 2021-10-06 15:52:22</div>
+<br>
 
-          <div class=dir><!--upload directory-->
-            <a href="https://therealone78.ddns.net/advguildRoot/upload/"><b>upload</b></a><br><br>
-            <div class="dir"><!--Minecraft directory-->
-              <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/"><b>Minecraft</b></a><br><br>
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/1.6%20to%201.14%20pack%20project.7z"><b>1.6 to 1.14 pack project.7z</b></a><br>
-                To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+<div class="file file-shower">
+<a href="/advguildRoot/./DATA/./Fix for Sept 2021 Certificate Expired/./lets-encrypt-r3.pem"><b>lets-encrypt-r3.pem</b></a><br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/AgrarianSkies2.zip"><b>AgrarianSkies2.zip</b></a><br>
-                This is a modpack for Minecraft 1.7.10 made by Jaded and modified by Salzamar. The minimum RAM amount your computer needs to have to run this modpack is 4GB. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+<br>
+<a href="/advguildRoot/./DATA/./Fix for Sept 2021 Certificate Expired/./lets-encrypt-r3.pem" download>Download</a> | Type: File | Date and time: 2021-10-06 15:53:22</div>
+<br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/ClearSkies.zip"><b>ClearSkies.zip</b></a><br>
-                This is a modpack for Minecraft 1.12.2 made by Salzamar. The minimum RAM amount your computer needs to have to run this modpack is 12GB. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+</div>
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/InventoryTweaks-MC1.6.2-1.56-b77.jar"><b>InventoryTweaks-MC1.6.2-1.56-b77.jar</b></a><br>
-                A 1.6.2 Minecraft mod that can help you manage your inventory and chests with just a click of a button. To use this mod, put this jar file into your mods profile folder, and load it with Forge.
-              </div>
-              <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/././war-ftpd-1.82-RC13-update.zip"><b>war-ftpd-1.82-RC13-update.zip</b></a><br>
+<br>
+War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href="https://en.wikipedia.org/wiki/War_FTP_Daemon">wikipedia</a>.<br> This version is the latest stable release from 2014.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/././war-ftpd-1.82-RC13-update.zip" download>Download</a> | Type: Archive | Date and time: 2020-10-25 19:52:58</div>
+<br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/New%20Frontiers-1.6-2019-3-%20no%20discs.zip"><b>New Frontiers-1.6-2019-3- no discs.zip</b></a><br>
-                To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+<div class="dir file-shower">
+<a href="/advguildRoot/./DATA/././OldGames"><b>OldGames</b></a><br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/OptiFine_1.6.2_HD_C4.jar"><b>OptiFine_1.6.2_HD_C4.jar</b></a><br>
-                Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2.
-              </div>
-              <br>
+<br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/././OldGames/./HERETIC.ZIP"><b>HERETIC.ZIP</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/././OldGames/./HERETIC.ZIP" download>Download</a> | Type: Archive | Date and time: 2004-11-23 08:14:36</div>
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/OptiFine_1.6.2_HD_U_C4.jar"><b>OptiFine_1.6.2_HD_U_C4.jar</b></a><br>
-                Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2.
-              </div>
-              <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/././OldGames/./DOOM.ZIP"><b>DOOM.ZIP</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/././OldGames/./DOOM.ZIP" download>Download</a> | Type: Archive | Date and time: 2004-11-23 08:12:40</div>
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/OptiFine_1.6.2_L_C4.jar"><b>OptiFine_1.6.2_L_C4.jar</b></a><br>
-                Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2.
-              </div>
-              <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/././OldGames/./DOOM2.ZIP"><b>DOOM2.ZIP</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/././OldGames/./DOOM2.ZIP" download>Download</a> | Type: Archive | Date and time: 2004-11-23 08:14:30</div>
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/OptiFine_1.7.10_HD_U_E7.jar"><b>OptiFine_1.7.10_HD_U_E7.jar</b></a><br>
-                Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.7.10.
-              </div>
-              <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/././OldGames/./HEXEN.ZIP"><b>HEXEN.ZIP</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/././OldGames/./HEXEN.ZIP" download>Download</a> | Type: Archive | Date and time: 1999-01-30 18:30:40</div>
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/OptiFine_1.12.2_HD_U_G5.jar"><b>OptiFine_1.12.2_HD_U_G5.jar</b></a><br>
-                Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.12.2.
-              </div>
-              <br>
+<div class="file file-shower">
+<a href="/advguildRoot/./DATA/././OldGames/./Slug's PR v1.2.pk3"><b>Slug's PR v1.2.pk3</b></a><br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/ShadersModCore-mc1.6.2-f804-v2.0.1-beta1.jar"><b>ShadersModCore-mc1.6.2-f804-v2.0.1-beta1.jar</b></a>
-                <br>
-                ShadersModCore-mc1.6.2 is a minecraft shader mod. To install this mod, put this file in your profile's mods folder. This version of ShaderModCore is supported for minecraft version 1.6.2 only.
-              </div>
-              <br>
+<br>
+<a href="/advguildRoot/./DATA/././OldGames/./Slug's PR v1.2.pk3" download>Download</a> | Type: File | Date and time: 2023-09-01 16:30:26</div>
+<br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/SpaceChickens.zip"><b>SpaceChickens.zip</b></a><br>
-                SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have to run this modpack is 4GB. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/././OldGames/./HERETIC1_3.zip"><b>HERETIC1_3.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/././OldGames/./HERETIC1_3.zip" download>Download</a> | Type: Archive | Date and time: 2003-11-17 03:56:18</div>
+<br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/TheForgottenLand2.0.zip"><b>TheForgottenLand2.0.zip</b></a><br>
-                To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/././OldGames/./blood.zip"><b>blood.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/././OldGames/./blood.zip" download>Download</a> | Type: Archive | Date and time: 2003-01-01 21:34:36</div>
+<br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/%5b1.6.2%5dReiMinimap_v3.4_01.zip"><b>[1.6.2]ReiMinimap_v3.4_01.zip</b></a><br>
-                ReiMinimap is a minecraft mod that gives you a little live map with coordinates, chunk types, themes and more. This specific file mod is compatible with minecraft 1.6.2 only. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>. To install this mod, put this file in your minecraft's profile mods folder.
-              </div>
-              <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/././OldGames/./DUKE3D.ZIP"><b>DUKE3D.ZIP</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/././OldGames/./DUKE3D.ZIP" download>Download</a> | Type: Archive | Date and time: 1997-10-15 00:04:44</div>
+<br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/blightfall-FULL.zip"><b>blightfall-FULL.zip</b></a><br>
-                BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have to run this modpack is 4GB. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+</div>
+<br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/blightfall-NO-Solo.zip"><b>blightfall-NO-Solo.zip</b></a><br>
-                BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have to run this modpack is 4GB. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/./././InnerSpace.zip"><b>InnerSpace.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/./././InnerSpace.zip" download>Download</a> | Type: Archive | Date and time: 2009-04-09 04:04:18</div>
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/craftbukkit-1.6.2-R1.0.jar"><b>craftbukkit-1.6.2-R1.0.jar</b></a><br>
-                This is a Minecraft 1.6.2 mod.
-              </div>
-              <br>
+<div class="exe file-shower">
+<a href="/advguildRoot/./DATA/./././HAKTEK.EXE"><b>HAKTEK.EXE</b></a><br>
+<br>
+HakTek is a proprietary pentesting program that can mailbomb, anti-mailbomb, scan ports and scan IPs.
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/cursemodpackdownloader-2.3.0.jar"><b>cursemodpackdownloader-2.3.0.jar</b></a>
-                <br>This is a Minecraft mod.
-              </div>
-              <br>
+<br>
+<a href="/advguildRoot/./DATA/./././HAKTEK.EXE" download>Download</a> | Type: Executable | Date and time: 1997-06-28 23:25:52</div>
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/forge-1.6.2-9.10.1.871-installer.jar"><b>forge-1.6.2-9.10.1.871-installer.jar</b></a><br>
-                Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.6.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client.
-              </div>
-              <br>
+<div class="exe file-shower">
+<a href="/advguildRoot/./DATA/./././flashplayer_32_sa_debug.exe"><b>flashplayer_32_sa_debug.exe</b></a><br>
+<br>
+A standalone FlashPlayer Debugger for Windows.
+<br>
 
-              <div class="archive">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/plugins.zip"><b>plugins.zip</b></a><br>
-                A zip file containing all the plugins advguild.myftp.org 1.6.2 vanilla server is currently running. To access the contents of this zip file, unzip it with an unzipper like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.
-              </div>
-              <br>
+<br>
+<a href="/advguildRoot/./DATA/./././flashplayer_32_sa_debug.exe" download>Download</a> | Type: Executable | Date and time: 2020-11-26 20:34:28</div>
+<br>
 
-              <div class="jar">
-                <a href="https://therealone78.ddns.net/advguildRoot/upload/Minecraft/serversync-2.6.17.jar"><b>serversync-2.6.17.jar</b></a><br>
-                A java program that syncs the mods from the modded server you are playing with your computer.
-              </div>
-              <!--br-->
-            </div><!--/Minecraft directory-->
-            <br>
+<div class="archive file-shower">
+<a href="/advguildRoot/./DATA/./././minecraft_launcher.zip"><b>minecraft_launcher.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/./DATA/./././minecraft_launcher.zip" download>Download</a> | Type: Archive | Date and time: 2021-09-28 13:52:40</div>
+<br>
 
-            <div class="dir"><!--Web directory-->
-              <a href="https://therealone78.ddns.net/advguildRoot/upload/Web/"><b>Web</b></a><br>
-                A place where every user can upload their own files. Because this is updated constantly, there will be no nice GUI list until this page will be php automated. However, there is an embed to apache's automated folder display list.<br>
-                *Note: Embeding is not supported in browser's read:// mode AKA simple mode.<br>
-              <br>
-              <embed type="text/html" src="https://therealone78.ddns.net/advguildRoot/upload/Web/" width=95% height="1000px" class="embed">
-            </div><!--/Web directory-->
-            <!--<br>-->
+</div>
+<br>
 
-          </div><!--/upload directory-->
+<div class="dir file-shower">
+<a href="/advguildRoot/././upload"><b>upload</b></a><br>
+
+<br>
+<div class="dir file-shower">
+<a href="/advguildRoot/././upload/./Minecraft"><b>Minecraft</b></a><br>
+
+<br>
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.7.10-10.13.4.1492-1.7.10-installer.jar"><b>forge-1.7.10-10.13.4.1492-1.7.10-installer.jar</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.7.10-10.13.4.1492-1.7.10-installer.jar" download>Download</a> | Type: Java executable | Date and time: 2019-04-04 16:41:24</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./InventoryTweaks-MC1.6.2-1.56-b77.jar"><b>InventoryTweaks-MC1.6.2-1.56-b77.jar</b></a><br>
+<br>
+A 1.6.2 Minecraft mod that can help you manage your inventory and chests with just a click of a button. To use this mod, put this jar file into your mods profile folder, and load it with Forge.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./InventoryTweaks-MC1.6.2-1.56-b77.jar" download>Download</a> | Type: Java executable | Date and time: 2018-10-04 18:02:16</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./serversync-2.6.17.jar"><b>serversync-2.6.17.jar</b></a><br>
+<br>
+A java program that syncs the mods from the modded server you are playing with your computer.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./serversync-2.6.17.jar" download>Download</a> | Type: Java executable | Date and time: 2019-05-03 03:30:10</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forgottenLands.jpg"><b>forgottenLands.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forgottenLands.jpg" download>Download</a> | Type: File | Date and time: 2021-06-02 17:28:32</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.10.2-12.18.3.2511-installer.jar"><b>forge-1.10.2-12.18.3.2511-installer.jar</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.10.2-12.18.3.2511-installer.jar" download>Download</a> | Type: Java executable | Date and time: 2019-10-13 05:32:38</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.12.2-14.23.5.2836-installer.jar"><b>forge-1.12.2-14.23.5.2836-installer.jar</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.12.2-14.23.5.2836-installer.jar" download>Download</a> | Type: Java executable | Date and time: 2022-07-08 21:13:56</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./1.6 to 1.14 pack project.7z"><b>1.6 to 1.14 pack project.7z</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./1.6 to 1.14 pack project.7z" download>Download</a> | Type: Archive | Date and time: 2021-06-02 15:14:56</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./blightfall-FULL.zip"><b>blightfall-FULL.zip</b></a><br>
+<br>
+BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./blightfall-FULL.zip" download>Download</a> | Type: Archive | Date and time: 2022-07-08 21:24:58</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./SpaceChickens.zip"><b>SpaceChickens.zip</b></a><br>
+<br>
+SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./SpaceChickens.zip" download>Download</a> | Type: Archive | Date and time: 2022-07-08 21:00:00</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.12.2_HD_U_G5.jar"><b>OptiFine_1.12.2_HD_U_G5.jar</b></a><br>
+<br>
+Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.12.2.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.12.2_HD_U_G5.jar" download>Download</a> | Type: Java executable | Date and time: 2021-03-28 09:59:20</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./New Frontiers-1.6-2019-3- no discs.zip"><b>New Frontiers-1.6-2019-3- no discs.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./New Frontiers-1.6-2019-3- no discs.zip" download>Download</a> | Type: Archive | Date and time: 2020-05-25 22:11:54</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.7.10_HD_U_E7.jar"><b>OptiFine_1.7.10_HD_U_E7.jar</b></a><br>
+<br>
+Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.7.10.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.7.10_HD_U_E7.jar" download>Download</a> | Type: Java executable | Date and time: 2021-02-19 14:45:06</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./ClearSkies.zip"><b>ClearSkies.zip</b></a><br>
+<br>
+This is a modpack for Minecraft 1.12.2 made by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 6GB.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./ClearSkies.zip" download>Download</a> | Type: Archive | Date and time: 2023-06-07 17:29:03</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./The_Blightfall_Continent.png"><b>The_Blightfall_Continent.png</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./The_Blightfall_Continent.png" download>Download</a> | Type: File | Date and time: 2021-11-27 02:01:18</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./DigSite.zip"><b>DigSite.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./DigSite.zip" download>Download</a> | Type: Archive | Date and time: 2019-09-25 21:43:30</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./42.zip"><b>42.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./42.zip" download>Download</a> | Type: Archive | Date and time: 2023-08-31 10:46:40</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./AgrarianSkies2.zip"><b>AgrarianSkies2.zip</b></a><br>
+<br>
+This is a modpack for Minecraft 1.7.10 made by Jaded and modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./AgrarianSkies2.zip" download>Download</a> | Type: Archive | Date and time: 2022-07-08 21:10:26</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.7.10-10.13.4.1614-1.7.10-installer.jar"><b>forge-1.7.10-10.13.4.1614-1.7.10-installer.jar</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.7.10-10.13.4.1614-1.7.10-installer.jar" download>Download</a> | Type: Java executable | Date and time: 2022-06-01 21:46:22</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.6.2_HD_U_C4.jar"><b>OptiFine_1.6.2_HD_U_C4.jar</b></a><br>
+<br>
+Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.6.2_HD_U_C4.jar" download>Download</a> | Type: Java executable | Date and time: 2019-12-23 20:47:48</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.6.2-9.10.1.871-installer.jar.log"><b>forge-1.6.2-9.10.1.871-installer.jar.log</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.6.2-9.10.1.871-installer.jar.log" download>Download</a> | Type: File | Date and time: 2023-05-31 17:53:17</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./ZeldaTexturePackmc-15.zip"><b>ZeldaTexturePackmc-15.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./ZeldaTexturePackmc-15.zip" download>Download</a> | Type: Archive | Date and time: 2013-04-06 21:51:46</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.12.2-14.23.2.2618-installer.jar"><b>forge-1.12.2-14.23.2.2618-installer.jar</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.12.2-14.23.2.2618-installer.jar" download>Download</a> | Type: Java executable | Date and time: 2021-02-22 00:35:20</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.6.2-9.10.1.871-installer.jar"><b>forge-1.6.2-9.10.1.871-installer.jar</b></a><br>
+<br>
+Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.6.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.6.2-9.10.1.871-installer.jar" download>Download</a> | Type: Java executable | Date and time: 2022-12-28 05:47:23</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./plugins.zip"><b>plugins.zip</b></a><br>
+<br>
+A zip file containing all the plugins the advguild.myftp.org 1.6.2 vanilla server is currently running.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./plugins.zip" download>Download</a> | Type: Archive | Date and time: 2020-09-27 18:54:08</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./TheForgottenLand2.0.zip"><b>TheForgottenLand2.0.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./TheForgottenLand2.0.zip" download>Download</a> | Type: Archive | Date and time: 2019-12-04 00:50:20</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.10.2-12.18.3.2316-installer.jar"><b>forge-1.10.2-12.18.3.2316-installer.jar</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./forge-1.10.2-12.18.3.2316-installer.jar" download>Download</a> | Type: Java executable | Date and time: 2019-10-13 05:28:54</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./Titan-minecraft_launcher.zip"><b>Titan-minecraft_launcher.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./Titan-minecraft_launcher.zip" download>Download</a> | Type: Archive | Date and time: 2022-12-31 17:15:59</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./blightfall-NO-Solo.zip"><b>blightfall-NO-Solo.zip</b></a><br>
+<br>
+BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./blightfall-NO-Solo.zip" download>Download</a> | Type: Archive | Date and time: 2022-07-08 21:25:22</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./colorcode.png"><b>colorcode.png</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./colorcode.png" download>Download</a> | Type: File | Date and time: 2013-06-09 01:06:44</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.6.2_L_C4.jar"><b>OptiFine_1.6.2_L_C4.jar</b></a><br>
+<br>
+Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.6.2_L_C4.jar" download>Download</a> | Type: Java executable | Date and time: 2019-12-23 20:45:26</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.6.2_HD_C4.jar"><b>OptiFine_1.6.2_HD_C4.jar</b></a><br>
+<br>
+Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./OptiFine_1.6.2_HD_C4.jar" download>Download</a> | Type: Java executable | Date and time: 2019-12-23 20:47:38</div>
+<br>
+
+<div class="jar file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./craftbukkit-1.6.2-R1.0.jar"><b>craftbukkit-1.6.2-R1.0.jar</b></a><br>
+<br>
+This is a Minecraft 1.6.2 mod.
+<br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./craftbukkit-1.6.2-R1.0.jar" download>Download</a> | Type: Java executable | Date and time: 2019-02-12 20:46:50</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./[1.6.2]ReiMinimap_v3.4_01.zip"><b>[1.6.2]ReiMinimap_v3.4_01.zip</b></a><br>
+<br>
+ReiMinimap is a minecraft mod that gives you a little live map with coordinates, chunk types, themes and more. This specific file mod is compatible with minecraft 1.6.2 only. To install this mod, put this file in your minecraft profile's mods folder.
+<br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./[1.6.2]ReiMinimap_v3.4_01.zip" download>Download</a> | Type: Archive | Date and time: 2014-06-11 07:23:36</div>
+<br>
+
+<div class="archive file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./TerraMc.zip"><b>TerraMc.zip</b></a><br>
+<br>
+To access the contents of this archive file, decompress it with a tool like <a href="https://www.7-zip.org/"><b>7-zip</b></a>.<br>
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./TerraMc.zip" download>Download</a> | Type: Archive | Date and time: 2023-06-06 20:23:17</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/./Minecraft/./readmebro.txt"><b>readmebro.txt</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./Minecraft/./readmebro.txt" download>Download</a> | Type: File | Date and time: 2023-08-31 10:49:13</div>
+<br>
+
+</div>
+<br>
+
+<div class="dir file-shower">
+<a href="/advguildRoot/././upload/././Web"><b>Web</b></a><br>
+
+<br>
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./ILAJono.jpg"><b>ILAJono.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./ILAJono.jpg" download>Download</a> | Type: File | Date and time: 2017-11-29 22:42:14</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./dsa.png"><b>dsa.png</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./dsa.png" download>Download</a> | Type: File | Date and time: 2023-08-31 10:25:15</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./gPcdFpO.jpg"><b>gPcdFpO.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./gPcdFpO.jpg" download>Download</a> | Type: File | Date and time: 2017-11-29 22:41:02</div>
+<br>
+
+<div class="exe file-shower">
+<a href="/advguildRoot/././upload/././Web/./Fxp70.exe"><b>Fxp70.exe</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./Fxp70.exe" download>Download</a> | Type: Executable | Date and time: 2008-03-13 01:57:30</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./Website-tiny-Astolfo.jpg"><b>Website-tiny-Astolfo.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./Website-tiny-Astolfo.jpg" download>Download</a> | Type: File | Date and time: 2023-02-18 14:27:31</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./robots.txt"><b>robots.txt</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./robots.txt" download>Download</a> | Type: File | Date and time: 2007-06-11 04:57:38</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./ZcGuOoD.jpg"><b>ZcGuOoD.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./ZcGuOoD.jpg" download>Download</a> | Type: File | Date and time: 2017-11-29 22:42:44</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./index.html"><b>index.html</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./index.html" download>Download</a> | Type: File | Date and time: 2022-06-22 05:35:40</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./5maRaEg.jpg"><b>5maRaEg.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./5maRaEg.jpg" download>Download</a> | Type: File | Date and time: 2017-11-29 22:40:08</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./MdYTokk.jpg"><b>MdYTokk.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./MdYTokk.jpg" download>Download</a> | Type: File | Date and time: 2017-11-29 22:42:26</div>
+<br>
+
+<div class="exe file-shower">
+<a href="/advguildRoot/././upload/././Web/./install_flash_player-No-Expire-Timer.exe"><b>install_flash_player-No-Expire-Timer.exe</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./install_flash_player-No-Expire-Timer.exe" download>Download</a> | Type: Executable | Date and time: 2023-03-24 15:34:59</div>
+<br>
+
+<div class="exe file-shower">
+<a href="/advguildRoot/././upload/././Web/./pixie.exe"><b>pixie.exe</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./pixie.exe" download>Download</a> | Type: Executable | Date and time: 2021-10-10 20:03:52</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./B3fw1J2.jpg"><b>B3fw1J2.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./B3fw1J2.jpg" download>Download</a> | Type: File | Date and time: 2017-11-29 22:40:50</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/././Web/./yKKW2Ze.jpg"><b>yKKW2Ze.jpg</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/././Web/./yKKW2Ze.jpg" download>Download</a> | Type: File | Date and time: 2017-11-29 22:42:36</div>
+<br>
+
+</div>
+<br>
+
+<div class="dir file-shower">
+<a href="/advguildRoot/././upload/./././Misc"><b>Misc</b></a><br>
+
+<br>
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/./././Misc/./ftp.lua"><b>ftp.lua</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./././Misc/./ftp.lua" download>Download</a> | Type: File | Date and time: 2023-05-18 14:29:55</div>
+<br>
+
+<div class="file file-shower">
+<a href="/advguildRoot/././upload/./././Misc/./wget+.lua"><b>wget+.lua</b></a><br>
+
+<br>
+<a href="/advguildRoot/././upload/./././Misc/./wget+.lua" download>Download</a> | Type: File | Date and time: 2023-05-05 21:48:05</div>
+<br>
+
+</div>
+<br>
+
+</div>
+<br>
+
+<br>Last synced on Fri Sep  1 05:41:04 PM UTC 2023. This page was generated on Fri Sep  1 07:59:38 PM UTC 2023 by compaq.<br>
+<!--End of generated HTML code-->
+
+<!--Beginning of footer.html-->
           <br>
         </div>
       </div>
     </div>
     <div id="footer">
-      <embed src="https://therealone78.ddns.net/resources/footer.html" width=100% height=345px>
+      <embed src="/resources/footer.html" width=100% height=345px>
     </div>
   </body>
 </html>
+<!--End of footer.html-->

@@ -1,0 +1,73 @@
+.file-shower {
+  min-height: 60px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: gray;
+  border-width: 2px;
+  border-style: solid;
+  transition: border 0.3s ease-out 50ms;
+}
+.file-shower:hover {
+  border: rgb(255, 255, 255);
+  border-width: 2px;
+  border-style: solid;
+}
+
+.dir {
+  background-color: rgba(50, 80, 180, 0.8);
+}
+
+.file {
+  background-image: linear-gradient(to right, rgba(50, 50, 50, 0.8), rgba(0, 50, 255, 0.80)), url(/resources/img/icons/file-96.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, right bottom;
+}
+
+.archive {
+  color: white;
+  background-image: linear-gradient(to right, rgba(0, 100, 200, 0.8), rgba(255, 165, 0, 0.8)), url(/resources/img/icons/archive-96.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, right bottom;
+}
+
+.exe {
+  color: white;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(255, 255, 0, 0.8)), url(/resources/img/icons/exe-96.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, right bottom;
+}
+
+
+.audio {
+  color: white;
+  background-image: linear-gradient(to right, rgba(0, 255, 0, 0.8), rgba(0, 255, 255, 0.8)), url(/resources/img/icons/vid-96.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, right bottom;
+}
+
+.video {
+  color: white;
+  background-image: linear-gradient(to right, rgba(0, 255, 0, 0.8), rgba(0, 255, 255, 0.8)), url(/resources/img/icons/vid-96.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, right bottom;
+}
+
+.jar {
+  color: white;
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.8), rgba(50, 50, 255, 0.8)), url(/resources/img/icons/java-96.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, right bottom;
+}
+.jar:hover {
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.8), rgba(50, 50, 255, 0.8)), url(/resources/img/icons/java-96.gif);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, right bottom;
+}
+
+.embed {
+  color: white;
+  background-image: linear-gradient(to right, rgba(254, 249, 205, 0.8), rgba(255, 20, 255, 0.8)), url(/resources/img/icons/embed-96.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, right bottom;
+}

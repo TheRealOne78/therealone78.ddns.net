@@ -3,8 +3,6 @@ SHG/
 movies/
 advguildRoot/
 music.git/
-firma/
-firma.html
 .htaccess
 *.swp
 music/
@@ -13,6 +11,10 @@ mc/
 uploads/
 gameRes/
 resources/custom-browser-homepage/
+resources/img/distinctions/
+resources/errors/
+resources/advguild/lastsync
+advguild.html
 
 # -- Ignore Images ----------------
 #*.bmp
