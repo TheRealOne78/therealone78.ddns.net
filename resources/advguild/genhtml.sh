@@ -74,7 +74,7 @@ genparse() {
 				filetype="Executable" ;;
 
 				## Audio
-				"pcm" | "wav" | "aiff" | "mp3" | "aac" | "ogg" | "wma" | "flac" | "alac")
+				"pcm" | "wav" | "aiff" | "mp3" | "aac" | "ogg" | "wma" | "flac" | "alac" | "opus")
 				echo "<div class=\"audio file-shower\">" >> "${TEMP_GEN_FILENAME}"
 				filetype="Audio media"
 				;;
