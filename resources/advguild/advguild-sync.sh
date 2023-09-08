@@ -10,6 +10,10 @@ INFO="["$BLUE"i"$ENDCOLOR"]"
 WARN="["$YELLOW"w"$ENDCOLOR"]"
 ERR="["$RED"e"$ENDCOLOR"]"
 
+RES_ADVGUILD_DIR="/var/www/html/resources/advguild/"
+
+cd "${RES_ADVGUILD_DIR}"
+
 printf "\n*** Syncing with advguild.myftp.org ...\n"
 lftp -f ./advguild-dl-sync.cfg
 printf "$(date)" > lastsync
