@@ -3,78 +3,6 @@
 		"URL": "DATA/",
 		"Type": "dir",
 		"Description": "null",
-		"Fix for Sept Certificate Expired": {
-			"URL": "DATA/Fix for Sept Certificate/",
-			"Type": "dir",
-			"Description": "A fix for old browser certificates, especially for Windows XP browsers. Google Chrome for Windows XP can no longer access https websites because the installed trusted ssl certificates are outdated. Install these .pem files into your browser's Certificate Settings to resolve this issue."
-		},
-		"Fxp32.zip": {
-			"URL": "DATA/Fxp32.zip",
-			"Type": "archive",
-			"Description": "A proprietary minimalistic FTP Client for Windows."
-		},
-		"HAKTEK.EXE": {
-			"URL": "DATA/HAKTEK.EXE",
-			"Type": "exe",
-			"Description": "HakTek is a proprietary pentesting program that can mailbomb, anti-mailbomb, scan ports and scan IPs."
-		},
-		"InnerSpace.zip": {
-			"URL": "DATA/InnerSpace.zip",
-			"Type": "archive",
-			"Description": "null"
-		},
-		"ZeldaTexturePackmc-15.zip": {
-			"URL": "DATA/ZeldaTexturePackmc-15.zip",
-			"Type": "archive",
-			"Description": "A texture pack for minecraft that looks like zelda. To install this texture pack, put the files in your profile's texturepack directory, and in minecraft settings change the texturepack."
-		},
-		"flashplayer_32_sa_debug.exe": {
-			"URL": "DATA/flashplayer_32_sa_debug.exe",
-			"Type": "exe",
-			"Description": "A standalone FlashPlayer Debugger for Windows."
-		},
-		"war-ftpd-1.82-RC13-update.zip": {
-			"URL": "DATA/war-ftpd-1.82-RC13-update.zip",
-			"Type": "archive",
-			"Description": "War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">wikipedia</a>.<br> This version is the latest stable release from 2014."
-		},
-		"warftpd-1.82-00-RC12-i386.exe": {
-			"URL": "https://therealone78.ddns.net/advguildRoot/DATA/warftpd-1.82-00-RC12-i386.exe",
-			"Type": "exe",
-			"Description": "War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">wikipedia</a>."
-		},
-		"wrar351.exe": {
-			"URL": "DATA/wrar351.exe",
-			"Type": "exe",
-			"Description": "This program runs in Microsoft Windows."
-		}
-	},
-	"Video": {
-		"URL": "Video/",
-		"Type": "dir",
-		"Description": "null",
-		"The Melancholy of Haruhi Suzumiya": {
-			"URL": "Video/The Melancholy of Haruhi Suzumiya/",
-			"Type": "dir",
-			"Description": "null",
-			"SubFile": {
-				"Movie - The Disappearance of Haruhi Suzumiya.mkv": {
-					"URL": "Video/The Melancholy of Haruhi Suzumiya/Movie - The Disappearance of Haruhi Suzumiya.mkv",
-					"Type": "video",
-					"Description": "The Melancholy of Haruhi Suzumiya - The Disappearance of Haruhi Suzumiya - Anime Movie (2010)"
-				},
-				"The Melancholy of Haruhi Suzumiya.zip": {
-					"URL": "Video/The Melancholy of Haruhi Suzumiya/The Melancholy of Haruhi Suzumiya.zip",
-					"Type": "archive",
-					"Description": "The Melancholy of Haruhi Suzumiya - Anime Series (2006-2009)"
-				}
-			}
-		}
-	},
-	"upload": {
-		"URL": "upload/",
-		"Type": "dir",
-		"Description": "null",
 		"Minecraft": {
 			"URL": "upload/Minecraft",
 			"Type": "dir",
@@ -88,11 +16,6 @@
 				"URL": "upload/Minecraft/AgrarianSkies2.zip",
 				"Type": "archive",
 				"Description": "This is a modpack for Minecraft 1.7.10 made by Jaded and modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
-			},
-			"ClearSkies.zip": {
-				"URL": "upload/Minecraft/ClearSkies.zip",
-				"Type": "archive",
-				"Description": "This is a modpack for Minecraft 1.12.2 made by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 6GB."
 			},
 			"InventoryTweaks-MC1.6.2-1.56-b77.jar": {
 				"URL": "upload/Minecraft/InventoryTweaks-MC1.6.2-1.56-b77.jar",
@@ -129,15 +52,15 @@
 				"Type": "jar",
 				"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.12.2."
 			},
+		  "ZeldaTexturePackmc-15.zip": {
+		  	"URL": "DATA/ZeldaTexturePackmc-15.zip",
+		  	"Type": "archive",
+		  	"Description": "A texture pack for minecraft that looks like zelda. To install this texture pack, put the files in your profile's texturepack directory, and in minecraft settings change the texturepack."
+		  },
 			"ShadersModCore-mc1.6.2-f804-v2.0.1-beta1.jar": {
 				"URL": "upload/Minecraft/ShadersModCore-mc1.6.2-f804-v2.0.1-beta1.jar",
 				"Type": "jar",
 				"Description": "ShadersModCore-mc1.6.2 is a minecraft shader mod. To install this mod, put this file in your profile's mods folder. This version of ShaderModCore is supported for minecraft version 1.6.2 only."
-			},
-			"SpaceChickens.zip": {
-				"URL": "upload/Minecraft/SpaceChickens.zip",
-				"Type": "archive",
-				"Description": "SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
 			},
 			"TheForgottenLand2.0.zip": {
 				"URL": "upload/Minecraft/TheForgottenLand2.0.zip",
@@ -183,12 +106,98 @@
 				"URL": "upload/Minecraft/serversync-2.6.17.jar",
 				"Type": "jar",
 				"Description": "A java program that syncs the mods from the modded server you are playing with your computer."
-			},
-			"Web": {
-				"URL": "upload/Web/",
-				"Type": "dir",
-				"Description": "A place where every user can upload their own files in advguild.myftp.org."
 			}
+		},
+		"Toys": {
+		  "InnerSpace.zip": {
+		  	"URL": "DATA/InnerSpace.zip",
+		  	"Type": "archive",
+		  	"Description": "null"
+		  }
+		},
+		"Tools": {
+		  "Fxp32.zip": {
+		  	"URL": "DATA/Fxp32.zip",
+		  	"Type": "archive",
+		  	"Description": "A proprietary minimalistic FTP Client for Windows."
+		  },
+		  "HAKTEK.EXE": {
+		  	"URL": "DATA/HAKTEK.EXE",
+		  	"Type": "exe",
+		  	"Description": "HakTek is a proprietary pentesting program that can mailbomb, anti-mailbomb, scan ports and scan IPs."
+		  },
+		  "flashplayer_32_sa_debug.exe": {
+		  	"URL": "DATA/flashplayer_32_sa_debug.exe",
+		  	"Type": "exe",
+		  	"Description": "A standalone FlashPlayer Debugger for Windows."
+		  },
+		  "war-ftpd-1.82-RC13-update.zip": {
+		  	"URL": "DATA/war-ftpd-1.82-RC13-update.zip",
+		  	"Type": "archive",
+		  	"Description": "War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">wikipedia</a>.<br> This version is the latest stable release from 2014."
+		  },
+		  "warftpd-1.82-00-RC12-i386.exe": {
+		  	"URL": "https://therealone78.ddns.net/advguildRoot/DATA/warftpd-1.82-00-RC12-i386.exe",
+		  	"Type": "exe",
+		  	"Description": "War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">wikipedia</a>."
+		  },
+		  "wrar351.exe": {
+		  	"URL": "DATA/wrar351.exe",
+		  	"Type": "exe",
+		  	"Description": "This program runs in Microsoft Windows."
+		  }
+		},
+		"Fix for Sept 2021 Certificate Expired": {
+			"URL": "DATA/Fix for Sept Certificate/",
+			"Type": "dir",
+			"Description": "A fix for old browser certificates, especially for Windows XP browsers. Google Chrome for Windows XP can no longer access https websites because the installed trusted ssl certificates are outdated. Install these .pem files into your browser's Certificate Settings to resolve this issue."
+		}
+	},
+	"Video": {
+		"URL": "Video/",
+		"Type": "dir",
+		"Description": "null",
+		"The Melancholy of Haruhi Suzumiya": {
+			"URL": "Video/The Melancholy of Haruhi Suzumiya/",
+			"Type": "dir",
+			"Description": "null",
+			"SubFile": {
+				"Movie - The Disappearance of Haruhi Suzumiya.mkv": {
+					"URL": "Video/The Melancholy of Haruhi Suzumiya/Movie - The Disappearance of Haruhi Suzumiya.mkv",
+					"Type": "video",
+					"Description": "The Melancholy of Haruhi Suzumiya - The Disappearance of Haruhi Suzumiya - Anime Movie (2010)"
+				},
+				"The Melancholy of Haruhi Suzumiya.zip": {
+					"URL": "Video/The Melancholy of Haruhi Suzumiya/The Melancholy of Haruhi Suzumiya.zip",
+					"Type": "archive",
+					"Description": "The Melancholy of Haruhi Suzumiya - Anime Series (2006-2009)"
+				}
+			}
+		}
+	},
+	"upload": {
+		"URL": "upload/",
+		"Type": "dir",
+		"Description": "null",
+		"Minecraft": {
+			"URL": "upload/Minecraft",
+			"Type": "dir",
+			"Description": "null",
+			"SpaceChickens.zip": {
+				"URL": "upload/Minecraft/SpaceChickens.zip",
+				"Type": "archive",
+				"Description": "SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
+			},
+			"ClearSkies.zip": {
+				"URL": "upload/Minecraft/ClearSkies.zip",
+				"Type": "archive",
+				"Description": "This is a modpack for Minecraft 1.12.2 made by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 6GB."
+			}
+		},
+		"Web": {
+			"URL": "upload/Web/",
+			"Type": "dir",
+			"Description": "A place where every user can upload their own files in advguild.myftp.org."
 		}
 	}
 }
