@@ -48,7 +48,7 @@ checkerr() {
 }
 
 genparse() {
-  find . -mindepth 1 -maxdepth 1 -print0 | while IFS= read -r -d '' file; do
+  find . -mindepth 1 -maxdepth 1 -print0 | sort -z | while IFS= read -r -d '' file; do
 	  exitcode=$?; checkerr;
 
 		# Print container opener
