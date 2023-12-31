@@ -1,174 +1,200 @@
 {
 	"DATA": {
-		"URL": "DATA/",
 		"Type": "dir",
 		"Description": "null",
 		"Minecraft": {
-			"URL": "upload/Minecraft",
 			"Type": "dir",
 			"Description": "null",
+			"Forge": {
+				"Type": "dir",
+				"Description": "Forge mod manager for MineCraft",
+				"forge-1.6.2-9.10.1.871-installer.jar": {
+		  		"Type": "jar",
+		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.6.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+				},
+				"forge-1.10.2-12.18.3.2316-installer.jar": {
+		  		"Type": "jar",
+		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.10.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+				},
+				"forge-1.10.2-12.18.3.2511-installer.jar": {
+		  		"Type": "jar",
+	  			"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.10.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+				},
+				"forge-1.12.2-14.23.2.2618-installer.jar": {
+		  		"Type": "jar",
+		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.12.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+				},
+				"forge-1.12.2-14.23.5.2836-installer.jar": {
+		  		"Type": "jar",
+		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.12.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+				},
+				"forge-1.6.2-9.10.1.871-installer.jar": {
+		  		"Type": "jar",
+		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.6.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+			  },
+				"forge-1.7.10-10.13.4.1492-1.7.10-installer.jar": {
+		  		"Type": "jar",
+			  	"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.7.1 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+			  },
+				"forge-1.7.10-10.13.4.1614-1.7.10-installer.jar": {
+			  	"Type": "jar",
+			  	"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.7.1 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+			  }
+			},
+			"minecraft_launcher.zip": {
+				"Type": "archive",
+				"Description": "A MineCraft launcher"
+			},
 			"1.6 to 1.14 pack project.7z": {
-				"URL": "upload/Minecraft/1.6 to 1.14 pack project.7z",
 				"Type": "archive",
 				"Description": "null"
 			},
-			"AgrarianSkies2.zip": {
-				"URL": "upload/Minecraft/AgrarianSkies2.zip",
-				"Type": "archive",
-				"Description": "This is a modpack for Minecraft 1.7.10 made by Jaded and modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
+			"ModPacks": {
+				"Type": "dir",
+				"Description": "A series of modpacks for Minecraft",
+			  "AgrarianSkies2.zip": {
+			  	"Type": "archive",
+			  	"Description": "This is a modpack for Minecraft 1.7.10 made by Jaded and modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
+			  },
+			  "blightfall-FULL.zip": {
+			  	"Type": "archive",
+			  	"Description": "BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
+			  },
+			  "blightfall-NO-Solo.zip": {
+			  	"Type": "archive",
+			  	"Description": "BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
+			  },
+				"SpaceChickens.zip": {
+					"Type": "archive",
+					"Description": "SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
+				},
+				"ClearSkies.zip": {
+					"Type": "archive",
+					"Description": "This is a modpack for Minecraft 1.12.2 made by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 6GB."
+				}
 			},
-			"InventoryTweaks-MC1.6.2-1.56-b77.jar": {
-				"URL": "upload/Minecraft/InventoryTweaks-MC1.6.2-1.56-b77.jar",
-				"Type": "jar",
-				"Description": "A 1.6.2 Minecraft mod that can help you manage your inventory and chests with just a click of a button. To use this mod, put this jar file into your mods profile folder, and load it with Forge."
+			"Mods": {
+				"Type": "dir",
+				"Description": "A series of mods for Minecraft",
+			  "InventoryTweaks-MC1.6.2-1.56-b77.jar": {
+			  	"Type": "jar",
+			  	"Description": "A 1.6.2 Minecraft mod that can help you manage your inventory and chests with just a click of a button. To use this mod, put this jar file into your mods profile folder, and load it with Forge."
+			  },
+			  "[1.6.2]ReiMinimap_v3.4_01.zip": {
+			  	"Type": "archive",
+			  	"Description": "ReiMinimap is a minecraft mod that gives you a little live map with coordinates, chunk types, themes and more. This specific file mod is compatible with minecraft 1.6.2 only. To install this mod, put this file in your minecraft profile's mods folder."
+			  }
 			},
-			"New Frontiers-1.6-2019-3- no discs.zip": {
-				"URL": "upload/Minecraft/New Frontiers-1.6-2019-3- no discs.zip",
-				"Type": "archive",
-				"Description": "null"
-			},
-			"OptiFine_1.6.2_HD_C4.jar": {
-				"URL": "upload/Minecraft/OptiFine_1.6.2_HD_C4.jar",
-				"Type": "jar",
-				"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
-			},
-			"OptiFine_1.6.2_HD_U_C4.jar": {
-				"URL": "upload/Minecraft/OptiFine_1.6.2_HD_U_C4.jar",
-				"Type": "jar",
-				"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
-			},
-			"OptiFine_1.6.2_L_C4.jar": {
-				"URL": "upload/Minecraft/OptiFine_1.6.2_L_C4.jar",
-				"Type": "jar",
-				"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
-			},
-			"OptiFine_1.7.10_HD_U_E7.jar": {
-				"URL": "upload/Minecraft/OptiFine_1.7.10_HD_U_E7.jar",
-				"Type": "jar",
-				"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.7.10."
-			},
-			"OptiFine_1.12.2_HD_U_G5.jar": {
-				"URL": "upload/Minecraft/OptiFine_1.12.2_HD_U_G5.jar",
-				"Type": "jar",
-				"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.12.2."
+			"Optifine": {
+				"Type": "dir",
+				"Description": "Optifine optimizer for Minecraft",
+			  "OptiFine_1.6.2_HD_C4.jar": {
+			  	"Type": "jar",
+			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
+			  },
+			  "OptiFine_1.6.2_HD_U_C4.jar": {
+			  	"Type": "jar",
+			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
+			  },
+			  "OptiFine_1.6.2_L_C4.jar": {
+			  	"Type": "jar",
+			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
+			  },
+			  "OptiFine_1.7.10_HD_U_E7.jar": {
+			  	"Type": "jar",
+			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.7.10."
+			  },
+			  "OptiFine_1.12.2_HD_U_G5.jar": {
+			  	"Type": "jar",
+			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.12.2."
+			  }
 			},
 		  "ZeldaTexturePackmc-15.zip": {
-		  	"URL": "DATA/ZeldaTexturePackmc-15.zip",
 		  	"Type": "archive",
-		  	"Description": "A texture pack for minecraft that looks like zelda. To install this texture pack, put the files in your profile's texturepack directory, and in minecraft settings change the texturepack."
+		  	"Description": "A texture pack for minecraft that looks like zelda (the game). To install this texture pack, put the files in your profile's texturepack directory, and in minecraft settings change the texturepack."
 		  },
+			"Server": {
+			  "Type": "dir",
+			  "Description": "Server files",
+			  "TheForgottenLand2.0.zip": {
+			  	"Type": "archive",
+			  	"Description": "null"
+			  },
+			  "craftbukkit-1.6.2-R1.0.jar": {
+			  	"Type": "jar",
+			  	"Description": "This is a Minecraft 1.6.2 mod."
+			  }
+			},
 			"ShadersModCore-mc1.6.2-f804-v2.0.1-beta1.jar": {
-				"URL": "upload/Minecraft/ShadersModCore-mc1.6.2-f804-v2.0.1-beta1.jar",
 				"Type": "jar",
 				"Description": "ShadersModCore-mc1.6.2 is a minecraft shader mod. To install this mod, put this file in your profile's mods folder. This version of ShaderModCore is supported for minecraft version 1.6.2 only."
 			},
-			"TheForgottenLand2.0.zip": {
-				"URL": "upload/Minecraft/TheForgottenLand2.0.zip",
-				"Type": "archive",
-				"Description": "null"
-			},
-			"[1.6.2]ReiMinimap_v3.4_01.zip": {
-				"URL": "upload/Minecraft/[1.6.2]ReiMinimap_v3.4_01.zip",
-				"Type": "archive",
-				"Description": "ReiMinimap is a minecraft mod that gives you a little live map with coordinates, chunk types, themes and more. This specific file mod is compatible with minecraft 1.6.2 only. To install this mod, put this file in your minecraft profile's mods folder."
-			},
-			"blightfall-FULL.zip": {
-				"URL": "upload/Minecraft/blightfall-FULL.zip",
-				"Type": "archive",
-				"Description": "BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
-			},
-			"blightfall-NO-Solo.zip": {
-				"URL": "upload/Minecraft/blightfall-NO-Solo.zip",
-				"Type": "archive",
-				"Description": "BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
-			},
-			"craftbukkit-1.6.2-R1.0.jar": {
-				"URL": "upload/Minecraft/craftbukkit-1.6.2-R1.0.jar",
-				"Type": "jar",
-				"Description": "This is a Minecraft 1.6.2 mod."
-			},
 			"cursemodpackdownloader-2.3.0.jar": {
-				"URL": "upload/Minecraft/cursemodpackdownloader-2.3.0.jar",
 				"Type": "jar",
 				"Description": "This is a Minecraft mod."
 			},
-			"forge-1.6.2-9.10.1.871-installer.jar": {
-				"URL": "upload/Minecraft/forge-1.6.2-9.10.1.871-installer.jar",
-				"Type": "jar",
-				"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.6.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
-			},
 			"plugins.zip": {
-				"URL": "upload/Minecraft/plugins.zip",
 				"Type": "archive",
 				"Description": "A zip file containing all the plugins the advguild.myftp.org 1.6.2 vanilla server is currently running."
 			},
 			"serversync-2.6.17.jar": {
-				"URL": "upload/Minecraft/serversync-2.6.17.jar",
 				"Type": "jar",
 				"Description": "A java program that syncs the mods from the modded server you are playing with your computer."
+			},
+			"LUA": {
+				"Type": "dir",
+				"Description": "LUA code for ComputerCraft and OpenComuters Minecraft mods for simulating a computer with the lua4j interpreter."
 			}
 		},
 		"Toys": {
 		  "InnerSpace.zip": {
-		  	"URL": "DATA/InnerSpace.zip",
 		  	"Type": "archive",
 		  	"Description": "null"
 		  }
 		},
 		"Tools": {
 		  "Fxp32.zip": {
-		  	"URL": "DATA/Fxp32.zip",
 		  	"Type": "archive",
 		  	"Description": "A proprietary minimalistic FTP Client for Windows."
 		  },
 		  "HAKTEK.EXE": {
-		  	"URL": "DATA/HAKTEK.EXE",
 		  	"Type": "exe",
 		  	"Description": "HakTek is a proprietary pentesting program that can mailbomb, anti-mailbomb, scan ports and scan IPs."
 		  },
 		  "flashplayer_32_sa_debug.exe": {
-		  	"URL": "DATA/flashplayer_32_sa_debug.exe",
 		  	"Type": "exe",
 		  	"Description": "A standalone FlashPlayer Debugger for Windows."
 		  },
 		  "war-ftpd-1.82-RC13-update.zip": {
-		  	"URL": "DATA/war-ftpd-1.82-RC13-update.zip",
 		  	"Type": "archive",
 		  	"Description": "War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">wikipedia</a>.<br> This version is the latest stable release from 2014."
 		  },
 		  "warftpd-1.82-00-RC12-i386.exe": {
-		  	"URL": "https://therealone78.ddns.net/advguildRoot/DATA/warftpd-1.82-00-RC12-i386.exe",
 		  	"Type": "exe",
 		  	"Description": "War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">wikipedia</a>."
 		  },
 		  "wrar351.exe": {
-		  	"URL": "DATA/wrar351.exe",
 		  	"Type": "exe",
 		  	"Description": "This program runs in Microsoft Windows."
 		  }
 		},
 		"Fix for Sept 2021 Certificate Expired": {
-			"URL": "DATA/Fix for Sept Certificate/",
 			"Type": "dir",
 			"Description": "A fix for old browser certificates, especially for Windows XP browsers. Google Chrome for Windows XP can no longer access https websites because the installed trusted ssl certificates are outdated. Install these .pem files into your browser's Certificate Settings to resolve this issue."
 		}
 	},
 	"Video": {
-		"URL": "Video/",
 		"Type": "dir",
 		"Description": "null",
 		"The Melancholy of Haruhi Suzumiya": {
-			"URL": "Video/The Melancholy of Haruhi Suzumiya/",
 			"Type": "dir",
 			"Description": "null",
 			"SubFile": {
 				"Movie - The Disappearance of Haruhi Suzumiya.mkv": {
-					"URL": "Video/The Melancholy of Haruhi Suzumiya/Movie - The Disappearance of Haruhi Suzumiya.mkv",
 					"Type": "video",
 					"Description": "The Melancholy of Haruhi Suzumiya - The Disappearance of Haruhi Suzumiya - Anime Movie (2010)"
 				},
 				"The Melancholy of Haruhi Suzumiya.zip": {
-					"URL": "Video/The Melancholy of Haruhi Suzumiya/The Melancholy of Haruhi Suzumiya.zip",
 					"Type": "archive",
 					"Description": "The Melancholy of Haruhi Suzumiya - Anime Series (2006-2009)"
 				}
@@ -176,26 +202,21 @@
 		}
 	},
 	"upload": {
-		"URL": "upload/",
 		"Type": "dir",
 		"Description": "null",
 		"Minecraft": {
-			"URL": "upload/Minecraft",
 			"Type": "dir",
 			"Description": "null",
 			"SpaceChickens.zip": {
-				"URL": "upload/Minecraft/SpaceChickens.zip",
 				"Type": "archive",
 				"Description": "SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
 			},
 			"ClearSkies.zip": {
-				"URL": "upload/Minecraft/ClearSkies.zip",
 				"Type": "archive",
 				"Description": "This is a modpack for Minecraft 1.12.2 made by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 6GB."
 			}
 		},
 		"Web": {
-			"URL": "upload/Web/",
 			"Type": "dir",
 			"Description": "A place where every user can upload their own files in advguild.myftp.org."
 		}
