@@ -28,10 +28,10 @@
   <body>
     <div id="wrap">
       <div id="main">
-        <div class="maintitle"><br>
-          <h1>Software - Software I've created so far</h1>
-          <a href="https://therealone78.ddns.net">Home</a> | <a href="https://therealone78.ddns.net/software.html">Software</a> | <a href="ftp://therealone78.ddns.net">My FTP</a> | <a href="https://therealone78.ddns.net/IRC.html">My IRC</a> | <a href="https://therealone78.ddns.net/torrents/">Torrents</a> | <a href="https://therealone78.ddns.net/advguild.html">AdvGuild Mirror</a> | <a href="https://therealone78.ddns.net/listIndex.html">URLs List</a>
-        </div>
+        <?php
+          $HEADER_TITLE="Software - Software I've created so far";
+          include($_SERVER['DOCUMENT_ROOT'] . "/resources/header.php");
+        ?>
         <div class="dw_cool">
           Over the past years I've made software that is quite useful, at least for me.<br>
           Even tho I am quite greateful that I've made this software reality, I am still not satisfied enough, so I decided to free my software and publish it to the world with the hope that it will be useful.<br>
@@ -167,7 +167,7 @@
       </div>
     </div>
     <div id="footer">
-      <embed src="https://therealone78.ddns.net/resources/footer.html" style="width: 100%; height: 345px">
+      <?php include($_SERVER['DOCUMENT_ROOT'] . "/resources/footer.html"); ?>
     </div>
   </body>
 </html>
