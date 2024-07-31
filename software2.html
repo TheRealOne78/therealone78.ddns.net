@@ -29,10 +29,12 @@
   <body>
     <div id="wrap">
       <div id="main">
-        <?php
-          $HEADER_TITLE="Software - Software I've created so far";
-          include($_SERVER['DOCUMENT_ROOT'] . "./resources/header.php");
-        ?>
+        <!--START Header-->
+<div class="maintitle"><br>
+  <h1>Software - Software I've created so far</h1>
+  <a href="https://therealone78.ddns.net">Home</a> | <a href="https://therealone78.ddns.net/software.html">Software</a> | <a href="ftp://therealone78.ddns.net">My FTP</a> | <a href="https://therealone78.ddns.net/IRC.html">My IRC</a> | <a href="https://therealone78.ddns.net/torrents/">Torrents</a> | <a href="https://therealone78.ddns.net/advguild.html">AdvGuild Mirror</a> | <a href="https://therealone78.ddns.net/listIndex.html">URLs List</a>
+</div>
+<!--END Header-->
         <div class="dw_cool">
           Over the past years I've made software that is quite useful, at least for me.<br>
           Even tho I am quite greateful that I've made this software reality, I am still not satisfied enough, so I decided to free my software and publish it to the world with the hope that it will be useful.<br>
@@ -52,7 +54,7 @@
           </h2>
           <div class="sw-container">
             <div class="sw-img-container">
-              <img src="/resources/img/software/OAWP_logo_row_v2.svg" class="sw-img">
+              <img src="/resources/img/software/OAWP_logo_row_v2.svg" class="sw-img"><br>
             </div>
             <div class="sw-text">
             <p>OAWP is my main focus nowadays. It's an Animated Wallpaper Player designed to work with compositors and be highly configurable.</p>
@@ -178,7 +180,53 @@
       </div>
     </div>
     <div id="footer">
-      <?php include($_SERVER['DOCUMENT_ROOT'] . "./resources/footer.html"); ?>
+      <!--START_FOOTER-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/resources/css/footer.css?version=1.1">
+    <link rel="stylesheet" href="/resources/css/social-media.css?version=1.1">
+  </head>
+  <body>
+
+    <div class="footer-container">
+      <footer class="footer">
+        <div style="padding: 10px"><!--Top-->
+          Copyright&copy; 2020-2024 - TheRealOne78
+        </div>
+
+        <hr class="hr-line">
+
+        <div style="padding: 10px"><!--Bottom-->
+
+          <!--Up-->
+          Email: <a href="mailto:bajcsielias78@gmail.com" target="_blank" title="E-Mail">bajcsielias78@gmail.com</a> |
+          <a href="ftp://therealone78.ddns.net" target="_blank" class="therealone78" title="My FTP">FTP</a> |
+          <a href="/IRC.html" target="_top" class="therealone78" title="My IRC">IRC</a>
+
+          <br><br>
+
+          <!--Down-->
+          <a href="https://github.com/TheRealOne78" target="_blank" class="github" title="GitHub">GitHub</a> |
+          <a href="https://www.youtube.com/channel/UC7PcT7ZwJWWlqmUxY3plB3g" target="_blank" class="youtube" title="YouTube">Youtube</a> |
+          Matrix Instance: <a href="https://matrix.to/#/@therealone78:matrix.org" target="_blank" class="matrix" title="Matrix">@therealone78:matrix.org</a><br>
+          <br>
+          <a href="https://stallman.org/facebook.html" target="_blank" class="facebook"><img src="/resources/img/no-facebook.svg" width="auto" height="50px" title="I don't use facebook!"></a>
+          <marquee direction="right" scrollamount="15">
+            <pre>
+               ___________________________. ._______________________     
+            .-/__|_|______________________| |___|||||___|O|____|_|__\---.
+            |    |-|                    | | | |         |_|    |-|      |
+            |  __|-|____________________|_| |_|_________|_|____|-|__.   |
+            |_/<_>=<_>\_________/<_>=<_>\_|=|_|<_>=<_>|_____|<_>=<_>|___|</pre>
+              <!--</pre>-->
+          </marquee>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+<!--END_FOOTER-->
     </div>
   </body>
 </html>
