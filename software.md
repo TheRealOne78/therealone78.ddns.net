@@ -4,7 +4,6 @@ description: Software I have created so far
 keywords: software, oawp, oawp-gui, therealone78's browser homepage, therealone78's high contrast firefox newtab page, ntfy resources usage plugin, pybattery, therealone78's calculator
 ---
 
-
 Over the past years I've made software that is quite useful, at least for me.
 
 Even though I am really greateful that I've made this software reality, I am still not satisfied enough, so I decided to free my software and publish it to the world with the hope that it will be useful.
@@ -40,7 +39,7 @@ Useful <abbr title="Uniform Resource Locator">URL</abbr>s:
 - GitHub (OAWP): <a class="github" href="https://github.com/OAWP/OAWP" target="_blank">https://github.com/TheRealOne78/OAWP</a>
 - GitHub (OAWP-gui): <a class="github" href="https://github.com/OAWP/OAWP-gui" target="_blank">https://github.com/TheRealOne78/OAWP-gui</a>
 - Wiki (GitHub): <a class="github" href="https://github.com/OAWP/OAWP/wiki" target="_blank">https://github.com/TheRealOne78/OAWP/wiki</a>
-- License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL v3+</a>
+- License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank" class="thirdParty">GNU GPL v3+</a>
 
 ## TheRealOne78's Browser Homepage
 A fairly minimalistic but also neofetch-like browser homepage, made for those who got sick of the default boring browser homepage.
@@ -55,8 +54,8 @@ Useful <abbr title="Uniform Resource Locator">URL</abbr>s:
 - GitHub: <a class="github" href="https://github.com/TheRealOne78/custom-browser-homepage" target="_blank">https://github.com/TheRealOne78/custom-browser-homepage</a>
 - Reddit thread: <a class="reddit" href="https://old.reddit.com/r/startpages/comments/11gz58k/a_minimalistic_but_neofetchlike_firefox_startpage/" target="_blank">https://old.reddit.com/r/startpages/comments/11gz58k/a_minimalistic_but_neofetchlike_firefox_startpage/</a>
 - Live demo (GitHub): <a class="github" href="https://therealone78.github.io/custom-browser-homepage/homepage.html" target="_blank">https://therealone78.github.io/custom-browser-homepage/homepage.html</a>
-- Live demo (therealone78.ddns.net): <a href="https://therealone78.ddns.net/resources/custom-browser-homepage/homepage.html" class="therealone78" target="_blank">https://therealone78.ddns.net/resources/custom-browser-homepage/homepage.html</a>
-- License: <a href="https://mit-license.org/">MIT</a> with <a href="https://www.copyright.gov/fair-use/" target="_blank">Fair Use</a> exceptions when mentioned
+- Live demo (therealone78.ddns.net): <a href="https://therealone78.ddns.net/resources/custom-browser-homepage/homepage.html" target="_blank">https://therealone78.ddns.net/resources/custom-browser-homepage/homepage.html</a>
+- License: <a href="https://mit-license.org/" class="thirdParty">MIT</a> with <a href="https://www.copyright.gov/fair-use/" target="_blank" class="thirdParty">Fair Use</a> exceptions when mentioned
 
 
 ## TheRealOne78's High Contrast Firefox Newtab Page</h3>
@@ -67,7 +66,7 @@ A custom Firefox newtab page that features a high contrast theme and a vectorize
 Useful <abbr title="Uniform Resource Locator">URL</abbr>s:
 - GitHub: <a class="github" href="https://github.com/TheRealOne78/highcontrast-firefox-newtab-page" target="_blank">https://github.com/TheRealOne78/highcontrast-firefox-newtab-page</a>
 - Reddit thread: <a class="reddit" href="https://old.reddit.com/r/startpages/comments/11xs8pp/a_high_contrast_firefox_newtab_page/" target="_blank">https://old.reddit.com/r/startpages/comments/11xs8pp/a_high_contrast_firefox_newtab_page/</a>
-- License: <a href="https://mit-license.org/">MIT</a> with <a href="https://www.copyright.gov/fair-use/" target="_blank">Fair Use</a> exceptions when mentioned
+- License: <a href="https://mit-license.org/" class="thirdParty">MIT</a> with <a href="https://www.copyright.gov/fair-use/" target="_blank" class="thirdParty">Fair Use</a> exceptions when mentioned
 
 
 ## ntfy-resources-usage plugin
@@ -80,11 +79,11 @@ This plugin is written in bash and it is highly customizable.
 Useful <abbr title="Uniform Resource Locator">URL</abbr>s:
 - GitHub: <a class="github" href="https://github.com/TheRealOne78/ntfy-resources-usage" target="_blank">https://github.com/TheRealOne78/ntfy-resources-usage</a>
 - Wiki (GitHub): <a class="github" href="https://github.com/TheRealOne78/ntfy-resources-usage/wiki">https://github.com/TheRealOne78/ntfy-resources-usage/wiki</a>
-- NTFY website: <a href="https://ntfy.sh/" target="_blank">https://ntfy.sh/</a>
-- NTFY Android app (Google Play Store): <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank">https://play.google.com/store/apps/details?id=io.heckel.ntfy</a>
-- NTFY Android app (F-Droid Store): <a href="https://f-droid.org/en/packages/io.heckel.ntfy/">https://f-droid.org/en/packages/io.heckel.ntfy/</a>
-- NTFY IOS app (Apple App Store): <a href="https://apps.apple.com/us/app/ntfy/id1625396347" target="_blank">https://apps.apple.com/us/app/ntfy/id1625396347</a>
-- License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL v3+</a>
+- NTFY website: <a href="https://ntfy.sh/" target="_blank" class="thirdParty">https://ntfy.sh/</a>
+- NTFY Android app (Google Play Store): <a class="thirdParty" href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank">https://play.google.com/store/apps/details?id=io.heckel.ntfy</a>
+- NTFY Android app (F-Droid Store): <a class="thirdParty" href="https://f-droid.org/en/packages/io.heckel.ntfy/">https://f-droid.org/en/packages/io.heckel.ntfy/</a>
+- NTFY IOS app (Apple App Store): <a class="thirdParty" href="https://apps.apple.com/us/app/ntfy/id1625396347" target="_blank">https://apps.apple.com/us/app/ntfy/id1625396347</a>
+- License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank" class="thirdParty">GNU GPL v3+</a>
 
 ## PyBattery
 A python code that will change android device battery level, looping from 1% to 1000% and back.
@@ -94,7 +93,7 @@ A python code that will change android device battery level, looping from 1% to 
 Useful <abbr title="Uniform Resource Locator">URL</abbr>s:
 - GitHub: <a class="github" href="https://github.com/TheRealOne78/pybattery" target="_blank">https://github.com/TheRealOne78/pybattery</a>
 - Wiki (GitHub): <a class="github" href="https://github.com/TheRealOne78/pybattery/wiki">https://github.com/TheRealOne78/pybattery/wiki</a>
-- License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL v3+</a>
+- License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank" class="thirdParty">GNU GPL v3+</a>
 
 ## TheRealOne78's Calculator
 My first program  - a calculator
@@ -118,4 +117,4 @@ Written in C++, this program features:
 Useful <abbr title="Uniform Resource Locator">URL</abbr>s:
 - GitHub: <a class="github" href="https://github.com/TheRealOne78/calculator" target="_blank">https://github.com/TheRealOne78/calculator</a>
 - Wiki (GitHub): <a class="github" href="https://github.com/TheRealOne78/calculator/wiki">https://github.com/TheRealOne78/calculator/wiki</a>
-- License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL v3+</a>
+- License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank" class="thirdParty">GNU GPL v3+</a>
