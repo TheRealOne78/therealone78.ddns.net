@@ -44,7 +44,12 @@ matrix_username: "@therealone78:matrix.org"
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - mc/
+  - music.git/
+  - uploads/
+  - 'gameRes/TIC TAC TOE'
+  - advguildRoot/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
