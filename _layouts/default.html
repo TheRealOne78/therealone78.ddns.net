@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Primary Meta Tags -->
+        <title>{{ page.title }}</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="title" content="{{ page.title }}">
+        <meta name="description" content="{{ page.description }}">
+        <meta name="theme-color" content="#000">
+
+        <!-- Favicon -->
+        <link rel="icon" href="/resources/img/icons/favico.svg" type="image/x-icon">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/resources/css/uri.css?version=1.1">
+        <link rel="stylesheet" href="/resources/css/main.css?version=1.1">
+
+        <!-- OpenGraph -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ page.url | absolute_url }}">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:description" content="{{ page.description }}">
+        <meta property="og:image" content="{{ page.image | absolute_url }}">
+        <meta property="og:site_name" content="{{ site.title }}">
+        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+        <meta property="article:author" content="{{ site.author.name }}">
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="{{ page.url | absolute_url }}">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.description }}">
+        <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+    </head>
+
+    <body>
+        <div id="wrap">
+            <div id="main">
+                {% include header.html %}
+                <div class="dw_cool">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

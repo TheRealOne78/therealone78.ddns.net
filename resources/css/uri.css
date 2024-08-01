@@ -1,0 +1,48 @@
+/* URI styles with social media colors */
+a {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+a:hover {
+  color: #4eff4e;
+}
+
+.thirdParty:hover {
+  color: gray
+}
+
+.youtube:hover {
+  color: #f00;
+}
+
+.reddit:hover {
+  color: #ff4500;
+}
+
+.steam:hover {
+  color: #66c0f4;
+}
+
+.deviantArt:hover {
+  color: #2cffbb;
+}
+
+.mastodon:hover {
+  color: #5b4ce2;
+}
+
+.discord:hover {
+  color: #7688d4;
+}
+
+.github {
+  transition: none;
+}
+.github:hover {
+  background: linear-gradient(92.05deg, #D2A8FF 12.09%, #F778BA 42.58%, #FF7B72 84.96%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-decoration: none;
+}

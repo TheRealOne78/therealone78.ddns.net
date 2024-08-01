@@ -9,7 +9,6 @@ music/
 mc/
 *.torrent
 uploads/
-gameRes/
 resources/custom-browser-homepage/
 resources/img/distinctions/
 resources/errors/
@@ -54,3 +53,10 @@ advguild.html
 *.gz
 *.tar
 *.tar.gz
+
+# -- Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

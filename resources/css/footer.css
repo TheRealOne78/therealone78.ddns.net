@@ -21,13 +21,11 @@
   width: 100%;
 }
 
-a {
-  color: white;
+.a-footer {
   text-decoration: none;
-  cursor: pointer;
-  transition: 0.2s all ease-in-out;
 }
-a:hover {
+
+.a-footer:hover {
   background: transparent;
   text-decoration: none;
 }
