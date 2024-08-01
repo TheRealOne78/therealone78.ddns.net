@@ -34,4 +34,4 @@ Page under construction. Don't expect this page to be finished anytime soon...
 ⠤⠄⠒⠒⠒⠤⡀⣿⠀⠀⠴⠛⠁⠈⡇⠀⠀⠈⢣⠊⢁⡤⠔⠒⠒⠒⠒⠢⠤⢌⣙⣉⣉⣤⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⣸⣆⡀⣼⠀⠀
 ⠀⠀⠀⠀⠀⠀⠈⢿⠱⣄⠀⠀⠀⠀⢱⡔⠀⠀⢸⣶⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠿⠌⠃⠀⠀⠀⠀⠀⢀⣠⣴⣿⣿⣿⡝⢻⠀⠀
 
-- ASCII art taken from <a href="https://emojicombos.com/anime-ascii-art" target="_blank">https://emojicombos.com/anime-ascii-art</a></pre>
+- ASCII art taken from <a href="https://emojicombos.com/anime-ascii-art" target="_blank" class="thirdParty">https://emojicombos.com/anime-ascii-art</a></pre>

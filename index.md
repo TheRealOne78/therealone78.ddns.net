@@ -38,12 +38,12 @@ But here is another reason as to why I've made this website (probably interestin
 
 I met the owner of a minecraft server, a very nice guy, <span class="red-role">@Salzamar</span>. He taught me on how to host a FTP and HTTP server. He wasn't pissed at all (at least I hope), he had a lot of patience teaching me and I really respect him for that.
 
-Here is his 1.6.2 minecraft server, <a href="http://advguild.myftp.org" target="_blank">advguild.myftp.org</a>.
+Here is his 1.6.2 minecraft server, <a href="http://advguild.myftp.org" target="_blank" class="thirdParty">advguild.myftp.org</a>.
 
 # user@therealone78.ddns.net:~$ Do you have TikTok
 Do: Fatal Error: Unknown argument "TikTok". Please shut down your current computing device with the help of a hammer and other tools immediately to resolve this error!
 
-Check this video if you need more clear instructions: <a href="https://youtu.be/HtTUsOKjWyQ" target="_blank">https://youtu.be/HtTUsOKjWyQ</a>.
+Check this video if you need more clear instructions: <a href="https://youtu.be/HtTUsOKjWyQ" target="_blank" class="youtube">https://youtu.be/HtTUsOKjWyQ</a>.
 
 # user@therealone78.ddns.net:~$ Does this website use any cookies?
 **NO!** this website does **NOT** use [cookies&trade;](https://gdpr.eu/cookies){:target="_blank" class="thirdParty"}. YAY, more cookies for you to eat!

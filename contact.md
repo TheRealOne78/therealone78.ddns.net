@@ -54,5 +54,5 @@ Page under construction. Don't expect any deadline...
 ⠀⠀⠀⡏⠇⡎⡇⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠉⠳⡄⢰⢱⠈⠛⠃⠘⡄⣰⠟⠉⠉⠀⠀⠀⡔⣽⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⡏⣾⡀⠀⡎⣾⠀⠀
 ⠀⠀⠀⣿⠀⡇⡇⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣆⠠⠄⣀⡀⠀⠀⠘⡇⢸⢠⣖⣦⠀⣷⠋⠀⠀⢀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⡇⢱⡇⠀⡇⢸⠀⠀
 
-- ASCII art taken from <a href="https://emojicombos.com/anime-ascii-art" target="_blank">https://emojicombos.com/anime-ascii-art</a></pre>
+- ASCII art taken from <a href="https://emojicombos.com/anime-ascii-art" target="_blank" class="thirdParty">https://emojicombos.com/anime-ascii-art</a></pre>
 </div>
