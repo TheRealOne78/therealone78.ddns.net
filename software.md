@@ -11,7 +11,7 @@ Even though I am really greateful that I've made this software reality, I am sti
 A good majority of my software is licensed under the GNU GPL v3+ license, with a few exceptions where I've decided to license them with more permissive copyright rules, like the LGPL or the MIT license.
 
 "_Software is like sex: It's better when it's free!_"<br>
-- Linus Benedict Torvalds
+\- Linus Benedict Torvalds
 
 # Software listing
 
