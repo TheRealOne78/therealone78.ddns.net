@@ -10,11 +10,11 @@ This page lists my public contact methods.
 Please do not abuse (spam, pranks and things like that). Thank you.
 
 ### E-Mail
-- Primary: [bajcsielias78@gmail.com](mailto:bajcsielias78@gmail.com)
-- Secondary: [bajcsielias79@gmail.com](mailto:bajcsielias79@gmail.com)
+- Primary: [bajcsielias78@gmail.com](mailto:bajcsielias78@gmail.com){:class="thirdParty"}
+- Secondary: [bajcsielias79@gmail.com](mailto:bajcsielias79@gmail.com){:class="thirdParty"}
 
 ### Matrix
-- [@therealone78:matrix.org](https://matrix.to/#/@therealone78:matrix.org)
+- [@therealone78:matrix.org](https://matrix.to/#/@therealone78:matrix.org){:class="thirdParty"}
 
 # Disclaimer
 Page under construction. Don't expect any deadline...
