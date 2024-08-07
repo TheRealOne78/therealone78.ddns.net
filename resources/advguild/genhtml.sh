@@ -57,47 +57,47 @@ genparse() {
 		if [ -d "${file}" ]; then
 			echo "<div class=\"dir file-shower\">" >> "${TEMP_GEN_FILENAME}"
 		else
-		    # Check by extention
-		    extension=${file##*.}
-		    extension=$(echo ${extension} | tr '[:upper:]' '[:lower:]')
-		    case "${extension}" in
+		  # Check by extention
+		  extension=${file##*.}
+		  extension=$(echo ${extension} | tr '[:upper:]' '[:lower:]')
+		  case "${extension}" in
 
-		    			## Archives
-		    			"tar" | "gz" | "xz" | "bz" | "bz2" | "lz" | "lz4" | "lzma" | "lzo" | "zip" | "7z" | "rar" | "iso" | "br" | "sz" | "zst")
-		    			echo "<div class=\"archive file-shower\">" >> "${TEMP_GEN_FILENAME}"
-		    			filetype="Archive"
-		    			;;
+					## Archives
+					"tar" | "gz" | "xz" | "bz" | "bz2" | "lz" | "lz4" | "lzma" | "lzo" | "zip" | "7z" | "rar" | "iso" | "br" | "sz" | "zst")
+					echo "<div class=\"archive file-shower\">" >> "${TEMP_GEN_FILENAME}"
+					filetype="Archive"
+					;;
 
-		    			## Executables (except Java JAR)
-		    			"appimage" | "run" | "sh" | "py" | "exe" | "dmg" | "apk" | "out" | "app" | "cmd" | "bat" | "command" | "vbs" | "ps1")
-		    			echo "<div class=\"exe file-shower\">" >> "${TEMP_GEN_FILENAME}"
-		    			filetype="Executable" ;;
+					## Executables (except Java JAR)
+					"appimage" | "run" | "sh" | "py" | "exe" | "dmg" | "apk" | "out" | "app" | "cmd" | "bat" | "command" | "vbs" | "ps1")
+					echo "<div class=\"exe file-shower\">" >> "${TEMP_GEN_FILENAME}"
+					filetype="Executable" ;;
 
-		    			## Audio
-		    			"pcm" | "wav" | "aiff" | "mp3" | "aac" | "ogg" | "wma" | "flac" | "alac" | "opus")
-		    			echo "<div class=\"audio file-shower\">" >> "${TEMP_GEN_FILENAME}"
-		    			filetype="Audio media"
-		    			;;
+					## Audio
+					"pcm" | "wav" | "aiff" | "mp3" | "aac" | "ogg" | "wma" | "flac" | "alac" | "opus")
+					echo "<div class=\"audio file-shower\">" >> "${TEMP_GEN_FILENAME}"
+					filetype="Audio media"
+					;;
 
-		    			## Video
-		    			"mp4" | "mov" | "avi" | "flv" | "mkv" | "wmv" | "avchd" | "webm" | "mpeg" | "m4a")
-		    			echo "<div class=\"video file-shower\">" >> "${TEMP_GEN_FILENAME}"
-		    			filetype="Video media"
-		    			;;
+					## Video
+					"mp4" | "mov" | "avi" | "flv" | "mkv" | "wmv" | "avchd" | "webm" | "mpeg" | "m4a")
+					echo "<div class=\"video file-shower\">" >> "${TEMP_GEN_FILENAME}"
+					filetype="Video media"
+					;;
 
-		    			## Java JAR
-		    			"jar")
-		    			echo "<div class=\"jar file-shower\">" >> "${TEMP_GEN_FILENAME}"
-		    			filetype="Java executable"
-		    			;;
+					## Java JAR
+					"jar")
+					echo "<div class=\"jar file-shower\">" >> "${TEMP_GEN_FILENAME}"
+					filetype="Java executable"
+					;;
 
-		    			## Default
-		    			*)
-		    			echo "<div class=\"file file-shower\">" >> "${TEMP_GEN_FILENAME}"
-		    			filetype="File"
-		    			;;
-		    esac
-		    unset extension
+					## Default
+					*)
+					echo "<div class=\"file file-shower\">" >> "${TEMP_GEN_FILENAME}"
+					filetype="File"
+					;;
+		  esac
+		  unset extension
 		fi
 		EXITCODE=$?; checkerr;
 
