@@ -195,6 +195,10 @@ main() {
 	chown "${OWNER}" "${HTTPD_ROOT_ABSOLUTE_PATH}${FINAL_GEN_FILENAME}"
 	exitcode=$?; checkerr;
 
+	printf "$INFO Copying file to _site...\n"
+	cp "${HTTPD_ROOT_ABSOLUTE_PATH}${FINAL_GEN_FILENAME}" "${HTTPD_ROOT_ABSOLUTE_PATH}/_site/"
+	exitcode=$?; checkerr;
+
 	printf "$INFO Done.\n";
 	return 0
 }
