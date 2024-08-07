@@ -33,6 +33,10 @@ a:hover {
   color: #5b4ce2;
 }
 
+.matrix:hover {
+  color: gray
+}
+
 .discord:hover {
   color: #7688d4;
 }
