@@ -8,13 +8,13 @@ YELLOW="\e[33m"
 BLUE="\e[34m"
 ENDCOLOR="\e[0m"
 
-INFO="["$BLUE"i"$ENDCOLOR"]"
-WARN="["$YELLOW"w"$ENDCOLOR"]"
-ERR="["$RED"e"$ENDCOLOR"]"
+INFO="[${BLUE}i${ENDCOLOR}]"
+WARN="[${YELLOW}w${ENDCOLOR}]"
+ERR="[${RED}e${ENDCOLOR}]"
 
 # =GLOBAL VARIABLES================ #
 
-HTTPD_ROOT_ABSOLUTE_PATH="/var/www/html/"
+HTTPD_ROOT_ABSOLUTE_PATH="/var/www/html/_site/"
 ADVGUILD_ABSOLUTE_PATH="${HTTPD_ROOT_ABSOLUTE_PATH}advguildRoot/"
 
 ADVGUILD_HTTP_PATH="/advguildRoot"
@@ -168,15 +168,12 @@ main() {
 
 	printf "$INFO Starting to generate HTML code...\n"
 	echo "<!--Beginning of generated HTML code-->" >> "${TEMP_GEN_FILENAME}"
-	exitcode=$?; checkerr;
 
 	generate
 
 	echo "<br>Last synced on $(cat "./lastsync"). This page was generated on $(date) by $(hostname).<br>" >> "${TEMP_GEN_FILENAME}"
-	exitcode=$?; checkerr;
 
 	echo "<!--End of generated HTML code-->" >> "${TEMP_GEN_FILENAME}"
-	exitcode=$?; checkerr;
 	printf "$INFO Done generating HTML code.\n"
 
 	printf "$INFO Reading \`${FOOTER_TEMPLATE_PATH}'...\n"
