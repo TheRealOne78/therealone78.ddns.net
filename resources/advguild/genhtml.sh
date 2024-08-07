@@ -39,67 +39,67 @@ PERMISSIONS="755"
 # =FUNCTIONS======================= #
 
 checkerr() {
-  if [ "${exitcode}" -ne "0" ]; then
+	if [ "${exitcode}" -ne "0" ]; then
 		printf "$ERR Error: Non-zero exit code \`${exitcode}'. Exiting...\n";
 		exit ${exitcode}
 	else
-		return 0;
+	    return 0;
 	fi
 }
 
 genparse() {
-  find . -mindepth 1 -maxdepth 1 -print0 | sort -z | while IFS= read -r -d '' file; do
-	  exitcode=$?; checkerr;
+	find . -mindepth 1 -maxdepth 1 -print0 | sort -z | while IFS= read -r -d '' file; do
+		exitcode=$?; checkerr;
 
 		# Print container opener
 
 		## Directory
 		if [ -d "${file}" ]; then
-		  echo "<div class=\"dir file-shower\">" >> "${TEMP_GEN_FILENAME}"
+			echo "<div class=\"dir file-shower\">" >> "${TEMP_GEN_FILENAME}"
 		else
-		  # Check by extention
-		  extension=${file##*.}
-			extension=$(echo ${extension} | tr '[:upper:]' '[:lower:]')
-      case "${extension}" in
+		    # Check by extention
+		    extension=${file##*.}
+		    extension=$(echo ${extension} | tr '[:upper:]' '[:lower:]')
+		    case "${extension}" in
 
-				## Archives
-				"tar" | "gz" | "xz" | "bz" | "bz2" | "lz" | "lz4" | "lzma" | "lzo" | "zip" | "7z" | "rar" | "iso" | "br" | "sz" | "zst")
-				echo "<div class=\"archive file-shower\">" >> "${TEMP_GEN_FILENAME}"
-				filetype="Archive"
-				;;
+		    			## Archives
+		    			"tar" | "gz" | "xz" | "bz" | "bz2" | "lz" | "lz4" | "lzma" | "lzo" | "zip" | "7z" | "rar" | "iso" | "br" | "sz" | "zst")
+		    			echo "<div class=\"archive file-shower\">" >> "${TEMP_GEN_FILENAME}"
+		    			filetype="Archive"
+		    			;;
 
-        ## Executables (except Java JAR)
-				"appimage" | "run" | "sh" | "py" | "exe" | "dmg" | "apk" | "out" | "app" | "cmd" | "bat" | "command" | "vbs" | "ps1")
-				echo "<div class=\"exe file-shower\">" >> "${TEMP_GEN_FILENAME}"
-				filetype="Executable" ;;
+		    			## Executables (except Java JAR)
+		    			"appimage" | "run" | "sh" | "py" | "exe" | "dmg" | "apk" | "out" | "app" | "cmd" | "bat" | "command" | "vbs" | "ps1")
+		    			echo "<div class=\"exe file-shower\">" >> "${TEMP_GEN_FILENAME}"
+		    			filetype="Executable" ;;
 
-				## Audio
-				"pcm" | "wav" | "aiff" | "mp3" | "aac" | "ogg" | "wma" | "flac" | "alac" | "opus")
-				echo "<div class=\"audio file-shower\">" >> "${TEMP_GEN_FILENAME}"
-				filetype="Audio media"
-				;;
+		    			## Audio
+		    			"pcm" | "wav" | "aiff" | "mp3" | "aac" | "ogg" | "wma" | "flac" | "alac" | "opus")
+		    			echo "<div class=\"audio file-shower\">" >> "${TEMP_GEN_FILENAME}"
+		    			filetype="Audio media"
+		    			;;
 
-				## Video
-				"mp4" | "mov" | "avi" | "flv" | "mkv" | "wmv" | "avchd" | "webm" | "mpeg" | "m4a")
-				echo "<div class=\"video file-shower\">" >> "${TEMP_GEN_FILENAME}"
-				filetype="Video media"
-				;;
+		    			## Video
+		    			"mp4" | "mov" | "avi" | "flv" | "mkv" | "wmv" | "avchd" | "webm" | "mpeg" | "m4a")
+		    			echo "<div class=\"video file-shower\">" >> "${TEMP_GEN_FILENAME}"
+		    			filetype="Video media"
+		    			;;
 
-				## Java JAR
-				"jar")
-				echo "<div class=\"jar file-shower\">" >> "${TEMP_GEN_FILENAME}"
-				filetype="Java executable"
-				;;
+		    			## Java JAR
+		    			"jar")
+		    			echo "<div class=\"jar file-shower\">" >> "${TEMP_GEN_FILENAME}"
+		    			filetype="Java executable"
+		    			;;
 
-				## Default
-				*)
-				echo "<div class=\"file file-shower\">" >> "${TEMP_GEN_FILENAME}"
-				filetype="File"
-				;;
-		  esac
-			unset extension
+		    			## Default
+		    			*)
+		    			echo "<div class=\"file file-shower\">" >> "${TEMP_GEN_FILENAME}"
+		    			filetype="File"
+		    			;;
+		    esac
+		    unset extension
 		fi
-	  EXITCODE=$?; checkerr;
+		EXITCODE=$?; checkerr;
 
 		# Print title
 		printf "<a href=\"${ADVGUILD_URL_BASE}/${file}\"><b>$(basename "${file}")</b></a><br>\n" >> "${TEMP_GEN_FILENAME}"
@@ -107,12 +107,12 @@ genparse() {
 		# Print description
 		toprint="$(jq -r "${FILE_NAME_JSON}.\"$(basename "${file}")\".Description" ${ADVGUILD_JSON})"
 		if [ "${toprint}" != "null" ]; then
-		  printf "<br>\n${toprint}\n<br>\n" >> ${TEMP_GEN_FILENAME}
+			printf "<br>\n${toprint}\n<br>\n" >> ${TEMP_GEN_FILENAME}
 		fi
 
 		# Print archive message if archive.
 		if [ -f "${file}" ] && [ "${filetype}" = "Archive" ]; then
-      printf "<br>\nTo access the contents of this archive file, decompress it with a tool like <a href=\"https://www.7-zip.org/\"><b>7-zip</b></a>.<br>" >> "${TEMP_GEN_FILENAME}"
+			printf "<br>\nTo access the contents of this archive file, decompress it with a tool like <a href=\"https://www.7-zip.org/\"><b>7-zip</b></a>.<br>" >> "${TEMP_GEN_FILENAME}"
 		fi
 
 		# Misc breaks for files
@@ -135,26 +135,26 @@ genparse() {
 		if [ -f "${file}" ]; then
 			printf "<a href=\"${ADVGUILD_URL_BASE}/${file}\" download>Download</a> | " >> "${TEMP_GEN_FILENAME}"
 			printf "Type: ${filetype} | " >> "${TEMP_GEN_FILENAME}"
-		  printf "Date and time: $(stat -c "%y" "${file}" | awk '{split($2,a,"."); print $1, a[1]}')" >> "${TEMP_GEN_FILENAME}"
+			printf "Date and time: $(stat -c "%y" "${file}" | awk '{split($2,a,"."); print $1, a[1]}')" >> "${TEMP_GEN_FILENAME}"
 		fi
 
 		# Close container tag
 		printf "</div>\n<br>\n\n" >> "${TEMP_GEN_FILENAME}"
-	done
+	  done
 }
 
 generate() {
 	curdir="$(pwd)"
 
 	# CHDIR into advguild root directory
-  cd "${ADVGUILD_ABSOLUTE_PATH}"
+	cd "${ADVGUILD_ABSOLUTE_PATH}"
 	exitcode=$?; checkerr;
 
 	# Now generate stuff
 	genparse
 
 	cd "${curdir}"
-  unset curdir
+	unset curdir
 }
 
 main() {
@@ -190,10 +190,6 @@ main() {
 
 	printf "$INFO Changing file group and owner as ${OWNER}...\n"
 	chown "${OWNER}" "${HTTPD_ROOT_ABSOLUTE_PATH}${FINAL_GEN_FILENAME}"
-	exitcode=$?; checkerr;
-
-	printf "$INFO Copying file to _site...\n"
-	cp "${HTTPD_ROOT_ABSOLUTE_PATH}${FINAL_GEN_FILENAME}" "${HTTPD_ROOT_ABSOLUTE_PATH}/_site/"
 	exitcode=$?; checkerr;
 
 	printf "$INFO Done.\n";
