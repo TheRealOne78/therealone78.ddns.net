@@ -9,12 +9,15 @@ This page lists my public contact methods.
 
 Please do not abuse (spam, pranks and things like that). Thank you.
 
-### E-Mail
-- Primary: [bajcsielias78@gmail.com](mailto:bajcsielias78@gmail.com){:class="thirdParty"}
-- Secondary: [bajcsielias79@gmail.com](mailto:bajcsielias79@gmail.com){:class="thirdParty"}
+## Direct contact info
+- E-Mail
+  - Primary: [bajcsielias78@gmail.com](mailto:bajcsielias78@gmail.com){:target="_blank" class="thirdParty"}
+  - Secondary: [bajcsielias79@gmail.com](mailto:bajcsielias79@gmail.com){:target="_blank" class="thirdParty"}
+- Matrix [@therealone78:matrix.org](https://matrix.to/#/@therealone78:matrix.org){:target="_blank" class="thirdParty"}
 
-### Matrix
-- [@therealone78:matrix.org](https://matrix.to/#/@therealone78:matrix.org){:class="thirdParty"}
+## Other unrealiable ways to contact me
+- GitHub: [TheRealOne78](https://github.com/TheRealOne78){:target="_blank" class="github"}
+- YouTube: [@therealone78](http://www.youtube.com/@therealone78)
 
 # Disclaimer
 Page under construction. Don't expect any deadline...
