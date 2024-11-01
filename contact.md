@@ -17,7 +17,7 @@ Please do not abuse (spam, pranks and things like that). Thank you.
 
 ## Other unrealiable ways to contact me
 - GitHub: [TheRealOne78](https://github.com/TheRealOne78){:target="_blank" class="github"}
-- YouTube: [@therealone78](http://www.youtube.com/@therealone78)
+- YouTube: [@therealone78](http://www.youtube.com/@therealone78){:target="_blank" class="youtube"}
 
 # Disclaimer
 Page under construction. Don't expect any deadline...
