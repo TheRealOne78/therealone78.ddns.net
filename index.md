@@ -28,7 +28,7 @@ Because it is:
 - My domain
 - My IP address
 - My MD/HTML/CSS/JS Jekyll code
-- My server (I mean... it's just an old 2-core laptop)
+- My server (I mean... it's just an old 4-core laptop)
 - My money
 - My everything!
 
