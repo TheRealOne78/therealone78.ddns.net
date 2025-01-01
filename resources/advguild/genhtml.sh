@@ -171,7 +171,7 @@ main() {
 
 	generate
 
-	echo "<br>Last synced on $(cat "./lastsync"). This page was generated on $(date) by $(hostname).<br>" >> "${TEMP_GEN_FILENAME}"
+	echo "<br>Last synced on <code>$(cat "./lastsync")</code>. This page was generated on <code>$(date)</code> by <code>$(hostname)</code>.<br>" >> "${TEMP_GEN_FILENAME}"
 
 	echo "<!--End of generated HTML code-->" >> "${TEMP_GEN_FILENAME}"
 	printf "$INFO Done generating HTML code.\n"
