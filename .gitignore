@@ -14,6 +14,7 @@ resources/img/distinctions/
 resources/errors/
 resources/advguild/lastsync
 advguild.html
+resources/npm/node_modules/
 
 # -- Ignore Images ----------------
 #*.bmp
