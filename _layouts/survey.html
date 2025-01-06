@@ -16,7 +16,17 @@
         <div style="display: flex; justify-content: center;">
             <div id="qrcode" style="margin: 10px 0 0 0; padding:25px; border-radius:20px; background-color:#ffffff" ></div>
         </div><br>
+
+        <style>
+         @media screen and (max-width: 1125px) {
+             #qrcode {
+                 display: none;
+             }
+         }
+        </style>
+
         <div id="surveyContainer"></div>
+
 
         <script>
         // Fetch the current URL dynamically
