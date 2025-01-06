@@ -144,7 +144,7 @@
                 }
             }
 
-            //// Optional local download for testing
+            // Optional local download for testing
             //const link = document.createElement("a");
             //link.href = URL.createObjectURL(pdfBlob);
             //link.download = `${uniqueID}.pdf`;
@@ -198,6 +198,14 @@
                     };
 
                     const surveyPdf = new SurveyPDF.SurveyPDF(surveyData, pdfOptions);
+                    surveyPdf.onRenderHeader.add((_, canvas) => {
+                        canvas.drawText({
+                            text: "\nPunctaj ____________________(________________)",
+                            fontSize: 14,
+                            horizontalAlign: "right",
+                            isBold: true
+                        });
+                    });
                     surveyPdf.data = surveyResults;
                     surveyPdf.locale = "ro";
 
