@@ -118,6 +118,7 @@
                 const response = await fetch("uploads", {
                     method: "POST",
                     headers: {
+                        "Content-Type": "application/pdf",
                         "Directory": "uploads/{{ page.json_survey }}",
                         "File-Name": `${uploadID}.pdf`
                     },
