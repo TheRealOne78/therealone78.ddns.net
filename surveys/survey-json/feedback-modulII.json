@@ -1,7 +1,7 @@
 {
   "locale": "ro",
   "title": "Feedback modulul II",
-  "description": "Feedback pentru modulul II al anului școlar 2024-2025",
+  "description": "Feedback pentru modulul II al anului scolar 2024-2025",
   "completedHtml": "<h3>Thank you for your feedback</h3>",
   "completedHtmlOnCondition": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "expression": "{question1} notempty",
-      "html": "Arată cod-ul de identificare profesorului"
+      "html": "Arata cod-ul de identificare profesorului"
     }
   ],
   "pages": [
@@ -31,7 +31,7 @@
           "type": "text",
           "name": "question5",
           "title": {
-            "ro": "Data și ora"
+            "ro": "Data si ora"
           },
           "isRequired": true,
           "inputType": "datetime-local"
@@ -41,7 +41,7 @@
           "name": "nps_score",
           "title": {
             "default": "Cum apreciezi structura cursului?",
-            "ro": "Cum apreciezi structura lecțiilor?"
+            "ro": "Cum apreciezi structura lectiilor?"
           },
           "rateType": "smileys",
           "rateCount": 7,
@@ -55,7 +55,7 @@
           "name": "question1",
           "title": {
             "default": "Cum apreciezi structura cursului?",
-            "ro": "Cum apreciezi claritatea și înțelegerea lecțiilor?"
+            "ro": "Cum apreciezi claritatea si întelegerea lectiilor?"
           },
           "rateType": "smileys",
           "rateCount": 7,
@@ -68,14 +68,14 @@
           "type": "comment",
           "name": "question3",
           "title": {
-            "ro": "Care lecții ți s-au părut cele mai utile? Argumentează"
+            "ro": "Care lectii ti s-au parut cele mai utile? Argumenteaza"
           }
         },
         {
           "type": "comment",
           "name": "question13",
           "title": {
-            "ro": "Care lecții ți s-au părut dificile ori puțin relevante? Argumentează"
+            "ro": "Care lectii ti s-au parut dificile ori putin relevante? Argumenteaza"
           }
         },
         {
@@ -83,7 +83,7 @@
           "name": "question6",
           "title": {
             "default": "Cum apreciezi structura cursului?",
-            "ro": "Cum ți se pare modul de predare?"
+            "ro": "Cum ti se pare modul de predare?"
           },
           "rateType": "smileys",
           "rateCount": 7,
@@ -96,7 +96,7 @@
           "type": "radiogroup",
           "name": "question2",
           "title": {
-            "ro": "Ai simțit că ai fost implicat activ în timpul orelor?"
+            "ro": "Ai simtit ca ai fost implicat activ în timpul orelor?"
           },
           "choices": [
             {
@@ -124,13 +124,13 @@
           "type": "ranking",
           "name": "question7",
           "title": {
-            "ro": "Aranjează în ordine metodele de învățare care ți-au plăcut cel mai mult "
+            "ro": "Aranjeaza în ordine metodele de învatare care ti-au placut cel mai mult "
           },
           "choices": [
             {
               "value": "Item 2",
               "text": {
-                "ro": "Fișe de lucru"
+                "ro": "Fise de lucru"
               }
             },
             {
@@ -142,13 +142,13 @@
             {
               "value": "Item 4",
               "text": {
-                "ro": "Copiere de pe tablă în caiet"
+                "ro": "Copiere de pe tabla în caiet"
               }
             },
             {
               "value": "Item 5",
               "text": {
-                "ro": "Ore suplimentare opționale înainte de teste"
+                "ro": "Ore suplimentare optionale înainte de teste"
               }
             },
             {
@@ -163,13 +163,13 @@
           "type": "ranking",
           "name": "question8",
           "title": {
-            "ro": "Aranjează în ordine metodele de evaluare care ți-au plăcut cel mai mult "
+            "ro": "Aranjeaza în ordine metodele de evaluare care ti-au placut cel mai mult "
           },
           "choices": [
             {
               "value": "Item 2",
               "text": {
-                "ro": "Ascultare orală"
+                "ro": "Ascultare orala"
               }
             },
             {
@@ -196,13 +196,13 @@
           "type": "radiogroup",
           "name": "question9",
           "title": {
-            "ro": "Cum ai perceput nivelul de dificultate al evaluărilor?"
+            "ro": "Cum ai perceput nivelul de dificultate al evaluarilor?"
           },
           "choices": [
             {
               "value": "Item 1",
               "text": {
-                "ro": "Prea ușor"
+                "ro": "Prea usor"
               }
             },
             {
@@ -224,21 +224,21 @@
           "type": "comment",
           "name": "question10",
           "title": {
-            "ro": "Ce îți dorești să se îmbunătățească în acest modul?"
+            "ro": "Ce îti doresti sa se îmbunatateasca în acest modul?"
           }
         },
         {
           "type": "comment",
           "name": "question11",
           "title": {
-            "ro": "Ce aspecte ai vrea să rămână neschimbate?"
+            "ro": "Ce aspecte ai vrea sa ramâna neschimbate?"
           }
         },
         {
           "type": "comment",
           "name": "question12",
           "title": {
-            "ro": "Alte sugestii și observații"
+            "ro": "Alte sugestii si observatii"
           }
         }
       ]
