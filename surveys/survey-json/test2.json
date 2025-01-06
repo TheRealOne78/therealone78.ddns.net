@@ -1,0 +1,96 @@
+{
+  "title": "Test #2",
+  "description": "Test #2 description",
+  "logoPosition": "right",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "comment",
+          "name": "question1",
+          "title": "What's the first program you've made"
+        },
+        {
+          "type": "boolean",
+          "name": "question2",
+          "title": "Are you a human?\n",
+          "description": "Perhaps you are a robot...",
+          "isRequired": true
+        },
+        {
+          "type": "ranking",
+          "name": "question3",
+          "title": "Please put in order your language prefferences\n",
+          "description": "No java? Good.",
+          "choices": [
+            {
+              "value": "Item 3",
+              "text": "C#"
+            },
+            {
+              "value": "Item 8",
+              "text": "JavaScript"
+            },
+            {
+              "value": "Item 5",
+              "text": "C++"
+            },
+            {
+              "value": "Item 6",
+              "text": "Posix shell script"
+            },
+            {
+              "value": "Item 4",
+              "text": "Rust"
+            },
+            {
+              "value": "Item 1",
+              "text": "C"
+            },
+            {
+              "value": "Item 7",
+              "text": "TypeScript"
+            }
+          ]
+        },
+        {
+          "type": "tagbox",
+          "name": "question5",
+          "title": "You are ...",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "He/Him"
+            },
+            {
+              "value": "Item 2",
+              "text": "She/Her"
+            },
+            {
+              "value": "Item 3",
+              "text": "They/Them"
+            },
+            {
+              "value": "Item 6",
+              "text": "It/Its"
+            },
+            {
+              "value": "Item 5",
+              "text": "Xe/Xer"
+            },
+            {
+              "value": "Item 7",
+              "text": "d̢̪͈̻̬͇̣͉̮̳͚̬̼̺̖ͫ̌͊͂̈́̀̄̌̿̅̓̑͋̈̇̈̂̈́͢͠͞ͅͅȩ̧̖̖̦̼͚̖̤͈ͨ̓̾̈̔ͪ͐̆̈ͥ̈̑ͯ͗ͧ̃͡͝͡͞_͍͐͌͋̽m̴̖̺̟̗̣̩̃̓ͮ̊͛ͭ͠ͅọ̷̸͖͕̺͚̗̳̙̃́̎͗̍͂̃̇̈́ͬ̈́̉̈́ͮ̕͠ņ̠̦̭͖̟͊̂́ͦ̌̀/̻̞̭̝̺̄ͭ͑͘͠s̴̡̩̺̟̗̗̘̫͓̦̯̦̙͇̹ͤͯͦͨ̀̔̋͑̔̕̕̕͢͡͡a̢̜ͦͣͮͬ̀̋̕̚͢͝͠_̸͖̹̻͉̘̦̳̏͛̐̎̉ͬ̍̅̍̒̔͠ͅt̛̳͔̖͔̑̏̐̂ͥ̎͆͗͡ạ̵̵̧̣͔̬̮̘̙͙͚̣͉̦̺̭̝̘͚̼̫̽͛̾͛͂ͬ̑ͯ̀̂ͥ̄͒ͨ̌̎̈́̒ͮ̌͊̕̕͟͠n͍̓ͬ̎ͤ̓̚͡"
+            },
+            {
+              "value": "Item 4",
+              "text": "sane enough to fuck the pronouns!"
+            }
+          ],
+          "showOtherItem": true
+        }
+      ]
+    }
+  ]
+}
