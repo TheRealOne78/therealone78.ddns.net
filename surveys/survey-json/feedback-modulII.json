@@ -1,0 +1,248 @@
+{
+  "locale": "ro",
+  "title": "Feedback modulul II",
+  "description": "Feedback pentru modulul II al anului școlar 2024-2025",
+  "completedHtml": "<h3>Thank you for your feedback</h3>",
+  "completedHtmlOnCondition": [
+    {
+      "html": "<h3>Thank you for your feedback</h3> <h4>We are glad that you love our product. Your ideas and suggestions will help us make it even better.</h4>"
+    },
+    {
+      "html": "<h3>Thank you for your feedback</h3> <h4>We are glad that you shared your ideas with us. They will help us make our product better.</h4>"
+    },
+    {
+      "expression": "{question1} notempty",
+      "html": "Arată cod-ul de identificare profesorului"
+    }
+  ],
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "question4",
+          "title": {
+            "ro": "Clasa"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "question5",
+          "title": {
+            "ro": "Data și ora"
+          },
+          "isRequired": true,
+          "inputType": "datetime-local"
+        },
+        {
+          "type": "rating",
+          "name": "nps_score",
+          "title": {
+            "default": "Cum apreciezi structura cursului?",
+            "ro": "Cum apreciezi structura lecțiilor?"
+          },
+          "rateType": "smileys",
+          "rateCount": 7,
+          "rateMin": 0,
+          "rateMax": 6,
+          "minRateDescription": "Foarte slab",
+          "maxRateDescription": "Excelent"
+        },
+        {
+          "type": "rating",
+          "name": "question1",
+          "title": {
+            "default": "Cum apreciezi structura cursului?",
+            "ro": "Cum apreciezi claritatea și înțelegerea lecțiilor?"
+          },
+          "rateType": "smileys",
+          "rateCount": 7,
+          "rateMin": 0,
+          "rateMax": 6,
+          "minRateDescription": "Foarte slab",
+          "maxRateDescription": "Excelent"
+        },
+        {
+          "type": "comment",
+          "name": "question3",
+          "title": {
+            "ro": "Care lecții ți s-au părut cele mai utile? Argumentează"
+          }
+        },
+        {
+          "type": "comment",
+          "name": "question13",
+          "title": {
+            "ro": "Care lecții ți s-au părut dificile ori puțin relevante? Argumentează"
+          }
+        },
+        {
+          "type": "rating",
+          "name": "question6",
+          "title": {
+            "default": "Cum apreciezi structura cursului?",
+            "ro": "Cum ți se pare modul de predare?"
+          },
+          "rateType": "smileys",
+          "rateCount": 7,
+          "rateMin": 0,
+          "rateMax": 6,
+          "minRateDescription": "Foarte slab",
+          "maxRateDescription": "Excelent"
+        },
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": {
+            "ro": "Ai simțit că ai fost implicat activ în timpul orelor?"
+          },
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": {
+                "ro": "Da"
+              }
+            },
+            {
+              "value": "Item 2",
+              "text": {
+                "ro": "Nu"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "ro": "Uneori"
+              }
+            }
+          ],
+          "showOtherItem": true
+        },
+        {
+          "type": "ranking",
+          "name": "question7",
+          "title": {
+            "ro": "Aranjează în ordine metodele de învățare care ți-au plăcut cel mai mult "
+          },
+          "choices": [
+            {
+              "value": "Item 2",
+              "text": {
+                "ro": "Fișe de lucru"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "ro": "Dictare"
+              }
+            },
+            {
+              "value": "Item 4",
+              "text": {
+                "ro": "Copiere de pe tablă în caiet"
+              }
+            },
+            {
+              "value": "Item 5",
+              "text": {
+                "ro": "Ore suplimentare opționale înainte de teste"
+              }
+            },
+            {
+              "value": "Item 6",
+              "text": {
+                "ro": "Proiecte/Lucru în echipe"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "question8",
+          "title": {
+            "ro": "Aranjează în ordine metodele de evaluare care ți-au plăcut cel mai mult "
+          },
+          "choices": [
+            {
+              "value": "Item 2",
+              "text": {
+                "ro": "Ascultare orală"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "ro": "Teme"
+              }
+            },
+            {
+              "value": "Item 6",
+              "text": {
+                "ro": "Proiecte"
+              }
+            },
+            {
+              "value": "Item 7",
+              "text": {
+                "ro": "Teste scrise"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": {
+            "ro": "Cum ai perceput nivelul de dificultate al evaluărilor?"
+          },
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": {
+                "ro": "Prea ușor"
+              }
+            },
+            {
+              "value": "Item 2",
+              "text": {
+                "ro": "Echilibrat"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "ro": "Prea greu"
+              }
+            }
+          ],
+          "showOtherItem": true
+        },
+        {
+          "type": "comment",
+          "name": "question10",
+          "title": {
+            "ro": "Ce îți dorești să se îmbunătățească în acest modul?"
+          }
+        },
+        {
+          "type": "comment",
+          "name": "question11",
+          "title": {
+            "ro": "Ce aspecte ai vrea să rămână neschimbate?"
+          }
+        },
+        {
+          "type": "comment",
+          "name": "question12",
+          "title": {
+            "ro": "Alte sugestii și observații"
+          }
+        }
+      ]
+    }
+  ],
+  "showQuestionNumbers": "off"
+}
