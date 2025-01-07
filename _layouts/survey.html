@@ -25,15 +25,25 @@
             background-color: #ffffff;
         }
 
-        #testID, #nameForm, #success-upload, #fail-upload {
+        #testID, #success-upload, #fail-upload {
             padding: 25px;
             color: #ffcadc;
             text-align: center;
             font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 
-        #nameForm {
+        #nameFormContainer {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
 
+        #nameForm {
+            padding: 24px;
+            max-width: 700px;
+            border-radius: 5px;
+            background-color: #242424;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
             display: none;
         }
 
@@ -65,10 +75,12 @@
         <h1 id="success-upload" style="color:gray">Fișier trimis. Aștept validare test...</h1>
     </div>
 
-    <div id="nameForm">
-        <h4 for="nameInput" style="color: #ffffff; align:left">Introduceți numele:</h4>
-        <input style="background-color:#2b2b2b; color:#d0d0d0; height:48px; width: 560px; border-radius:10px" type="text" id="nameInput" placeholder="Numele dumneavoastră">
-        <button style="background-color:#ff9814; color:#202020; height:48px; border-radius:5px" id="submitNameButton">Trimite</button>
+    <div id="nameFormContainer">
+        <div id="nameForm">
+            <h4 for="nameInput" style="color: #ffffff; text-align:left; padding:0; margin: 0 0 15px">Introduceți numele:</h4>
+            <input style="background-color:#2b2b2b; color:#d0d0d0; height:48px; width: 52vw; max-width: 560px; border-radius:5px; border-style:none" type="text" id="nameInput" placeholder="Numele dumneavoastră">
+            <button style="background-color:#ff9814; color:#202020; height:48px; width: 12wv; border-radius:5px; border-style:none" id="submitNameButton">Trimite</button>
+        </div>
     </div>
     <div id="surveyContainer"></div>
 
