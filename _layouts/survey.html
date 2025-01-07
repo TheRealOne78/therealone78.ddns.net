@@ -25,14 +25,28 @@
             background-color: #ffffff;
         }
 
-        #testID, #success-upload, #fail-upload {
+        #success-upload, #fail-upload {
+            display: none;
             padding: 25px;
             color: #ffcadc;
             text-align: center;
             font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 
+        #testID {
+            color: #ffcadc;
+            text-align: center;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        #testIDWarn {
+            color: #FF1020;
+            text-align: center;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
         #nameFormContainer {
+            margin: 25px 0;
             display: flex;
             text-align: center;
             justify-content: center;
@@ -63,17 +77,14 @@
         <div id="qrcode-id" class="qr"></div>
     </div>
 
-    <div>
+    <h1 id="fail-upload" style="color:red; margin:0; padding:0">TRIMITERE FIȘIER EȘUATĂ, se încearcă din nou! <b><u>NU ÎNCHIDE!</u></b></h1>
+
+    <div style="display:none">
         <h5 id="testID"></h5>
+        <h3 id="testIDWarn">Arată acest cod profesorului pentru a valida testul!</h3>
     </div>
 
-    <div style="display: none; justify-content: center;">
-        <h1 id="fail-upload" style="color:red">TRIMITERE FIȘIER EȘUATĂ, se încearcă din nou! <b><u>NU ÎNCHIDE!</u></b></h1>
-    </div>
-
-    <div style="display: none; justify-content: center;">
-        <h1 id="success-upload" style="color:gray">Fișier trimis. Aștept validare test...</h1>
-    </div>
+    <h3 id="success-upload" style="color:gray">Fișier trimis. Aștept validare test...</h2>
 
     <div id="nameFormContainer">
         <div id="nameForm">
@@ -138,18 +149,18 @@
                 });
 
                 if (response.ok) {
-                    document.getElementById("fail-upload").parentElement.style.display = "none";
-                    document.getElementById("success-upload").parentElement.style.display = "block";
+                    document.getElementById("fail-upload").style.display = "none";
+                    document.getElementById("success-upload").style.display = "block";
                     console.log("PDF uploaded successfully!");
                     break;
                 } else if (response.status === 409) {
-                    document.getElementById("fail-upload").parentElement.style.display = "block";
-                    document.getElementById("success-upload").parentElement.style.display = "none";
+                    document.getElementById("fail-upload").style.display = "block";
+                    document.getElementById("success-upload").style.display = "none";
                     console.warn(`File '${uploadID}.pdf' already exists. Generating new ID.`);
                     uploadID = generateUniqueID();
                 } else {
-                    document.getElementById("fail-upload").parentElement.style.display = "block";
-                    document.getElementById("success-upload").parentElement.style.display = "none";
+                    document.getElementById("fail-upload").style.display = "block";
+                    document.getElementById("success-upload").style.display = "none";
                     console.error("Error uploading PDF:", response.statusText);
                     console.log("Retrying again in 2 seconds");
                     await sleep(2000);
@@ -192,7 +203,8 @@
 
                     // Display the unique ID
                     const testIDDiv = document.getElementById("testID");
-                    testIDDiv.innerHTML = `ID: ${uniqueID}<br><span style="color:#FF1020">Arată acest cod profesorului pentru a valida testul!</span>`;
+                    testIDDiv.parentElement.style.display = "block";
+                    testIDDiv.innerHTML = `ID: ${uniqueID}`;
 
                     // Generate the second QR Code for name and unique ID
                     generateQRCode("qrcode-id", `${name},${uniqueID}`, 256);
