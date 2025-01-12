@@ -193,7 +193,7 @@
             // Render survey
             survey.render(document.getElementById("surveyContainer"));
 
-            survey.onComplete.add(function (sender) {
+            survey.onComplete.add(async function (sender) {
                 const surveyResults = sender.data;
 
                 // Show name input form
