@@ -185,7 +185,7 @@
         }
 
         // Initialize Survey
-        async function initializeSurvey(surveyData) {
+        function initializeSurvey(surveyData) {
             const survey = new Survey.Model(surveyData);
             survey.applyTheme(SurveyTheme.DefaultDark);
             survey.locale = "ro";
@@ -193,13 +193,13 @@
             // Render survey
             survey.render(document.getElementById("surveyContainer"));
 
-            survey.onComplete.add(async function (sender) {
+            survey.onComplete.add(function (sender) {
                 const surveyResults = sender.data;
 
                 // Show name input form
                 document.getElementById("surveyContainer").style.display = "none"; // Hide the survey
                 document.getElementById("nameForm").style.display = "block";
-                document.getElementById("submitNameButton").onclick = function () {
+                document.getElementById("submitNameButton").onclick = async function () {
                     const name = document.getElementById("nameInput").value.trim();
                     if (!name) {
                         alert("Vă rugăm să introduceți un nume.");
