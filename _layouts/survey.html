@@ -185,7 +185,7 @@
         }
 
         // Initialize Survey
-        function initializeSurvey(surveyData) {
+        async function initializeSurvey(surveyData) {
             const survey = new Survey.Model(surveyData);
             survey.applyTheme(SurveyTheme.DefaultDark);
             survey.locale = "ro";
