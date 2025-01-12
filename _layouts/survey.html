@@ -234,7 +234,7 @@
                         downloadPDF("tmp", surveyPdf);
                     })
 
-                    let uniqueID = saveAndUploadPDF(surveyPdf);
+                    let uniqueID = await saveAndUploadPDF(surveyPdf);
 
                     // Display the unique ID
                     const testIDDiv = document.getElementById("testID");
