@@ -37,7 +37,7 @@
         {
           "type": "multipletext",
           "name": "question4",
-          "title": "Listati cinci aplicații ale zincului, staniului sau plumbului si materialele utilizate:",
+          "title": "Listati cinci aplicatii ale zincului, staniului sau plumbului si materialele utilizate:",
           "items": [
             {
               "name": "text1",
@@ -64,7 +64,7 @@
         {
           "type": "comment",
           "name": "question7",
-          "title": "Explicati rolul plumbului in protectia impotriva radiațiilor:"
+          "title": "Explicati rolul plumbului in protectia impotriva radiatiilor:"
         },
         {
           "type": "comment",
@@ -74,7 +74,7 @@
         {
           "type": "text",
           "name": "question17",
-          "title": "Explicați cum protejeaza stratul de zinc structurile metalice impotriva coroziunii."
+          "title": "Explicati cum protejeaza stratul de zinc structurile metalice impotriva coroziunii."
         },
         {
           "type": "text",
@@ -106,7 +106,7 @@
         {
           "type": "multipletext",
           "name": "question11",
-          "title": "Listati cinci aplicații pentru aliaje utilizate in rezistoare sau elemente de incalzire:",
+          "title": "Listati cinci aplicatii pentru aliaje utilizate in rezistoare sau elemente de incalzire:",
           "items": [
             {
               "name": "text1",
