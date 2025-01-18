@@ -4,7 +4,7 @@ import os
 import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-BASE_PATH="/var/www/html/surveys/"
+BASE_PATH="/home/therealone/surveys/"
 
 class RequestHandler(BaseHTTPRequestHandler):
     def do_POST(self):
