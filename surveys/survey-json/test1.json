@@ -1,0 +1,156 @@
+{
+  "title": "Fisa de lucru metale cu temperatura mica de topire + metale cu rezistenta electrica mare",
+  "pages": [
+    {
+      "name": "page1",
+      "title": "Metale cu temperatura scazuta de topire",
+      "description": "Aceasta fisa de lucru are ca scop explorarea metalelor cu temperatura scazute de topire. Veti lucra in echipe pentru a raspunde la intrebari si pentru a cauta informatii relevante.\n\nResurse utile manualul de specialitate, internetul (ex: Wikipedia, site-uri de fizica), enciclopedii tehnice\n\nNota: Completati raspunsurile in locurile marcate si folositi informatii corecte si complete\n",
+      "elements": [
+        {
+          "type": "text",
+          "name": "question5",
+          "title": "NUME Prenume",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "question6",
+          "title": "Data si ora",
+          "isRequired": true,
+          "inputType": "datetime-local"
+        },
+        {
+          "type": "text",
+          "name": "question1",
+          "title": "Punctul de topire al zincului este ..."
+        },
+        {
+          "type": "text",
+          "name": "question2",
+          "title": "Conductivitatea electrica a staniului este de ..."
+        },
+        {
+          "type": "text",
+          "name": "question3",
+          "title": "Un exemplu de aplicatie a plumbului este ..."
+        },
+        {
+          "type": "multipletext",
+          "name": "question4",
+          "title": "Listati cinci aplicații ale zincului, staniului sau plumbului si materialele utilizate:",
+          "items": [
+            {
+              "name": "text1",
+              "title": "1"
+            },
+            {
+              "name": "text2",
+              "title": "2"
+            },
+            {
+              "name": "text3",
+              "title": "3"
+            },
+            {
+              "name": "text4",
+              "title": "4"
+            },
+            {
+              "name": "text5",
+              "title": "5"
+            }
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "question7",
+          "title": "Explicati rolul plumbului in protectia impotriva radiațiilor:"
+        },
+        {
+          "type": "comment",
+          "name": "question16",
+          "title": "De ce staniul este utilizat frecvent in lipituri pentru circuite electronice?"
+        },
+        {
+          "type": "text",
+          "name": "question17",
+          "title": "Explicați cum protejeaza stratul de zinc structurile metalice impotriva coroziunii."
+        },
+        {
+          "type": "text",
+          "name": "question18",
+          "title": "In echipe, analizati:\n\n   - Avantajele si dezavantajele utilizarii staniului si zincului in circuite electrice.\n   - Doua aplicatii concrete in care plumbul este indispensabil.\n\nPrezentati concluziile echipei intr-un paragraf:"
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "title": "Metale cu rezistenta electrica inalta",
+      "description": "Aceasta fisa de lucru are ca scop explorarea metalelor cu rezistenta electrica mare. Veti lucra in echipe pentru a raspunde la intrebari si pentru a cauta informatii relevante.\n\nResurse utile manualul de specialitate, internetul (ex: Wikipedia, site-uri de fizica), enciclopedii tehnice\n\nNota: Completati raspunsurile in locurile marcate si folositi informatii corecte si complete\n",
+      "elements": [
+        {
+          "type": "text",
+          "name": "question8",
+          "title": "Rezistivitatea manganinei este de ..."
+        },
+        {
+          "type": "text",
+          "name": "question9",
+          "title": "Compozitia constantanului este ..."
+        },
+        {
+          "type": "text",
+          "name": "question10",
+          "title": "Un exemplu de aliaj utilizat in elementele de incalzire electrica este ..."
+        },
+        {
+          "type": "multipletext",
+          "name": "question11",
+          "title": "Listati cinci aplicații pentru aliaje utilizate in rezistoare sau elemente de incalzire:",
+          "items": [
+            {
+              "name": "text1",
+              "title": "1"
+            },
+            {
+              "name": "text2",
+              "title": "2"
+            },
+            {
+              "name": "text3",
+              "title": "3"
+            },
+            {
+              "name": "text4",
+              "title": "4"
+            },
+            {
+              "name": "text5",
+              "title": "5"
+            }
+          ]
+        },
+        {
+          "type": "comment",
+          "name": "question12",
+          "title": "Explicati de ce nicromul este preferat pentru elementele de incalzire."
+        },
+        {
+          "type": "comment",
+          "name": "question13",
+          "title": "Care este rolul manganului in aliajele pentru rezistoare de precizie?"
+        },
+        {
+          "type": "comment",
+          "name": "question14",
+          "title": "De ce Fecralul este preferat in cuptoarele electrice industriale?"
+        },
+        {
+          "type": "comment",
+          "name": "question15",
+          "title": "In echipe, analizati:\n  - Avantajele si dezavantajele utilizarii aliajelor bazate pe fier si nichel in elementele de incalzire.\n  - Doua aplicatii concrete in care constantanul sau manganina sunt indispensabile.\n\nPrezentati concluziile echipei intr-un paragraf:"
+        }
+      ]
+    }
+  ]
+}
