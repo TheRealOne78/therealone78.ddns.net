@@ -184,6 +184,38 @@
             return uploadID;
         }
 
+        function sanitizeInput(input) {
+            if (typeof input === "string") {
+                return input
+                    .replace(/ă/g, "a").replace(/Ă/g, "A")
+                    .replace(/î/g, "i").replace(/Î/g, "I")
+                    .replace(/ș/g, "s").replace(/Ș/g, "S")
+                    .replace(/ț/g, "t").replace(/Ț/g, "T")
+                    .replace(/â/g, "a").replace(/Â/g, "A");
+            }
+            return input;
+        }
+
+        function normalizeSurveyResults(surveyResults) {
+            const normalizedResults = {};
+
+            for (const [key, value] of Object.entries(surveyResults)) {
+                if (typeof value === "string") {
+                    normalizedResults[key] = sanitizeInput(value);
+                } else if (Array.isArray(value)) {
+                    normalizedResults[key] = value.map((item) =>
+                        typeof item === "string" ? sanitizeInput(item) : item
+                    );
+                } else if (typeof value === "object" && value !== null) {
+                    normalizedResults[key] = normalizeSurveyResults(value);
+                } else {
+                    normalizedResults[key] = value;
+                }
+            }
+
+            return normalizedResults;
+        }
+
         // Initialize Survey
         function initializeSurvey(surveyData) {
             const survey = new Survey.Model(surveyData);
@@ -194,7 +226,8 @@
             survey.render(document.getElementById("surveyContainer"));
 
             survey.onComplete.add(function (sender) {
-                const surveyResults = sender.data;
+                //const surveyResults = sender.data;
+                const surveyResults = normalizeSurveyResults(sender.data);
 
                 // Show name input form
                 document.getElementById("surveyContainer").style.display = "none"; // Hide the survey
@@ -205,6 +238,8 @@
                         alert("Vă rugăm să introduceți un nume.");
                         return;
                     }
+
+                    const sanitizedName = sanitizeInput(name);
 
                     // Hide name form
                     document.getElementById("nameForm").style.display = "none";
@@ -241,8 +276,8 @@
                     testIDDiv.parentElement.style.display = "block";
                     testIDDiv.innerHTML = `ID: ${uniqueID}`;
 
-                    // Generate the second QR Code for name and unique ID
-                    generateQRCode("qrcode-id", `${name},${uniqueID}`, 256);
+                    // Generate the second QR Code for sanitizedName and unique ID
+                    generateQRCode("qrcode-id", `${sanitizedName},${uniqueID}`, 256);
 
                     // Update visibility
                     document.getElementById("qrcode-id").parentElement.style.display = "flex"; // Show the second QR code

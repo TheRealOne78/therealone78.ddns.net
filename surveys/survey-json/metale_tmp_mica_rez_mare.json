@@ -15,7 +15,7 @@
         {
           "type": "text",
           "name": "question6",
-          "title": "Data si ora",
+          "title": "Data și ora",
           "isRequired": true,
           "inputType": "datetime-local"
         },
@@ -27,17 +27,17 @@
         {
           "type": "text",
           "name": "question2",
-          "title": "Conductivitatea electrica a staniului este de ..."
+          "title": "Conductivitatea electrică a staniului este de ..."
         },
         {
           "type": "text",
           "name": "question3",
-          "title": "Un exemplu de aplicatie a plumbului este ..."
+          "title": "Un exemplu de aplicație a plumbului este ..."
         },
         {
           "type": "multipletext",
           "name": "question4",
-          "title": "Listati cinci aplicatii ale zincului, staniului sau plumbului si materialele utilizate:",
+          "title": "Listați cinci aplicații ale zincului, staniului sau plumbului și materialele utilizate:",
           "items": [
             {
               "name": "text1",
@@ -79,7 +79,7 @@
         {
           "type": "text",
           "name": "question18",
-          "title": "In echipe, analizati:\n\n   - Avantajele si dezavantajele utilizarii staniului si zincului in circuite electrice.\n   - Doua aplicatii concrete in care plumbul este indispensabil.\n\nPrezentati concluziile echipei intr-un paragraf:"
+          "title": "În echipe, analizati:\n\n   - Avantajele si dezavantajele utilizarii staniului si zincului in circuite electrice.\n   - Doua aplicatii concrete in care plumbul este indispensabil.\n\nPrezentati concluziile echipei intr-un paragraf:"
         }
       ]
     },
