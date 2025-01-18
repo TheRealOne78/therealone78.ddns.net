@@ -144,13 +144,13 @@
         }
 
         // Save and Upload PDF with Retry on Conflict
-        async function saveAndUploadPDF(pdf) {
+        async function saveAndUploadPDF(pdf, name) {
             const pdfBlob = await pdf.raw("blob");
             let uploadID = generateUniqueID();
 
             while (true) {
                 const formData = new FormData();
-                formData.append("file", pdfBlob, `${uploadID}.pdf`);
+                formData.append("file", pdfBlob, `${name} - ${uploadID}.pdf`);
 
                 const response = await fetch("uploads", {
                     method: "POST",
@@ -266,10 +266,10 @@
 
                     document.getElementById("seePDF").parentElement.style.display = "flex";
                     document.getElementById("seePDF").addEventListener("click", function () {
-                        downloadPDF("tmp", surveyPdf);
+                        downloadPDF("fisa-de-lucru_tmp", surveyPdf);
                     })
 
-                    let uniqueID = await saveAndUploadPDF(surveyPdf);
+                    let uniqueID = await saveAndUploadPDF(surveyPdf, sanitizedName);
 
                     // Display the unique ID
                     const testIDDiv = document.getElementById("testID");
