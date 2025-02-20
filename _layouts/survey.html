@@ -127,8 +127,8 @@
             const timestamp = `${now.getFullYear().toString().slice(2)}` +
                               `${(now.getMonth() + 1).toString().padStart(2, '0')}` +
                               `${now.getDate().toString().padStart(2, '0')}` +
-                              `-${now.getHours().toString().padStart(2, '0')}:` +
-                              `${now.getMinutes().toString().padStart(2, '0')}:` +
+                              `-${now.getHours().toString().padStart(2, '0')}-` +
+                              `${now.getMinutes().toString().padStart(2, '0')}-` +
                               `${now.getSeconds().toString().padStart(2, '0')}.` +
                               `${now.getMilliseconds().toString().padStart(3, '0')}`;
             return `${randomHex}-${timestamp}`;
@@ -157,7 +157,7 @@
                     headers: {
                         "Content-Type": "application/pdf",
                         "Directory": "uploads/{{ page.json_survey }}",
-                        "File-Name": `${uploadID}.pdf`
+                        "File-Name": `${name} - ${uploadID}.pdf`
                     },
                     body: formData
                 });
@@ -185,15 +185,26 @@
         }
 
         function sanitizeInput(input) {
-            if (typeof input === "string") {
-                return input
-                    .replace(/ă/g, "a").replace(/Ă/g, "A")
-                    .replace(/î/g, "i").replace(/Î/g, "I")
-                    .replace(/ș/g, "s").replace(/Ș/g, "S")
-                    .replace(/ț/g, "t").replace(/Ț/g, "T")
-                    .replace(/â/g, "a").replace(/Â/g, "A");
-            }
-            return input;
+            if (typeof input !== "string") return input;
+
+            const charMap = {
+                "ă": "a", "Ă": "A", "î": "i", "Î": "I",
+                "ș": "s", "Ș": "S", "ț": "t", "Ț": "T",
+                "â": "a", "Â": "A", "é": "e", "É": "E",
+                "è": "e", "È": "E", "ê": "e", "Ê": "E",
+                "ë": "e", "Ë": "E", "á": "a", "Á": "A",
+                "à": "a", "À": "A", "ä": "a", "Ä": "A",
+                "ã": "a", "Ã": "A", "å": "a", "Å": "A",
+                "ó": "o", "Ó": "O", "ò": "o", "Ò": "O",
+                "ô": "o", "Ô": "O", "ö": "o", "Ö": "O",
+                "õ": "o", "Õ": "O", "ø": "o", "Ø": "O",
+                "ú": "u", "Ú": "U", "ù": "u", "Ù": "U",
+                "û": "u", "Û": "U", "ü": "u", "Ü": "U",
+                "ñ": "n", "Ñ": "N", "ç": "c", "Ç": "C",
+                "ý": "y", "Ý": "Y", "ÿ": "y", "Ÿ": "Y"
+            };
+
+            return input.replace(/[ăĂîÎșȘțȚâÂéÉèÈêÊëËáÁàÀäÄãÃåÅóÓòÒôÔöÖõÕøØúÚùÙûÛüÜñÑçÇýÝÿŸ]/g, match => charMap[match] || match);
         }
 
         function normalizeSurveyResults(surveyResults) {
