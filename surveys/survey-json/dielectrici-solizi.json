@@ -1,0 +1,104 @@
+{
+  "locale": "ro",
+  "title": "Electroizolante Solide, Organice si Anorganice",
+  "description": "Aceasta fisa de lucru are ca scop explorarea materialelor electroizolante solide, organice si anorganice.\n\nVeti lucra in echipe pentru a raspunde la intrebari si pentru a cauta informatii relevante.\n\nResurse utile: manualul de specialitate, internetul (ex: Wikipedia, site-uri de fizica), enciclopedii tehnice.\n\nNota: Completati raspunsurile in locurile marcate si folositi informatii corecte si complete.\n\nSursa imagine: Ulfbastel - Own work., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9037668",
+  "logo": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wgARCAD6AZQDAREAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAB9CxgFBzyuUGIQQURBMrOc2rQBIq1FKJib0HJG8Va7OaLiqawmcdFqFBXJJ0xVoBlZMar29MTGa0EZFKyhCAAMhZrMbOhdLCJrM2AzM42HXNGsXozmi4uqWE546bQAOSTolqgBWYy7HV0x52b0VrGayaGghDEIzOOGbrSUtWaK0wTVWQYx00zmkqXXQOeFlrqgk5o6qaoZxydEt6MklMY6F6emPOl6JZSTRdkYCVjRknArN4KuNqkkyTe1E5nNL1U6yhxeiMYUbWhKcsdVMZK8szuulqESmEdK9PTHDLpFmZS9NiFAMoSkRZRZyy6GtBKZ1sqTOOWOumQMFZgTlvQpZmmigyZcbkzdaVEoiseddPTAMAM5WAxhFEguJpGlc5RqMmyBSsSc0dNUrQqZQxSM3a0KS9SJoSAlzsWWlCgk6dTnzro3gAYGMuoDCJAFomEb2c9C6hIVISqJrFNlaQQaqzNAuVU4rUyzopxI9ZzzaBUOpZWddXTDAYjnlcMYAqihLIWalWSVDoEJWgSTKx2NImqCxmWdOiTTU587ABOrWcJYCV2Jei5yl11lgMAGAAOAABRGCiJWCMSgDRKkpREoA0lWAxCABgIAAArNAYDAAGAwFGYpXZqOiAKBhAAAogAACiCgAAAIAABDEBnYDABgAwADDNAAZtZQBQEAwAKIBDAFKUMQwEAAAAAgAysYDABkxJRdZxnLpWtmObIG9lAAAAxDojiEsmh2ICGIFAAAAAEAh1kjABgZy4whlERZrptZjEygG1XYBAAxDOQQACyd1KRiUAAABAMQCAzsBgMk5c2jWzOXOMpQqtbNBjADWy6cABQEAxAFA4QKIKAACAACgUBnYDADOXDN21NrM44saQDEM0s2pjEbWaUAAAEChJQhiEMCRiEBKgAKEA9ZYAMyjnzp2bVjHPmgDKGNC3dLoA6LHQAAGa6AhU4mgIkdSSAKiYkBiEsnRrABIRjLjKwjMQAADNEFDo1GMqzegAAWbQgHSJh0gKMxCUEIIQhCA11kM4sDKXGBUZwyiBlAIoZdm9AHRqMAAM2hiEIdEFIkQlaSSoImEAhG2swEXVHPm4yhJEa2WYwl6LEYytKtadFUga1dAAPNsBCFQEFERTJEAlgUAUoQy9YzVxVWc+bjKEEwyiQLARSa06ZogaVpQADzWUACEAVIQUiAJEEsgQMDTWYCErTGXOVkpMJQs1szUhDNrHQaIzStKQwHm6ElEiAQwJHUCEBCqSrYgJVRp0w4wihmUsSgksZzy6VoSKKsUtDR1rYG9OgALzbAAEMgAAmkZlCIVARDGQumsOssgsylxlARjM5WCMu20CpaQp2Ot6AAC83QQAIYgJAzoAQzMIlUSMoNZKIxjQlefNYECika3YFFlGkbU65jSy6AADTNsAEAgMygJCpAzGSswAIYaw1dmUoEY50gAkaOKpmpUa10FUHGmmgADA0zbABAAhAImkBAoKzlokQCK3hwWkZBCMs0EWSM2NDYo0MK0Gk1NAAAGubYAAgAQiaIgdSSCyIUSIY9ZdjlCCYoiXOWCzSyY0NTpNKRzjKQqaAAANM3QAAQABIEBSETCpKGZMMRW8MIdC5ZUMlcoUrKNE0NDemZjRBUUgGAF5uoAAAIRIyaDMozAhZCAQUawxwU1UQOGUSswQ6suNqZYhGWogAAA1zdAAAEBIyQIFUjIVEwgAgreWAwCGSOGAKwHGsSbVQjDUQAMAAyl64RQgEIRRFICBCEoBMFESPeQBwwAYDHDGMVIIZZFIBgAAAAADASiAAAAAgUAAADGwgpgEMBgAwAYAMAAAABgAAAAAAoCAAIABRECgAf//EACcQAAEDAwQDAQADAQEAAAAAAAEAAhEQIDEDEiFBEzAyIjNCUEBg/9oACAEBAAEFArT/ACeomE4puFCOGVPyyurlRTUQq750sUij/ux2G4o5wavKF5At6cQ4D5vc4NQIKhPw35mhHDKQER+WV1UK6ibijsaVup9Cxw4FWmXNbJlgUrqht1JDYduiXac7dSIb80ONOrsMzTVCbimqm4o7Glbq5Fhw2ulmE4hyFBhTXaoRbIadqcfI/THGqOGDiunTKdhmaPQXClamGVONPNmqhixmaQdN0hSKA89XStjSoErVwz4ptkhu1/ChEJn0oW3cS3bSFqYbigEks2us1h+G4sGlxF0y66FCeChmFr/DPjig+nfdHJo/VB9PzR+G4o36fbq/xt+bB83N+++7JK4qE7T3ODYdT+zvqkbjs2Po6QtzyaOG5FgZUfWpb4w5rRAsPkQmLd21/kC8jV5Gre1eRq8rV5mLysXlavI1B7UDLv7SF+UMu+pC4Q+nrhSEPrUUhShy7UxuCkIZ1PlblKlNweHUmjcd++BZAUCsBQKwFArAUCsBQFApAUBQFF0e8rctxW7/AECZsHCBn/JkBbwg4GjjRtHCDQGfW5rpAMjybf1v/wChzoskhb+ZlNNHWAz6XP1BqeTWXk1l5NZeTWW/Wn/mJgICVsREJ1dxQfc10/4j8LTo/FwcUDNjXT6ptlTSVKlbluW9bkXLcty3rfdqYlB0LyBaj5UqVKm1rpsBkWdYEmzNuLDFnC6pxZNH2H1AyKN4Nrfnm0BRyu1zdCiwiuavtAlba7VEWN4NRyLGfKiyLShmhXVIrNHUFNSpo2hzQ4sGKNxY3FkSKdorvvvrrrvBtOU2mrU13VlEzUIptW2t+bDblGkVwVws2uwoUlOvCi0LptW4sb8283GhHK6HCMUNJudmhQwRUcoqFFjajFgx6u1hf1qVE0IhRV2aPsmFutFIUICDEOQubj19mpRxWbDyJo7F4xQUC2ot4Tbm49EUK4rip4NItcgjbFmTtUJoUVI5ubj1GzNOzQ0m8i8JpQatqwN5TXSifQ3HrHIKdQioz3c5ZoRQ1PKHy1NoV2B+u+rmY9XfeVyo/ZWRxCK6uxWERa1AqaRyujez0907Feyjyu/TiyFtsFIrj0N9HdYoc0yTE9+qLoQRChDCJj07i1+4Le1bgtwW4LcFvC3hbgty3Bbgp5lSu8U5XK5UH1ygVuW5TNZW7/yn/8QAGxEBAAICAwAAAAAAAAAAAAAAAUBQIDARcKD/2gAIAQMBAT8BguJKdHHVRZkAoyAV5gbDxk//xAAdEQABAwUBAAAAAAAAAAAAAAABEVBgACAwQHAQ/9oACAECAQE/Ad4ZTQyLsGAmQkY02Dtii/qwCjaKPJS5q4JcrYPCyLatx9WiW8yYuZ4yexmTGLJGv//EAC8QAAECBQEGBQMFAAAAAAAAAAEAMRARICFAMAISUFFhgSIyM0GiQmBxAyORweH/2gAIAQEABj8Cp7aorNA0DgMUxXlK8pQ0Lq0RQYnL2prppzCExvF1LaG6r1HAOsYDnEVlDb2TvcwgSDsgLvacBQcUaPQr3h/ilfRaS5mIi6t70GMlauS6U90KZzrIk2iN00CPZdqDQKwhUNTa1LldKBQ9o+F0N4RkEJTiEKXKkafCyvUZwdeZOnVynTp06dEop067IQeATwCH5g6FArNRxGTRZNFkwiyYRYJosmTY7fcksL9QibSCtMA7X9L6p7q+rzZNqb4J3djeH5kvQ+S9D5L0PkvQ+SH7W7fnPKfU68GPFGy7wk0bxudR8v3o61CHLgg1Lwfgo1bKSlqjHGrei1F6nyBU1b8alTOuWfKWk+G2FKuylDpQ06J6zUSyb5U8ORjZT4deF+LX4eShAnIvqdE6eDp6/f8AitoNqsmpb7V//8QAKxAAAgIBBAICAQQCAwEAAAAAAAERITEQQVFhcZEggbEwocHw0fFAUOFg/9oACAEBAAE/Ifi6yZ72IvInsPNszgYqyOGJLYuRQY0h39RE6Mhi7M4IHqN2kRolDLEFhqMkMcsvkwZKDKL9Cn4Tn8JBL9Cfj0iZ/wCA/wC1F8k2b2G3MIWReIHG8sccQKPA8UU86OS2GgkK4MzohFZPJZhGPQTncbNyIKNkikXBieRG0shGi38GL86YWkIquiNN9LFCGXxfJkW0FNSctcsc8RehKl4EhnQi+SNGbtZTJaoDa2GtsSReSiZauSqHYogaW1FLcCucrQiRehkoUpprJHoSjEeUX9FtAmQQSYTARCMMuyMmJUMR8IoL/CJxFCyFSd0I34DcQ3FdEN2U3ogWKK60jcQ7ORUWWk49AiXyTeIiHDQ1xY0xoc9Gtgl7LsKSnk2yKRsZwFoLRBUFikOtE3pGliengdjcZMgmMmabwNCBbh+mR0/phkISdWjCbQQooiSIpCpEjoTokuVZ5iiOT6G3I1FkJ3cjYHFCaav6GuyGVjYW+VJMECzk7iqRHYcVnWWJZJn9kDCIYiK0ywauHLezchqxuULJWYVzdaQSQmxaleehUx8lJEdIlDkhoaMZRPAoSxZJ3obwORk8jlBBNHIsy8ECFGiRhYu0YdEUH0IUsShkEyJCy+s1vplvyEluONiNHbhG4/qJMESRZdBY+LPwSUqQWw4Ww7wIcq0pFvIYdRMmXQziBT06ElSKtS0VE9GRfgfsGLRolS46GybN+ShDRNJOBSngTRuPTBLJQzXuJ6Q+ww8jez7JGbFD2ZEzGk6dN/QXsb/JpDOHBbZwaAuKPhi/8E2LI6JLMhTwlT7EjFFqEOFM4ORCYYex06hkpHFM7ETuEGkMjM+SeMfKp6GTgc2UmLNho8BlAZifYmD5R04ncn5iSHJFHXB3yZAcTkTS3Q0JSI4jqTn9KFxrC4IXCIXB0L0QtITykzqejoehQsKCnsdD0dD0QlhQQnk6no/1gklhJHk6no/1AklhLT/WHQ9EGEtOh6Oh6Oh6IcLSFwQuEQuEQuEQ4Xr9doUsnsPB6E+6kTTUr/r8j1o6ytGlKIE/q5/5jyHB5PRgH8Is29MBh6JtOUJ8/wBOJso/yQJTSTQk1SFncXM5b/gSguHniP8AP/JwhMuXqsRlmaCTBkVPfRpa61w5WSP3+ii6dRSB/Qp/Qp/Qp/Qo3JcDWWlp/wAeZejnhEQx7G21SO/IjeRNPHw7WTAx/wBI/Pp7NMfkblz8ks2Iw+GA8/NWp5MZ0yhisnb86St2jCc+CHNEweSPInLUXoopHSYozQxcHeCaeEeJLj5YPJDklymLmGxUEiRLQnOsxg+xr2slx8XkJwYkoE7uiZe3gi/Oxhhn39keHYorZ7CXk4MrcdEbqx3KQuOe9xmi3e5FRKiHNMhzTgwzJjAyimkTuh6tpKybwo8l8hKRC1a/knrhz8IbwP47CNphUR5dH7+ckdCzlX6IHsm/Q4cPyIityP8AYf8AtGEF2okw9j5HctZWBOhzFPgXSVwYOFj9iC/I2t6Etzo3CllteuK1eobc6pmswNhexM6N4H8Ggfxk6FSJ2iTAaeaHzhlZdP8AJvUfRG37FvvyNPe/4MWmWeRHk2qBqJS9GKt0bXFdluhE4wNzt9oo7RWdx+iC60bCFSItNkLhCQ1xrhpi9M2ubRVoiya/m+MrsQeUIp01fA80p6IUFx/JPOJMSgcrtCWmUuA0lhCaIXkKSMpsncM0diUUY0LcOuNzn8FJ3RWmPR6a40y+Im1gTdG5AmWogpQlGL1xfxzOhS3WN5JRJSP6gUyZsVdM/Z8Ff4CPOeiU0ln+CUNQdCqtmNbOmTkqvZlt0gy4fBDoNYnA5dWJS203OBGUpw9BmtWW8DrOi2NCPhgNjJ65vPxi5HtjTzejS2ovcUGGowvo8L6YkmoyNVOe+DGXvkWHmDMRAbLH0KYj8itk1NEE5RIr23HW89jSrX2PlHdaRKgVU9tcWu4ShIhCwPKNyCbgTNwNVvP0RDEhqV2ZvVYX4xStlckERjRbm44akcO17Q48doUb5OHPoSuM9EYr0yZopa2E65Q1hpplxe25Z5gUnZcS9DU7PLVY7NFg2fBZnsabZ1vWhjyFIcFzjbRJfyiIL0k7Ox+jDPDIqvRMNuN8EoDLe6G0t2+xNU5+yES1D55MjQm5xkTUwq6Y3uXQknsXnVKBbIwJlvga+EFJ29KVohN4HbmK2R0gIIfdaJU/L87+G+iodf4Klo98My6MTlo5ZTeR8hxKymkPErcSVKNPAqcFnKFEwpgZvES1cop5saNWJLfyfBIehgNQ9XoS0SEnAhsoRVCH0F8FY/S/Bvo77Rh8o3/k6eYyUmswYrD/ACQ5+sF3GytDhebPN/lC5YKcuyb/AJ0OM4KYbXwalQyYcDJFruNLYw8EWYybEL0TW8jsQibXUJE6HnSdpbsfP83xd6Nb7j9ENF7eiHEfkaGpyM/Jbvhk2pXIhoPbweRNxgYTTQvPxTdCcNN/TITEoabX0WNlPJ/CSUblEPIxJbY7gR+75tbz8ttZmBrknCyW55WJ4pFCcuBphzgo0/2N1OkNp9Bn5MdJJL+TU+hXo1d76MCXAlZmFujAiKIkm5IdUskRQakvnu8/NiovDgdriB8iivZneR22lwQ3XeTK4GdYGhDHUqyNLDVi4fzdqxyJ1a7FEJRonUblhNYeBd6EoQ0NpRufni/Pyek4GxaT3MS9iEp+zMth6MSqCzH5IgjLKscaHmrvA9n+w3P6HT4xyeAimGhuxJZJeWMllOiA3L/QaJ7iNTCBOwOw63sa9vsfOf0g8voiqWR3n0Ub+j9wEqon6HLZlah2S9jjwK2G1sOapuCGyxCbDTDqfv8ASnsVHKQhYQ8AmWIQ3yG2937Je9ih/wCicVRP6dcL/wCI/9oADAMBAAIAAwAAABDv22DSfP8AaknBSjMeKtTInE7brNIG+yWEB7sLoJg5CJ0qcFMEz9xjLky20g2LVEtckpR682N3A1BpIO7Db27cjHXrE6QyvR22v+dk3pA6cN/fm/66ToJJ/twFR5Px9qfRpsBpL/E+gypOLK8Sq2bD6lK3uNtEFr/g/YE9aaQfa37rci0TWH0EMDbcRiql5IBO2rSMwdEhuKIrgptJt/bzeeXa2a66W+SS22WyWAohtppLurP9pbbz/wD90kkltkslhTaTSbUEF3yf22W++hlkttkksljSaf8AkgVDNt/98uyRvv7bJJLbDCQ0G0tQ0BYnvvskkAd7ZZLZJbLKC30maCQAetu39/2v5pJLbYDNZKLaFJLayBckk1yTZSBbmsCBJZTp4igDBeODO22qBDW702ift+RQV+Dok0ZpACl23ZIDgEEgCLO37MkEQTQZDIoYm2rLbDQWg2AbtvHkoCC0gkOUFu03JZAYaSmgJTmu8bATDDJZ8x/kk5QRbCKEunbftRp2AuTeLY0d80lBBZZJCGmcbhRf9AOjDDVb99224ABDZIUiiB1xBtrTtpfi1de0k1CASBbSRk/L8qJsQCZ408YTNltoAARJJAO2bZnoytBKH1nhQe+1vSASTZSC+5Lt1zH1/wDdJIQDPtvqkAkGUSBoE351Wn6Sx9ukW9yb9UgEkGWIfIB+5PM/8q2c0irI3aGkgAESAppAjNtdGP7GZGCkxSW1UEAg0S89A278EAwrfkH2Ulv7bQiWSyUItsgU3EmSyS/7Frd/bNPtNJlttJNkAAA0Az6XTh1KdvrJDbaNgZJtINgj/8QAHxEAAgICAwEBAQAAAAAAAAAAAAERIBAwMUBQIUFg/9oACAEDAQE/EKrXGCy6GLDvGHV4VSpBBAtRYdGLL0OjuqMWVj7idPzLo6PRFGKv7ViIws8HOnkSgmrFrdGLEk4/avE4TJx8PmtVfGkssWWJ6mTdLT+js8oHRi5yxYQzlV2Yn0mxZdDE8sUTlif2Ms5EUZzVi4srQQQQNYYssWWLLFzlnIjDOQ6MXFWN88Sazif7ePRikEefJNYI8pYeFeN8YgggjMEEEEEEEEEEIiyWIII89dhi3zRE2WmavqsnTFl472Lz1RebFlvfVm60Ksan3FVZXop+Wtc7n4yf8yujPiLwFum0kk65xPSnwkPQ9i1u3//EAB4RAAIDAAMBAQEAAAAAAAAAAAERABAgMDFAIUFQ/9oACAECAQE/EMnjeRn9s7LfTIdw92THHHC2hznAWYMHvJgwIbFqLgMEIXEcGCzB3Z10gtQQ2Oq7h0MdH5CXAIYtmhRgswd4WSPkGAPsPcVIxEUjFsxx7Ahs0LIQgo4E/SDB6ggsQAYe9E7UUcFLAo44aFCHqzQhgh6gx+QaduIwQx2KAhsQxRQQjBawR8gs9QHADhCOfv5CS+Jx0cdA0IbENGj1g9YPWD1BX2faB9pYB9/iqLK8xMcf9AmlQ+R/ySYxHgKIpx/xycOfUcFE4B4mYzGYzPvnJVAOhENujw4C/wCIeMeQduOOOOOOOOOOO3HHRxxx8IConEA4G14FwvQ8QsaNPjPCtHKitULHCYsvi7tZNLYUcHAsZOXynwHbhORYz+5HJ3Fo24diiKFChYye+YWlffyKOjg5VgwxRYFjJ78nWTs+A2KGj34Dg/Y8GzwDBLpWBo9+I/J3OqeyPANHvlfgI4lgQd7Pfg741ZGTYtUJ+77eF8atQjBtRR0INnwmlzKLLjsB8HbwmGG3wLDtWqAfCYooooooqUW1PyGKlxKKKiEAFKKLjUUXlHCPEbHk/8QAKBABAAICAQQBBAMBAQEAAAAAAQARITFBEFFhcYEgkaGxwdHw8eEw/9oACAEBAAE/ED6GFNQWq2rzAExOBUSBQessqEC3BkWB2hllj9xA5bXm4TLJeYwwJ3uojmpmLjGztANFnC4hE3S3V4uJs5FeMagxdpBOTJ3SNoq8bgMlC4gMJQcmSOAuqd6l1Awswu8eSUyVfHEzSqww6J2HMoOX5hsDwMoOHiVinPEQwxgMtkWzu/id1XGuGJblB8Msnz+0YMXLf+xMXhiXeIaB+9S+Lu4UcV02kezbGQVfYP8AMAXR/nMEaQfX9o8qEogK4zd8krJCDozqcnECinsGVOLeJYcXiFGatzzAWN+WUFcCHgkssDNkHNV6OfUrIhfA5ua2U1vxAFa0GjxAKHLl4jbirxgmdUoWlm6mUVRctUINuIQ1n5I1x2cT56WOaYP/AETJzczWhmW0IfZKVhuGn1YS1nBMMfbMAatp8S+twrDMz/zEQiFhuDZ5lxXMFv1+5SvJLJkrzCzCVBEc+YF3ipme5RIoqbk0LjcJkSJa4Mcx51dYMNdjNcfMbaHSj/f5hgNUB7Fzx/59pcgGIJLvPdlABi8t/mFtdwPF6jbIVXPeA22+phUTXbzMBlC5KR2Hx9oNKxm5sbTtMwVrI8kuQLDJxiAoqtHHiVeVb4iAwL2uB2VPxKJdRK18xMbT8ytGX9wNoCfEyXNSuQTPC+FkchRniBR7SwKHtwxyu4Ctd+8xS+INmBO5uAKzlKqt5KuNKHj+Zowx5pjvClmHvKWYqYqPDMxqKuWuIpttqLgIuUxBYXzLBucoqldMjTzETa6rJLMpfdGiqc9szUMAjuz5/ESyihBuq/wTNSlP1FQFNcF3cpUTR8TGSBncRcOe/eUFlfcmLVtCeKKzV1jcbADd6M/nmATTZLWX+45kIcl4RXWVw+GBRMouvUslJlhhAhoAr5hCuUmPvKts12uJhUptfESot4icjVXMF3jvBotmDRG5XQ35IsX+Kpk2oDTAuG8wq3uIvFRplvTRKUc9+8amyw1rMzDcV1WZkeoNvZGPgGJvIHqcukL4wBUU+CYNwQz1FjuvD94FMrG0bgiVKKBYZQsFMHYZiKhhChq9uv8AyAgUoyylKy7iRo9XCsRfPaIApi8K88cQNmt+IiOGD5BtPL3W/mA2CaRp6tlyzS5wTMKSMcczNogYvGpSHS5Uq7LNyixBbOrzBNzNM03MVqL2JTIa7Ew9rqHlKa/MK541BBaHxzL7QqBuK5FYFeqgrFAZa2JVZgKmcy+DNQBf5l25LgCkDeTcbA5lUHs9yAYFV3l4tZeoCYYNG3j3KabdD8MVc4Y+IGrjSqmDmbZQ5SO7FaANTEuCVCDmLAKq7IyjMoXS6GWNSyl+0K3y8rCiOXYiCvu5WWKO+Kink12jGFERTf8AqgEE4ilFmwVDNF8Q1U11smKhHm5kU577hTvvb5JVJQOz7/8ASFdbZe6qHkYKslqBWUPLtcwzmNMZ9Rr0qhtZh7R/vtGxs1ASqagLrWYcfc1VlvuAmQHmYL3v9MsX/MMDizzcCKU5Zs8S84x4ZhQgFeT/AFx1SxKX6nZlg3yOY7KphTL8RGEVVVFehjG+hDqK9pR+JZNjWLl4WaM1+oEto+Yq4fLCjWLcyvsjhjKvC8WVFZEpq8GY8ipzcKUX8fMqbW+ZbogpQre/tLASoFsK/wCkwcUrbKtlzzCFDd/2QDdi/wCKNMYTipaLh+OY5QQramOIVaFaOJkaVNSiUGWCOA0CXeGUvLKqltMvJx+4WJqx7wA1iF8cwHQhEPD4iYo+Eil2/qOhWdHthm92P6YILAiANAH7QAkrbiXSqusOO/bPERIVFhM6FneVfEsOnzDXiI4NHby53KSj/N0OrA0PCGnEHTevUFuwjSYeVGDy7tUxnDWuZk0eG39QTaGVR/7MFFHZGo49KNI5iztjCj9Ra03W9kBKKFnfMRN5BLf92hisPe9wuC9c4XANxBWnGSYJmz7RRPvjFzB4bojZJabp1DaVFs/ENTh8kA0+ZAidFjsUxFzQLv0x533QYCxmruVxrd18TC9VF/cepQfDKmD9zE1ABj5lbrwH8yuLRDkmCqI8MBYQ+ZkZFpWqUOYjglv8ES7Hhi1fmlmrLfMtbw/MIyWLdxglT5QhD6MTEogHD7THR2UX1LyljtUwVT7RZFZNNJ2A+0CtEfzgLgLj7af89BoPQqJsD7Itv7KH/koaR6FRwAJ5Liv9aVf1JllPBUQSgPhn/HRXbfCLWJ8FRBKQfcyXm70mP+FBFi8hUadl+5/yXQS219iU8XwQxqKNoXyT/mR/8if8CUthvpMVKOx9v/gRYdRsKJmaK4Vi5hHqDah3Jemz6GXn6GHS+j9bCP8A9D6T6lAV0ZYjtdcPEC9wO54sqEX7gd4Vb5O3W4dSVNdbLC8vEEFiJ4hLj9JHXW+j9Ny//hrKO3+SaJvs4elADbl9dDtmBoPMc7gk+j2egJaf3CMYGztLjOej7h0Jvo1MdwuVt+xWuScWeqCFJxaGIBRUO0kcfcbd95vvdV4Bzvw92O30Efrejqb6ahB+q5gXNvaKsFeVzL7zCceoblA4ck7wOT+odifEFLVax89DIZOXnqWCUIWTB2dDqfQ2Y3wCzdKZ49V5ngdMfgdNbiBNYJzgO3PHS+i9HJno663D6HcvodDp35DHuW97ZaQOVZg2vvUrGV6TmUmWWX0wd07ZRwBB7sh+QnjodMjYg0kA2wbO856XD6Llxh9J9FfQ/S/W8TwjK12k+3Sti5MPzL7u10s6XBRsUe5GKdfzBrd9XdjSaSBegP56kvooCuiJGhWmbuaXUPFsUS/F8zAAF6bxFTi/GT7xI8HdWIIliPiVW/pVK3DU7Lr3BC6eVYjY3Vd6amuldDAJrb4jwidRV4LPHEStL9Rj7hxMysBL1f8AMXMCyxRzLDVDxjEaxR7SzoemDGkIfQt/+0xHY+8HKnSU0xRm34loKBoW7inAE9EE4IdwkDRhDUExdMA04OyX36DSJQ0wSGHSdn6eJumBm2BV9opYKe4YYmgT9mXUoIZRlijC0yHwxqhY4rFfeVfFDSAR7RCqhDg/zBcWtsafEW2wOTg+oqp2TYp9RIiNs50xqwFYr+IpA5GewRmlewP3CmEDFE7C81hgFgV/Eq0VTNMUQtXbtFK61x2lWFqXnkiLQXukL6WpUTgA+6N9/BiE3ZzthwEAmiIvx0qHT1HN5PzBEKcdBQDSalc88nmNr4hifZB99MHV29Q3rAdbxKnaOdPsxoMiHg4SgtfetgKhaOL2xB0mtkKzoLN27na4FoKO+IzCKWbeYO+adgssoqN042JEBC4X0fMyGuDYhUuxbgICSGxGRO1R3GlfffuUbBOZh+ZlzYdnJFJCiyJTDfTeOMJAWVRdDz8zARTmUgrZxBgNoJd7/joJpczR8x6Oi+irGDvBaD8VEppg1CC/YjmcneCE/DvACyVKTPA9XJEQ2n0p90GHMyLheTBEa0vHIS5hbWbqaYUPOmWwAThajTsMWw/Ms2n5F1LChBu1SRljxzeRhvYZrJmI2S9NfuWAY/I9ywi9PL8zFxQ57iOqFYrDUoz8y8sEsLDy5Pcug8Nn4ZRXcDcwaPs5ILFDJ+LjhLbt0zd+2EgFBeaMxcrF6lFHK68dXle+iPNfVGyDiVlweZkvh3OcE21HY3AlR2zsj6ayoUZG7ig1Rmh3cGKSnt3gogBylMAF5SYnKUe/EC8WysDLEoOWARzLpQpu0iGgsOHiWFBdU6SBfAebGYGULK3MPgLxi/UQAAWI2LwNWTK5MGh/cCxFvLxEQap5JQNM5HKYbAAVXvMmjSaF0+agzF/E4YbzVr3Kgq04U66/PRW1UwxOy6uZbPO7locFWHDEWcBxOZsBKhpn9wXDFRYO3X83+Ol9LxMhItRlKLHT+ExvCSiZbH4qYCgpeCAGxpu4WTN1uUIwyl9mGyXYtXzN2YAb7vUwFXovkMvAxFg0ApzzAgCmx4hcrdDfuEANCg1uAGluX8om/ENXiFnwue31Cwi6NcypFzg8kbAUNJHGw7QhwPL8RYGOxdwiuHDwEamq0VlucTcOHw/79QNC/UtgEmHJqFVQbeYoxiYvnpRG7xGIeSZms+Y/tdCHJ36HowWg1SzCzYVxXEulcWaTiN1YnuMclrh4WYlCnQ7uOgoHgzDyS91ZbY2F5TJHKdmnkm0o0VyimgnYN/MOhrci69QDkB2wwCXllFj4gvVt5TaPERoXsio3Z22TRBVg7qYeZtKVUpnCANPzMgoE57z5XrohFpKjVdlVBXmCVMvRLhBhY1KiO1wnEgaSPDuRCrliIDbl4+JU3/PMUwsMpC9E7l4iq2UzXcmHqlzie4F/fqPRUYAVbFANC9PeIRHnfmHAx2mHCfEqoF8jxLTSyt3mOgFDODJAZdvyEoBbwxJDDpHwyw2DllpS9WRSLbvyQQbGvfKM3LK3UZAIzjFJLQFd9yLQgLUCA4B3A2J3aGCEiKbaYMXC4vcr3HjfQlINYPuDiYCHbjq1ebrmu0JK6wdxKaWaYoxDFrllFCbqV3X3uU3cVqHJmBcMyGacQOsiMRIOfMuQGxfpKleOufpZYQVeROYA0EeyVZy+I0rbng1LFNjxKL9IS7u3eB2BW/cSmqFHDpjiAVuxCgJMbQbilp3ICwN63WSItAaoGRiNy1wIgUZcXHhAACOEDTGUoqql4jr1mV1As5DZEWOqCnYwtdzSp6DBR86YxllsS0htrZnpou5uVP6hhhn1NMG4N0Vrz5iqbE7VuAtAXLg3OVbiD1cBAtHmYyR01T3qoYFUGmNG5Uu7X1Zm2/7Hp73OZXovPeV2wzYUD2vDBTF1AbgLf1QInLXXaaZiLxslKFgHLTB7Lae0KQMATmEtUNL7PmMmrOxPEZzBTaXio7SQMC0nzMSLY3sjeUJsxmDQKiJZs994lHaVSMrpgNUvPUmtYcPuKybuqZguWeNbhXsTkGIruWhRDAqriZBE1jFsMC6vmOXZ8v8AsECmui1uOMcuPUAAGjH1fsf31Ru4q6G83L7viV8kAEYAgV5OSGeWsCW0YDoMMzBrYDxKUPkq9QXg7ixGlPK+fUrKsUKTNTZQRaJeSK1dsYTZAikZ1X/yedGxpMjFDd+5QWVVXhZbDuAPTcIT6GCdbJVMzLmyO4HeLgd4wwqBY5URojs8zdbMyUpeeUBbnn0f7EvIVbla4lk8BqWSNbV9icyto7QD+h9Y012r6C7e0AjGsxGsuTtLGmO6ZAXZ8wRhrw8xc9uFRq6ucK77ZiGXAS8ksmN6s3BW0Uaf5gDIYrqKhVi6xcJRVNtcxtQoNb2Qx0C9jNobLKckTsYWRY2PZB6EGY+Y36lBRrcMFSywe6jEhhuOYFphl7vETUA8gfmDsXR9t/sgLcStPSzMfMTFoFgcJ3u5uEZtzHmHj/YlrprTqb+hkGsLq+Jf3YLiNvlMnk7RLpqy7zxMiCyvtKGhY6ZYFaLO3tEyDZhZlEdfvAHFLBmwVhamUDba2wyuAFJ2uOFLsZeH/fuMqm0vYzIHuVnJO9mt8xXiDB67ljRlkiIrxHaUftFLEmLydoYAM8y7keSZDFA/eClFAkSD3iE3vmISAl5PMFQDCrxcpba1qpVzdv0EvoDPkp7+ipzGKt6v7S4R5WURvlnhhz2yK2aygjzFZa0wPiPZXXA9pv8AeT2iHmlqYYqgUViA3xHW2ZFBQyaIEFoMXK2Batw13WJVUNQ6XLzCAo0gXOu/eFgZgh51LmFetSyUWvZqviK65/MOe/fzFbgKd/zLhxqswV4E/aI6CuYdRFcC/edwMRL1uX00w7+f4H0MrNxU1q9RLKeG8TyseJS4FJondGlo8RaDSksTULAatP7EQqokqzfi4BgiGiUIoMlOGWpuxunzEFwR3pisbOXuKCtoawwPECkBwc2dxEQjRXBDrcuXMJTkmDdk7LKsOXtzNFJOW4FuLlEK2PiXoRU/JMmyuxKbUG5Sqi5hTAU5IIvxDM77RUXmXL63L6O0Uq16/qILBFjcWoX4YLx9XBGq88jMSz6aRF1dC6hYuaN2j7d5YqWb3f8AqUlJ8Z/uHIFGG9vvEGRVRMD/AKljwOxV9qll20M6T7SwDzi0ywRrXjGIWANt2wWmgfhCzSE4l3Sqrx/cHbpeFT+45lV4T+5Vr4h/fTP0jLm9gy2cqd3n9wKFD2xB37pgKop7UzTA8EOpWX2gmUryg3D2M/eMKpXb/mK0B65ilVVZf03L6XKHYPxK0PsSgMB9pcuX0uXLly5cejLly5cuXCEPoOj1foYdDc4jOenM56E4+l+ngjqH/wAnp//Z",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "question1",
+          "title": "NUME Prenume",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "question2",
+          "title": "Clasa a IX-a _",
+          "description": "a IX-a ...",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "question3",
+          "title": "Data si ora",
+          "description": "\n",
+          "isRequired": true,
+          "inputType": "datetime-local"
+        },
+        {
+          "type": "text",
+          "name": "question4",
+          "title": "Electroizolantele solide sunt utilizate in echipamente electrice datorita ..."
+        },
+        {
+          "type": "text",
+          "name": "question5",
+          "title": "Un exemplu de rasina naturala utilizata ca electroizolant este ..."
+        },
+        {
+          "type": "text",
+          "name": "question6",
+          "title": "Materialele plastice stratificate sunt realizate pe baza de $\\rule{5cm}{0.4pt}$ si sunt folosite pentru ..."
+        },
+        {
+          "type": "text",
+          "name": "question7",
+          "title": "Sticla este utilizata ca izolator datorita ..."
+        },
+        {
+          "type": "text",
+          "name": "question8",
+          "title": "Mica si mica sintetica sunt apreciate pentru ..."
+        },
+        {
+          "type": "multipletext",
+          "name": "question9",
+          "title": "Asociati fiecare material cu utilizarea sa principala",
+          "items": [
+            {
+              "name": "text1",
+              "title": "Rasini sintetice"
+            },
+            {
+              "name": "text2",
+              "title": "Lacuri izolante"
+            },
+            {
+              "name": "text3",
+              "title": "Materiale plastice presate"
+            },
+            {
+              "name": "text4",
+              "title": "Ceramica"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "question10",
+          "title": "Enumerati doua avantaje ale utilizarii bitumului ca electroizolant"
+        },
+        {
+          "type": "comment",
+          "name": "question11",
+          "title": "De ce azbestul este din ce in ce mai putin utilizat ca electroizolant? Care sunt pericolele lui?"
+        },
+        {
+          "type": "comment",
+          "name": "question12",
+          "title": "Explicati avantajele utilizarii ceramicii in izolatoarele de inalta tensiune."
+        },
+        {
+          "type": "comment",
+          "name": "Analizati si comparati utilizarea rasinilor sintetice si a materialelor plastice stratificate in echipamente electrice.",
+          "title": "Analizati si comparati utilizarea rasinilor sintetice si a materialelor plastice stratificate in echipamente electrice.\n\nPrezentati concluziile intr-un paragraf si propuneti un material potrivit pentru izolatia unui cablu de inalta tensiune."
+        }
+      ]
+    }
+  ],
+  "showProgressBar": "auto",
+  "progressBarType": "questions"
+}
