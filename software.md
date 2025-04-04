@@ -4,11 +4,11 @@ description: Software I have created so far
 keywords: software, oawp, oawp-gui, therealone78's browser homepage, therealone78's high contrast firefox newtab page, ntfy resources usage plugin, pybattery, therealone78's calculator
 ---
 
-Over the past years I've made software that is quite useful, at least for me.
+Over the past years I've made some pieces of software that are useful for me, and hopefully for other people too.
 
-Even though I am really greateful that I've made this software reality, I am still not satisfied enough, so I decided to free my software and publish it to the world with the hope that it will be useful.
+Even though I am really happy that I've made this software reality, I was still not satisfied enough. Therefore, I decided to free my software and publish it to the whole world with the hope that it will be useful.
 
-A good majority of my software is licensed under the GNU GPL v3+ license, with a few exceptions where I've decided to license them with more permissive copyright rules, like the LGPL or the MIT license.
+I've licensed a good majority of my software under the GNU GPL v3+ license, with some exceptions where I've licensed them with more permissive copyright rules, like the LGPL or the MIT license.
 
 "_Software is like sex: It's better when it's free!_"<br>
 \- Linus Benedict Torvalds
@@ -21,7 +21,7 @@ A good majority of my software is licensed under the GNU GPL v3+ license, with a
     <img src="/resources/img/software/OAWP_logo_row_v2.svg" class="sw-img">
   </div>
   <div class="sw-text">
-  OAWP is my main focus nowadays. It's an Animated Wallpaper Player designed to work with compositors and be highly configurable.
+  OAWP is the primary software I'm working lately. It's an Animated Wallpaper Player designed to work with compositors and be highly configurable.
   OAWP is based on AlecsFerra's animated_wallpaper.c github gist. The original source code isn't very intuitive, lacks configurability and needs a recompilation everytime the user wants to change the animeted wallpaper and it's a very tedious process to change the wallpaper, the user having to edit every single line containing a frame.
 
  OAWP on the other hand solves these problems, the user having to compile and install OAWP once and configure the wallpaper in a more intuitive config file located either in `~/.config/oawp/oawp.conf` or at a specified location, at user's choice. With this, the user also get's far more choice on how to use OAWP, like:
@@ -58,7 +58,7 @@ Useful <abbr title="Uniform Resource Locator">URL</abbr>s:
 - License: <a href="https://mit-license.org/" class="thirdParty">MIT</a> with <a href="https://www.copyright.gov/fair-use/" target="_blank" class="thirdParty">Fair Use</a> exceptions when mentioned
 
 
-## TheRealOne78's High Contrast Firefox Newtab Page</h3>
+## TheRealOne78's High Contrast Firefox Newtab Page
 A custom Firefox newtab page that features a high contrast theme and a vectorized cute firefox logo.
 
 <img src="/resources/img/software/firefox-newtab-page.png" width="70%">
