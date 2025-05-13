@@ -13,10 +13,20 @@
           "isRequired": true
         },
         {
-          "type": "text",
+          "type": "dropdown",
           "name": "question2",
           "title": "Clasa a IX-a ____",
-          "isRequired": true
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "I"
+            },
+            {
+              "value": "Item 2",
+              "text": "J"
+            }
+          ]
         },
         {
           "type": "text",
