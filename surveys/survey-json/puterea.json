@@ -1,0 +1,184 @@
+{
+  "title": "Fisa de lucru - Masurarea puterii electrice in Curent Continuu (CC)",
+  "description": "Aceasta fisa de lucru are ca scop dezvoltarea cunoasterii masurarii puterii electrice in curent continuu (CC).\n\nVeti lucra in echipe pentru a raspunde la intrebari si pentru a cauta informatii relevante.\n\nResurse utile: manualul de specialitate, internetul (ex: Wikipedia, site-uri de fizica), enciclopedii tehnice.\n\nNota: Completati raspunsurile in locurile marcate si folositi informatii corecte si complete.\n\nCredit imagine: By Dwight Burdette - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=18484023",
+  "logo": "data:image/jpeg;base64,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",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "question1",
+          "title": "NUME Prenume",
+          "isRequired": true
+        },
+        {
+          "type": "dropdown",
+          "name": "question2",
+          "title": "Clasa a IX-a ____",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "I"
+            },
+            {
+              "value": "Item 2",
+              "text": "J"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "question3",
+          "startWithNewLine": false,
+          "title": "Data si ora",
+          "isRequired": true,
+          "inputType": "datetime-local"
+        },
+        {
+          "type": "text",
+          "name": "question4",
+          "title": "Puterea electrica in curent continuu exprima in _____________"
+        },
+        {
+          "type": "text",
+          "name": "question5",
+          "title": "Formula de calcul este: P = ______________ * ______________."
+        },
+        {
+          "type": "text",
+          "name": "question6",
+          "title": "Tensiunea electrica se masoara cu un _______________ si se exprima in _____________"
+        },
+        {
+          "type": "text",
+          "name": "question7",
+          "title": "Curentul electric se masoara cu un _______________ si se exprima in __________________"
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "Ce marime fizica exprima puterea electrica?",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Numarul electronilor intr-un conductor"
+            },
+            {
+              "value": "Item 2",
+              "text": "Rata consumului de energie electrica"
+            },
+            {
+              "value": "Item 3",
+              "text": "Cantitatea de sarcina electrica"
+            },
+            {
+              "value": "Item 4",
+              "text": "Energia consumata in unitatea de timp"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Ce se intampla cu puterea daca tensiunea ramane constanta, dar curentul creste?",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Puterea scade"
+            },
+            {
+              "value": "Item 2",
+              "text": "Puterea creste"
+            },
+            {
+              "value": "Item 3",
+              "text": "Puterea ramane la fel"
+            },
+            {
+              "value": "Item 4",
+              "text": "Nu are legatura"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question10",
+          "title": "Ce inseamna daca o lampa are inscriptionat pe ea \"60W\"?",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "Este grea"
+            },
+            {
+              "value": "Item 2",
+              "text": "Consuma 60V"
+            },
+            {
+              "value": "Item 3",
+              "text": "Consuma 60W/s"
+            },
+            {
+              "value": "Item 4",
+              "text": "Are o rezistenta mare"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "question11",
+          "title": "O lampa functioneaza la 12V si consuma 2A. Calculeaza puterea electrica:"
+        },
+        {
+          "type": "text",
+          "name": "question12",
+          "title": "Un motor electric functioneaza la 24V si consuma 5A. Puterea sa este:"
+        },
+        {
+          "type": "text",
+          "name": "question13",
+          "title": "Un aparat functioneaza la 48V si dezvolta o putere de 240W. Ce curent consuma?"
+        },
+        {
+          "type": "boolean",
+          "name": "question14",
+          "title": "Voltmetrul se leaga in serie cu consumatorul.",
+          "labelTrue": "Fals",
+          "labelFalse": "Adevarat"
+        },
+        {
+          "type": "boolean",
+          "name": "question15",
+          "title": "Ampermetrul se leaga in paralel cu sursa de tensiune.",
+          "labelTrue": "Fals",
+          "labelFalse": "Adevarat"
+        },
+        {
+          "type": "boolean",
+          "name": "question17",
+          "title": "Puterea se masoara direct cu un instrument numit \"wattmetru\", in curent continuu.",
+          "labelTrue": "Fals",
+          "labelFalse": "Adevarat"
+        },
+        {
+          "type": "comment",
+          "name": "question18",
+          "title": "De ce este important sa cunoastem puterea unui consumator electric?"
+        },
+        {
+          "type": "comment",
+          "name": "question19",
+          "title": "Ce probleme pot aparea daca un aparat consuma mai multa putere decat este indicat pentru circuitul in care este conectat?"
+        },
+        {
+          "type": "signaturepad",
+          "name": "question16",
+          "title": "Semnatura elev",
+          "isRequired": true,
+          "placeholder": "Semneaza aici"
+        }
+      ]
+    }
+  ]
+}
