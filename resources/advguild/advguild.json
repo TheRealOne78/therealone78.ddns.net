@@ -83,6 +83,10 @@
 			  "[1.6.2]ReiMinimap_v3.4_01.zip": {
 			  	"Type": "archive",
 			  	"Description": "ReiMinimap is a minecraft mod that gives you a little live map with coordinates, chunk types, themes and more. This specific file mod is compatible with minecraft 1.6.2 only. To install this mod, put this file in your minecraft profile's mods folder."
+			  },
+			  "5459-craftguide-162.zip": {
+			  	"Type": "archive",
+			  	"Description": "CraftGuide is a minecraft mod that gives you all the recipes in a handy book. This specific file mod is compatible with minecraft 1.6.2 only. To install this mod, put this file in your minecraft profile's mods folder."
 			  }
 			},
 			"Optifine": {
@@ -143,7 +147,15 @@
 			},
 			"LUA": {
 				"Type": "dir",
-				"Description": "LUA code for ComputerCraft and OpenComuters Minecraft mods for simulating a computer with the lua4j interpreter."
+				"Description": "LUA code for ComputerCraft and OpenComuters Minecraft mods for simulating a computer with the lua4j interpreter.",
+				"OC": {
+					"Type": "dir",
+					"Description": "A collection of LUA scripts for the <a href=\"https://github.com/MightyPirates/OpenComputers>OpenComputers\"</a> Minecraft mod"
+				},
+				"CC-T": {
+					"Type": "dir",
+					"Description": "A collection of LUA scripts for the - <a href=\"https://tweaked.cc>ComputerCraft: Tweaked\"</a> - Minecraft mod"
+				}
 			}
 		},
 		"Toys": {
