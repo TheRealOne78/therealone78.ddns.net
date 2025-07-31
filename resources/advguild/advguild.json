@@ -150,11 +150,11 @@
 				"Description": "LUA code for ComputerCraft and OpenComuters Minecraft mods for simulating a computer with the lua4j interpreter.",
 				"OC": {
 					"Type": "dir",
-					"Description": "A collection of LUA scripts for the <a href=\"https://github.com/MightyPirates/OpenComputers>OpenComputers\"</a> Minecraft mod"
+					"Description": "A collection of LUA scripts for the <a href=\"https://github.com/MightyPirates/OpenComputers\">OpenComputers</a> Minecraft mod"
 				},
 				"CC-T": {
 					"Type": "dir",
-					"Description": "A collection of LUA scripts for the - <a href=\"https://tweaked.cc>ComputerCraft: Tweaked\"</a> - Minecraft mod"
+					"Description": "A collection of LUA scripts for the - <a href=\"https://tweaked.cc\">ComputerCraft: Tweaked</a> - Minecraft mod"
 				}
 			}
 		},
