@@ -1,0 +1,111 @@
+{
+  "title": "Recapitulare Test 3 CEE",
+  "description": "Aceasta fisa de lucru are ca scop recapitularea subiectelor inainte de test.\n\nVeti lucra in echipe pentru a raspunde la intrebari si pentru a cauta informatii relevante.\n\nResurse utile: manualul de specialitate, internetul (ex: Wikipedia, site-uri de fizica), enciclopedii tehnice.\n\nNota: Completati raspunsurile in locurile marcate si folositi informatii corecte si complete.",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "question2",
+          "title": "NUME Prenume",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "question4",
+          "title": "Clasa",
+          "description": "a IX-a ...",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "question3",
+          "title": "Data si ora",
+          "isRequired": true,
+          "inputType": "datetime-local"
+        },
+        {
+          "type": "text",
+          "name": "question1",
+          "title": "Molibdenul este utilizat in industria electrica datorita ..."
+        },
+        {
+          "type": "text",
+          "name": "question5",
+          "title": "Wolframul este utilizat in fabricarea filamentelor pentru becuri deoarece ..."
+        },
+        {
+          "type": "multipletext",
+          "name": "question6",
+          "title": "Enumerati doua proprietati importante ale plumbului",
+          "items": [
+            {
+              "name": "text1",
+              "title": "1"
+            },
+            {
+              "name": "text2",
+              "title": "2"
+            }
+          ]
+        },
+        {
+          "type": "multipletext",
+          "name": "question7",
+          "title": "Enumerati doua proprietati importante ale staniului",
+          "items": [
+            {
+              "name": "text1",
+              "title": "1"
+            },
+            {
+              "name": "text2",
+              "title": "2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "question8",
+          "title": "Otelurile aliate sunt utilizate frecvent in constructii datorita ..."
+        },
+        {
+          "type": "text",
+          "name": "question9",
+          "title": "Otelurile aliate cu nichel si vanadiu au avantajul de a fi ..."
+        },
+        {
+          "type": "text",
+          "name": "question10",
+          "title": "Otelurile silicioase sunt folosite in echipamente electrice datorita ..."
+        },
+        {
+          "type": "comment",
+          "name": "question11",
+          "title": "Comparati otelurile manganose si cele crom-nichel-mangan in functie de utilizarile lor"
+        },
+        {
+          "type": "comment",
+          "name": "question12",
+          "title": "Fontele cenusii sunt utilizate in constructia echipamentelor electrice datorita ..."
+        },
+        {
+          "type": "comment",
+          "name": "question13",
+          "title": "Un avantaj al fontelor cenusii fata de fontele albe este ..."
+        },
+        {
+          "type": "comment",
+          "name": "question14",
+          "title": "Explicati de ce fontele cenusii sunt preferate in realizarea carcaselor pentru motoare electrice ..."
+        },
+        {
+          "type": "comment",
+          "name": "question15",
+          "title": "Analizati avantajele utilizarii otelurilor aliate fata de otelurile nealiate in structurile industriale.\n\nPrezentati concluziile echipei intr-un paragraf si argumentati alegerea unui material potrivit pentru un echipament electric expus la temperaturi ridicate."
+        }
+      ]
+    }
+  ]
+}

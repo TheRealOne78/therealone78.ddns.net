@@ -1,0 +1,21 @@
+# Copyright (c) 2020-2025 TheRealOne78
+# Distributed under the terms of the GNU Affero General Public License v3+
+# https://www.gnu.org/licenses/agpl-3.0.en.html
+
+[Unit]
+Name=pdfExamReceiver
+Description=A receiver daemon for my student's exams
+After=network.target
+
+[Service]
+User=therealone
+Group=therealone
+WorkingDirectory=/var/www/html/resources/daemons/
+ExecStart=python3 ./pdfExamReceiver.py
+Type=simple
+TimeoutStartSec=0
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

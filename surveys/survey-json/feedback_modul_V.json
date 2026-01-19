@@ -1,0 +1,153 @@
+{
+  "title": "Chestionar de feedback pentru elevi",
+  "description": "Clasele IX – Electrician Auto / Profesionala",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "question3",
+          "title": "Clasa a IX-a ____",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "I"
+            },
+            {
+              "value": "Item 2",
+              "text": "J"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "question4",
+          "title": "Aranjeaza in ordine care materii ti s-au parut cele mai utile.",
+          "description": "Aranjarea se face de sus in jos.",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "CEE [Componentele Echipamentelor Electrotehnice]"
+            },
+            {
+              "value": "Item 2",
+              "text": "MECC [Masurari Electrice in Curent Continuu]"
+            },
+            {
+              "value": "Item 3",
+              "text": "TGE [Tehnologii Generale in Electrotehnica]",
+              "visibleIf": "{question3} <> 'Item 1'"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel1",
+          "title": "Cat de usor ti sa parut disciplina",
+          "elements": [
+            {
+              "type": "rating",
+              "name": "question11",
+              "title": "MECC (Masurari Electrice in Curent Continuu)",
+              "rateType": "smileys",
+              "minRateDescription": "Foarte slab",
+              "maxRateDescription": "Foarte bine",
+              "rateDescriptionLocation": "top"
+            },
+            {
+              "type": "rating",
+              "name": "question9",
+              "visibleIf": "{question3} <> 'Item 1'",
+              "title": "TGE (Tehnologii Generale in Electrotehnica)",
+              "rateType": "smileys",
+              "minRateDescription": "Foarte slab",
+              "maxRateDescription": "Foarte bine",
+              "rateDescriptionLocation": "top"
+            },
+            {
+              "type": "rating",
+              "name": "question10",
+              "title": "CEE(Componentele Echipamentelor Electrotehnice)?",
+              "rateType": "smileys",
+              "minRateDescription": "Foarte slab",
+              "maxRateDescription": "Foarte bine",
+              "rateDescriptionLocation": "top"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "question5",
+          "title": "Cat de clare au fost explicatiile profesorului?",
+          "elements": [
+            {
+              "type": "rating",
+              "name": "question6",
+              "title": "MECC (Masurari Electrice in Curent Continuu)",
+              "rateType": "stars",
+              "minRateDescription": "Foarte slab",
+              "maxRateDescription": "Foarte bine",
+              "rateDescriptionLocation": "top"
+            },
+            {
+              "type": "rating",
+              "name": "question7",
+              "visibleIf": "{question3} <> 'Item 1'",
+              "title": "TGE (Tehnologii Generale in Electrotehnica)",
+              "rateType": "stars",
+              "minRateDescription": "Foarte slab",
+              "maxRateDescription": "Foarte bine",
+              "rateDescriptionLocation": "top"
+            },
+            {
+              "type": "rating",
+              "name": "question8",
+              "title": "CEE(Componentele Echipamentelor Electrotehnice)?",
+              "rateType": "stars",
+              "minRateDescription": "Foarte slab",
+              "maxRateDescription": "Foarte bine",
+              "rateDescriptionLocation": "top"
+            }
+          ]
+        },
+        {
+          "type": "rating",
+          "name": "question1",
+          "title": "Ai simtit ca ai inteles mai bine continutul lectiilor dupa fisele de lucru sau activitatile practice?",
+          "minRateDescription": "Foarte slab",
+          "maxRateDescription": "Foarte bine",
+          "rateDescriptionLocation": "top"
+        },
+        {
+          "type": "panel",
+          "name": "question2",
+          "title": "Intrebari deschise (raspunsuri scurte)",
+          "elements": [
+            {
+              "type": "comment",
+              "name": "question12",
+              "title": "Ce ti-a placut cel mai mult la orele de modul?"
+            },
+            {
+              "type": "comment",
+              "name": "question13",
+              "title": "Ce ai schimba sau ce ai vrea sa faci diferit in viitor?"
+            },
+            {
+              "type": "comment",
+              "name": "question14",
+              "title": "Care lectie sau activitate ti s-a parut cea mai interesanta? De ce?"
+            }
+          ]
+        },
+        {
+          "type": "signaturepad",
+          "name": "question15",
+          "title": "Daca doresti, deseneaza aici ceva care sa reprezinte feedback-ul tau asupra orelor predate de mine."
+        }
+      ]
+    }
+  ]
+}

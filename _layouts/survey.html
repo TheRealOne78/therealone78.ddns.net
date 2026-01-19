@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="RO" style="background-color:#303030; margin:0; padding:0;">
+<head>
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="darkreader" content="no-invert">
+    <!--<meta name="darkreader-lock">-->
+    <script type="text/javascript" src="/resources/npm/node_modules/davidshimjs-qrcodejs/qrcode.min.js"></script>
+    <link type="text/css" href="/resources/npm/node_modules/survey-core/defaultV2.min.css" rel="stylesheet">
+    <script type="text/javascript" src="/resources/npm/node_modules/survey-core/survey.core.min.js"></script>
+    <script type="text/javascript" src="/resources/npm/node_modules/survey-core/survey.i18n.min.js"></script>
+    <script type="text/javascript" src="/resources/npm/node_modules/survey-core/themes/index.min.js"></script>
+    <script type="text/javascript" src="/resources/npm/node_modules/survey-js-ui/survey-js-ui.min.js"></script>
+    <script type="text/javascript" src="/resources/npm/node_modules/jspdf/dist/jspdf.umd.min.js"></script>
+    <script type="text/javascript" src="/resources/npm/node_modules/survey-pdf/survey.pdf.min.js"></script>
+    <style>
+        body {
+            background-color: #303030;
+            margin: 0;
+            padding: 0;
+        }
+
+        .qrContainer {
+            display: none;
+            justify-content: center;
+        }
+
+        .qr {
+            margin: 10px 0 0 0;
+            padding: 25px;
+            border-radius: 20px;
+            background-color: #ffa128 !important;
+        }
+
+        #success-upload, #fail-upload {
+            display: none;
+            padding: 25px;
+            color: #ffcadc;
+            text-align: center;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        #testID {
+            color: #ffcadc;
+            text-align: center;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        #testIDWarn {
+            color: #FF1020;
+            text-align: center;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        #nameFormContainer {
+            margin: 25px 0;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #nameForm {
+            padding: 24px;
+            max-width: 700px;
+            border-radius: 5px;
+            background-color: #242424;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            display: none;
+        }
+
+        @media screen and (max-width: 1125px) {
+            #qrcode {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="qrContainer">
+        <div id="qrcode" class="qr"></div>
+    </div>
+
+    <div class="qrContainer">
+        <div id="qrcode-id" class="qr"></div>
+    </div>
+
+    <h1 id="fail-upload" style="color:red; margin:0; padding:0">TRIMITERE FIȘIER EȘUATĂ, se încearcă din nou! <b><u>NU ÎNCHIDE!</u></b></h1>
+
+    <div style="display:none">
+        <h5 id="testID"></h5>
+        <h3 id="testIDWarn">Arată acest cod profesorului pentru a valida testul!</h3>
+    </div>
+
+    <h3 id="success-upload" style="color:gray">Fișier trimis. Aștept validare test...</h3>
+
+    <h2 style="display: none; flex-direction: center"><a id="seePDF" style="color: gray; text-align:center">După ce arăți codul profesorului, apasă aici ca să îți vizualizezi răspunsurile tale.</a></h2>
+
+    <div id="nameFormContainer">
+        <div id="nameForm">
+            <h4 for="nameInput" style="color: #ffffff; text-align:left; padding:0; margin: 0 0 15px">Introduceți numele:</h4>
+            <input style="background-color:#2b2b2b; color:#d0d0d0; height:48px; width: 52vw; max-width: 560px; border-radius:5px; border-style:none" type="text" id="nameInput" placeholder="Numele dumneavoastră">
+            <button style="background-color:#ff9814; color:#202020; height:48px; width: 12wv; border-radius:5px; border-style:none" id="submitNameButton">Trimite</button>
+        </div>
+    </div>
+    <div id="surveyContainer"></div>
+
+    <script>
+        // QR Code Generation
+        function generateQRCode(elementId, data, size="512") {
+            const qrcodeElement = document.getElementById(elementId);
+            qrcodeElement.parentElement.style.display = "flex";
+                new QRCode(qrcodeElement, {
+                text: data,
+                width: size,
+                height: size,
+                typeNumber: 0,
+                correctLevel: QRCode.CorrectLevel.H,
+                render: "svg"
+            });
+        }
+
+        // Generate Unique ID
+        function generateUniqueID() {
+            const randomHex = Math.random().toString(16).slice(2, 6).toUpperCase();
+            const now       = new Date();
+            const timestamp = `${now.getFullYear().toString().slice(2)}` +
+                              `${(now.getMonth() + 1).toString().padStart(2, '0')}` +
+                              `${now.getDate().toString().padStart(2, '0')}` +
+                              `-${now.getHours().toString().padStart(2, '0')}-` +
+                              `${now.getMinutes().toString().padStart(2, '0')}-` +
+                              `${now.getSeconds().toString().padStart(2, '0')}.` +
+                              `${now.getMilliseconds().toString().padStart(3, '0')}`;
+            return `${randomHex}-${timestamp}`;
+        }
+
+        function downloadPDF(uniqueID, pdf) {
+            pdf.save(`${uniqueID}.pdf`);
+        }
+
+        // Sleep function that returns a Promise resolving after the specified timeout (in milliseconds)
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // Save and Upload PDF with Retry on Conflict
+        async function saveAndUploadPDF(pdf, name) {
+            const pdfBlob = await pdf.raw("blob");
+            let uploadID = generateUniqueID();
+
+            while (true) {
+                const formData = new FormData();
+                formData.append("file", pdfBlob, `${name} - ${uploadID}.pdf`);
+
+                const response = await fetch("uploads", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/pdf",
+                        "Directory": "uploads/{{ page.json_survey }}",
+                        "File-Name": `${name} - ${uploadID}.pdf`
+                    },
+                    body: formData
+                });
+
+                if (response.ok) {
+                    document.getElementById("fail-upload").style.display = "none";
+                    document.getElementById("success-upload").style.display = "block";
+                    console.log("PDF uploaded successfully!");
+                    break;
+                } else if (response.status === 409) {
+                    document.getElementById("fail-upload").style.display = "block";
+                    document.getElementById("success-upload").style.display = "none";
+                    console.warn(`File '${uploadID}.pdf' already exists. Generating new ID.`);
+                    uploadID = generateUniqueID();
+                } else {
+                    document.getElementById("fail-upload").style.display = "block";
+                    document.getElementById("success-upload").style.display = "none";
+                    console.error("Error uploading PDF:", response.statusText);
+                    console.log("Retrying again in 2 seconds");
+                    await sleep(2000);
+                }
+            }
+
+            return uploadID;
+        }
+
+        function sanitizeInput(input) {
+            if (typeof input !== "string") return input;
+
+            const charMap = {
+                "ă": "a", "Ă": "A", "î": "i", "Î": "I",
+                "ș": "s", "Ș": "S", "ț": "t", "Ț": "T",
+                "â": "a", "Â": "A", "é": "e", "É": "E",
+                "è": "e", "È": "E", "ê": "e", "Ê": "E",
+                "ë": "e", "Ë": "E", "á": "a", "Á": "A",
+                "à": "a", "À": "A", "ä": "a", "Ä": "A",
+                "ã": "a", "Ã": "A", "å": "a", "Å": "A",
+                "ó": "o", "Ó": "O", "ò": "o", "Ò": "O",
+                "ô": "o", "Ô": "O", "ö": "o", "Ö": "O",
+                "õ": "o", "Õ": "O", "ø": "o", "Ø": "O",
+                "ú": "u", "Ú": "U", "ù": "u", "Ù": "U",
+                "û": "u", "Û": "U", "ü": "u", "Ü": "U",
+                "ñ": "n", "Ñ": "N", "ç": "c", "Ç": "C",
+                "ý": "y", "Ý": "Y", "ÿ": "y", "Ÿ": "Y"
+            };
+
+            return input.replace(/[ăĂîÎșȘțȚâÂéÉèÈêÊëËáÁàÀäÄãÃåÅóÓòÒôÔöÖõÕøØúÚùÙûÛüÜñÑçÇýÝÿŸ]/g, match => charMap[match] || match);
+        }
+
+        function normalizeSurveyResults(surveyResults) {
+            const normalizedResults = {};
+
+            for (const [key, value] of Object.entries(surveyResults)) {
+                if (typeof value === "string") {
+                    normalizedResults[key] = sanitizeInput(value);
+                } else if (Array.isArray(value)) {
+                    normalizedResults[key] = value.map((item) =>
+                        typeof item === "string" ? sanitizeInput(item) : item
+                    );
+                } else if (typeof value === "object" && value !== null) {
+                    normalizedResults[key] = normalizeSurveyResults(value);
+                } else {
+                    normalizedResults[key] = value;
+                }
+            }
+
+            return normalizedResults;
+        }
+
+        // Initialize Survey
+        function initializeSurvey(surveyData) {
+            const survey = new Survey.Model(surveyData);
+            survey.applyTheme(SurveyTheme.DefaultDark);
+            survey.locale = "ro";
+
+            // Render survey
+            survey.render(document.getElementById("surveyContainer"));
+
+            survey.onComplete.add(function (sender) {
+                //const surveyResults = sender.data;
+                const surveyResults = normalizeSurveyResults(sender.data);
+
+                // Show name input form
+                document.getElementById("surveyContainer").style.display = "none"; // Hide the survey
+                document.getElementById("nameForm").style.display = "block";
+                document.getElementById("submitNameButton").onclick = async function () {
+                    const name = document.getElementById("nameInput").value.trim();
+                    if (!name) {
+                        alert("Vă rugăm să introduceți un nume.");
+                        return;
+                    }
+
+                    const sanitizedName = sanitizeInput(name);
+
+                    // Hide name form
+                    document.getElementById("nameForm").style.display = "none";
+
+                    // Create and upload PDF
+                    const pdfOptions = {
+                        fontSize: 12,
+                        margins: { left: 10, right: 10, top: 10, bot: 10 },
+                        format: [210, 297],
+                        compress: true
+                    };
+
+                    const surveyPdf = new SurveyPDF.SurveyPDF(surveyData, pdfOptions);
+                    surveyPdf.onRenderHeader.add((_, canvas) => {
+                        canvas.drawText({
+                            text: "\nPunctaj ____________________(________________)",
+                            fontSize: 14,
+                            horizontalAlign: "right",
+                            isBold: true
+                        });
+                    });
+                    surveyPdf.data = surveyResults;
+                    surveyPdf.locale = "ro";
+
+                    document.getElementById("seePDF").parentElement.style.display = "flex";
+                    document.getElementById("seePDF").addEventListener("click", function () {
+                        downloadPDF("fisa-de-lucru_tmp", surveyPdf);
+                    })
+
+                    let uniqueID = await saveAndUploadPDF(surveyPdf, sanitizedName);
+
+                    // Display the unique ID
+                    const testIDDiv = document.getElementById("testID");
+                    testIDDiv.parentElement.style.display = "block";
+                    testIDDiv.innerHTML = `ID: ${uniqueID}`;
+
+                    // Generate the second QR Code for sanitizedName and unique ID
+                    generateQRCode("qrcode-id", `${sanitizedName},${uniqueID}`, 256);
+
+                    // Update visibility
+                    document.getElementById("qrcode-id").parentElement.style.display = "flex"; // Show the second QR code
+                    document.getElementById("qrcode").parentElement.style.display    = "none"; // Hide the first QR code
+                };
+            });
+        }
+
+        // Load Survey JSON
+        function loadSurveyJSON(url) {
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", url, false);
+            xhr.send();
+            if (xhr.status === 200) {
+                return JSON.parse(xhr.responseText);
+            } else {
+                console.error("Failed to load survey JSON:", xhr.status, xhr.statusText);
+                return null;
+            }
+        }
+
+        // Generate the initial QR Code for the URI
+        const currentURL = window.location.href;
+        generateQRCode("qrcode", currentURL);
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const surveyJsonUrl = "survey-json/{{ page.json_survey }}";
+            const surveyData = loadSurveyJSON(surveyJsonUrl);
+
+            if (surveyData) {
+                initializeSurvey(surveyData);
+            } else {
+                console.error("Survey data is not available.");
+            }
+        });
+    </script>
+</body>
+</html>

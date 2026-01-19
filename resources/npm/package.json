@@ -1,0 +1,18 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "davidshimjs-qrcodejs": "^0.0.2",
+    "survey-core": "^1.12.17",
+    "survey-js-ui": "^1.12.17",
+    "survey-pdf": "^1.12.17"
+  }
+}
