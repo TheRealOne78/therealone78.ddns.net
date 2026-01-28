@@ -11,8 +11,8 @@
   "description": "",
   "dependencies": {
     "davidshimjs-qrcodejs": "^0.0.2",
-    "survey-core": "^1.12.17",
-    "survey-js-ui": "^1.12.17",
-    "survey-pdf": "^1.12.17"
+    "survey-core": "^2.5.8",
+    "survey-js-ui": "^2.5.8",
+    "survey-pdf": "^2.5.8"
   }
 }

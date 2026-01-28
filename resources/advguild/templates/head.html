@@ -1,6 +1,8 @@
 ---
 title: AdvGuild FTP Mirror - Europe/Romania - Brașov <img src="/resources/img/icons/flags/ca.png"> → <img src="/resources/img/icons/flags/eu.png"> / <img src="/resources/img/icons/flags/ro.png">
+description: A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brașov
 layout: none
+image: http://advguild.myftp.org/favicon.ico
 ---
 <!--Beginning of head.html-->
 
@@ -8,28 +10,38 @@ layout: none
     <head>
         <title>AdvGuild - Mirror</title>
         <meta charset="UTF-8">
+
+        <!-- Canonical URL -->
+        <link rel="canonical"  href="{{ site.url }}/advguild">
+
+        <!-- Favicon -->
+        <link rel="icon" href="/resources/img/icons/favico.svg" type="image/x-icon">
+
+        <!-- CSS -->
         <link rel="stylesheet" href="/resources/css/main.css?version=1.1">
         <link rel="stylesheet" href="/resources/css/advguild/main.css?version=1.1">
         <link rel="stylesheet" href="/resources/css/uri.css?version=1.1">
-        <link rel="icon" href="/resources/img/icons/favico.svg" type="image/x-icon">
+
 
         <!-- Primary Meta Tags -->
         <meta name="title" content="AdvGuild FTP Mirror - Europe/Brașov - Romania">
-        <meta name="description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brașov">
+        <meta name="description" content="{{ page.description }}">
+        <meta name="theme-color" content="#000">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://therealone78.ddns.net/advguild.html">
+        <meta property="og:url" content="{{ site.url }}/advguild">
         <meta property="og:title" content="AdvGuild FTP Mirror - Europe/Brașov - Romania">
-        <meta property="og:description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brașov">
-        <meta property="og:image" content="http://advguild.myftp.org/favicon.ico">
+        <meta property="og:description" content="{{ page.description }}">
+
+        <meta property="og:image" content="{{ page.image }}">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://therealone78.ddns.net/advguild.html">
+        <meta property="twitter:url" content="{{ site.url }}/advguild">
         <meta property="twitter:title" content="AdvGuild FTP Mirror - Europe/Brașov - Romania">
-        <meta property="twitter:description" content="A mirror for ftp://advguild.myftp.org available in http and ftp protocol located in Europe/Romania - Brașov">
-        <meta property="twitter:image" content="http://advguild.myftp.org/favicon.ico">
+        <meta property="twitter:description" content="{{ page.description }}">
+        <meta property="twitter:image" content="{{ page.image }}">
     </head>
 
     <body>
