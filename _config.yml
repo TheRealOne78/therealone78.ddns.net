@@ -50,6 +50,7 @@ exclude:
   - uploads/
   - 'gameRes/TIC TAC TOE'
   - advguildRoot/
+  - admin/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
