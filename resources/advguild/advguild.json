@@ -4,224 +4,588 @@
 		"Description": "null",
 		"Minecraft": {
 			"Type": "dir",
-			"Description": "null",
+			"Description": "Collection of Minecraft game data including mods, modpacks, texture packs, Forge installers, server files, and LUA scripts for in-game computers.",
+			"Titan-launcher.zip": {
+				"Type": "archive",
+				"Description": "Titan Launcher is a third-party Minecraft launcher. It supports multiple Minecraft versions and allows launching modded profiles. Proprietary freeware."
+			},
+			"forgottenLands.jpg": {
+				"Type": "image",
+				"Description": "An image of the Forgotten Lands adventure map continent."
+			},
+			"The_Blightfall_Continent.png": {
+				"Type": "image",
+				"Description": "An image of the Blightfall adventure map continent. Blightfall is a Minecraft 1.7.10 modpack and adventure map by Talonos, available on the Technic platform. - <a href=\"https://www.technicpack.net/modpack/blightfall.592618\">Technic page</a>"
+			},
+			"colorcode.png": {
+				"Type": "image",
+				"Description": "A reference image showing Minecraft chat and sign color codes and their corresponding section-sign (\u00a7) identifiers, useful for server plugin development and in-game formatting."
+			},
+			"Hyrule-world-atlas.jpg": {
+				"Type": "image",
+				"Description": "An image for a Minecraft Hyrule (The Legend of Zelda) themed world."
+			},
+			"TerraMc.zip": {
+				"Type": "archive",
+				"Description": "A Minecraft resource pack, mod, or world download likely themed around terrain or natural landscapes. Further details are unknown; inspect contents for specifics."
+			},
+			"serversync-2.6.17.jar": {
+				"Type": "jar",
+				"Description": "ServerSync is a Java utility that automatically synchronises mod files between a dedicated Minecraft server and the player's local client. This keeps the client mod folder in sync when connecting to a modded server. Proprietary freeware."
+			},
 			"Forge": {
 				"Type": "dir",
-				"Description": "Forge mod manager for MineCraft",
+				"Description": "Minecraft Forge installers for multiple Minecraft versions. Forge is a free and open-source modding API and mod loader licensed under the <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1</a> or later. - <a href=\"https://github.com/MinecraftForge/MinecraftForge\">GitHub (source)</a> - <a href=\"https://www.minecraftforge.net/\">Official site</a>",
 				"forge-1.6.2-9.10.1.871-installer.jar": {
-		  		"Type": "jar",
-		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.6.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.6.2. Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
+				},
+				"forge-1.6.4-9.11.1.1345-installer.jar": {
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.6.4. Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
+				},
+				"forge-1.7.10-10.13.4.1492-1.7.10-installer.jar": {
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.7.10 (build 1492). Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
+				},
+				"forge-1.7.10-10.13.4.1614-1.7.10-installer.jar": {
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.7.10 (build 1614, newer than 1492). Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
 				},
 				"forge-1.10.2-12.18.3.2316-installer.jar": {
-		  		"Type": "jar",
-		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.10.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.10.2 (build 2316). Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
 				},
 				"forge-1.10.2-12.18.3.2511-installer.jar": {
-		  		"Type": "jar",
-	  			"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.10.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.10.2 (build 2511, newer than 2316). Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
 				},
 				"forge-1.12.2-14.23.2.2618-installer.jar": {
-		  		"Type": "jar",
-		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.12.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.12.2 (build 2618). Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
 				},
 				"forge-1.12.2-14.23.5.2836-installer.jar": {
-		  		"Type": "jar",
-		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.12.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.12.2 (build 2836, newer than 2618). Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
 				},
-				"forge-1.6.2-9.10.1.871-installer.jar": {
-		  		"Type": "jar",
-		  		"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.6.2 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
-			  },
-				"forge-1.7.10-10.13.4.1492-1.7.10-installer.jar": {
-		  		"Type": "jar",
-			  	"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.7.1 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
-			  },
-				"forge-1.7.10-10.13.4.1614-1.7.10-installer.jar": {
-			  	"Type": "jar",
-			  	"Description": "Forge is a minecraft profile launcher that loads mods. This version supports Minecraft 1.7.1 only. To install forge 1.6.2 in your computer, double click this jar file and install the client."
-			  }
+				"forge-1.12.2-14.23.5.2860-installer.jar": {
+					"Type": "jar",
+					"Description": "Minecraft Forge installer for Minecraft 1.12.2 (build 2860, the newest 1.12.2 build in this collection). Run the jar to install the Forge mod loader profile into your local Minecraft launcher. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>."
+				}
 			},
-			"minecraft_launcher.zip": {
-				"Type": "archive",
-				"Description": "A MineCraft launcher"
+			"Optifine": {
+				"Type": "dir",
+				"Description": "OptiFine shader and performance optimisation downloads for multiple Minecraft versions. OptiFine is proprietary freeware. - <a href=\"https://optifine.net/\">Official site</a>",
+				"OptiFine_1.5.2_HD_D5.zip": {
+					"Type": "archive",
+					"Description": "OptiFine HD edition D5 for Minecraft 1.5.2. Optimises rendering performance and adds HD texture support and shader options. Extract and place in the Minecraft bin folder or run the installer. Proprietary freeware."
+				},
+				"OptiFine_1.6.2_HD_C4.jar": {
+					"Type": "jar",
+					"Description": "OptiFine HD edition C4 (non-Ultra) for Minecraft 1.6.2. Optimises rendering performance and adds extended visual settings. Double-click to install as a standalone profile, or place in the profile's mods folder to use with Forge. Proprietary freeware."
+				},
+				"OptiFine_1.6.2_HD_U_C4.jar": {
+					"Type": "jar",
+					"Description": "OptiFine HD Ultra edition C4 for Minecraft 1.6.2. The Ultra edition enables the most advanced shader and visual options. Double-click to install as a standalone profile, or place in the profile's mods folder to use with Forge. Proprietary freeware."
+				},
+				"OptiFine_1.6.2_L_C4.jar": {
+					"Type": "jar",
+					"Description": "OptiFine Light edition C4 for Minecraft 1.6.2. The Light edition provides basic performance improvements with a smaller footprint than HD or Ultra variants. Double-click to install as a standalone profile, or place in the profile's mods folder to use with Forge. Proprietary freeware. NOTE: This file is not present in the latest directory listing and may have been removed or renamed."
+				},
+				"OptiFine_1.7.10_HD_U_E7.jar": {
+					"Type": "jar",
+					"Description": "OptiFine HD Ultra edition E7 for Minecraft 1.7.10. Optimises rendering and adds shader support. Double-click to install as a standalone profile, or place in the profile's mods folder to use with Forge. Proprietary freeware."
+				},
+				"OptiFine_1.12.2_HD_U_G5.jar": {
+					"Type": "jar",
+					"Description": "OptiFine HD Ultra edition G5 for Minecraft 1.12.2. Optimises rendering and adds shader support. Double-click to install as a standalone profile, or place in the profile's mods folder to use with Forge. Proprietary freeware."
+				}
 			},
-			"1.6 to 1.14 pack project.7z": {
-				"Type": "archive",
-				"Description": "null"
+			"TexturePacks": {
+				"Type": "dir",
+				"Description": "A collection of Minecraft texture packs (resource packs) for various versions.",
+				"1.6 to 1.14 pack project.7z": {
+					"Type": "archive",
+					"Description": "A texture pack project archive spanning Minecraft versions 1.6 through 1.14. The .7z format requires a tool such as <a href=\"https://www.7-zip.org/\">7-Zip</a> or <a href=\"https://p7zip.sourceforge.net/\">p7zip</a> (free software, <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL</a>) to extract."
+				},
+				"New Frontiers-1.6-2019-3- no discs.zip": {
+					"Type": "archive",
+					"Description": "null"
+				},
+				"ZeldaTexturePackmc-15.zip": {
+					"Type": "archive",
+					"Description": "A texture pack for Minecraft that reskins blocks, items and mobs to resemble the art style of Nintendo's The Legend of Zelda series. To install, extract the zip and place it in your profile's texturepacks directory, then select it in the Minecraft settings."
+				}
 			},
 			"ModPacks": {
 				"Type": "dir",
-				"Description": "A series of modpacks for Minecraft",
-			  "AgrarianSkies2.zip": {
-			  	"Type": "archive",
-			  	"Description": "This is a modpack for Minecraft 1.7.10 made by Jaded and modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
-			  },
-			  "blightfall-FULL.zip": {
-			  	"Type": "archive",
-			  	"Description": "BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
-			  },
-			  "blightfall-NO-Solo.zip": {
-			  	"Type": "archive",
-			  	"Description": "BlightFall is a modpack for Minecraft 1.7.10 made by Talonos and released as an official Technic modpack, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
-			  },
+				"Description": "A collection of Minecraft modpacks, each bundling multiple mods into a single playable experience. Most of these packs were modified or assembled by the user 'Salzamar'.",
+				"AgrarianSkies2.zip": {
+					"Type": "archive",
+					"Description": "Agrarian Skies 2 is a skyblock quest-based modpack for Minecraft 1.7.10, created by jadedcat and assembled by the Jaded Packs team, and modified here by Salzamar. Players start on a small floating island and must rebuild civilization using automation, resource management, and guided quests via the Hardcore Questing Mode (HQM) mod. Multiple map options ranging from easy to hard are included. Minimum 4 GB RAM required. - <a href=\"https://www.curseforge.com/minecraft/modpacks/agrarian-skies-2\">CurseForge</a>"
+				},
+				"blightfall-FULL.zip": {
+					"Type": "archive",
+					"Description": "Blightfall (FULL version, including solo content) is a modpack and adventure map for Minecraft 1.7.10 created by Talonos and released as an official Technic modpack, modified here by Salzamar. Players land on an alien planet covered in Thaumcraft taint and must survive and cleanse the world using magic and technology. Features a hand-crafted world, over 200 HQM quests, and a narrative storyline. Minimum 4 GB RAM required. - <a href=\"https://www.technicpack.net/modpack/blightfall.592618\">Technic page</a>"
+				},
+				"blightfall-NO-Solo.zip": {
+					"Type": "archive",
+					"Description": "Blightfall (multiplayer-only variant, solo-related content removed) is a modpack and adventure map for Minecraft 1.7.10 created by Talonos and released as an official Technic modpack, modified here by Salzamar. Identical to blightfall-FULL except that content intended for solo play has been stripped out, making this variant suited for co-op servers. Minimum 4 GB RAM required. - <a href=\"https://www.technicpack.net/modpack/blightfall.592618\">Technic page</a>"
+				},
 				"SpaceChickens.zip": {
 					"Type": "archive",
-					"Description": "SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
+					"Description": "Space Chickens is a light-tech adventure modpack for Minecraft 1.7.10 conceived by GuudeBoulderfist and assembled by rubysown, modified here by Salzamar. The goal is to bring Chococraft chocobos to space using Galacticraft, with castles to conquer along the way. Minimum 4 GB RAM required. - <a href=\"https://www.curseforge.com/minecraft/modpacks/space-chickens\">CurseForge</a>"
 				},
 				"ClearSkies.zip": {
 					"Type": "archive",
-					"Description": "This is a modpack for Minecraft 1.12.2 made by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 6GB."
+					"Description": "ClearSkies is a modpack for Minecraft 1.12.2 created by Salzamar. Further details about the pack's theme or included mods are not documented here; inspect the contents for a mod list or readme. Minimum 6 GB RAM required."
+				},
+				"CrashLanding.zip": {
+					"Type": "archive",
+					"Description": "Crash Landing is a survival-focused modpack for Minecraft 1.6.4 created by Iskandar, distributed via Feed The Beast. Players crash-land on a dry, dusty planet and must survive dehydration and overheating while progressing through quests powered by the HQM (Hardcore Questing Mode) mod. - <a href=\"https://www.curseforge.com/minecraft/modpacks/crash-landing\">CurseForge</a>"
+				},
+				"DigSite.zip": {
+					"Type": "archive",
+					"Description": "DigSite is a story-based sci-fi adventure modpack for Minecraft 1.12.2, created by TherealWideblaze (Wideblaze). Players take on the role of hero trying to save the world through guided, quest-driven progression with realistic game mechanics. Designed for 1\u20134 co-op players in roughly 10\u201320 sessions. Licensed under the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPLv3</a>. - <a href=\"https://www.curseforge.com/minecraft/modpacks/digsite\">CurseForge</a> - <a href=\"https://github.com/wideblaze/DigSite\">GitHub (source)</a>"
 				}
 			},
 			"Mods": {
 				"Type": "dir",
-				"Description": "A series of mods for Minecraft",
-			  "InventoryTweaks-MC1.6.2-1.56-b77.jar": {
-			  	"Type": "jar",
-			  	"Description": "A 1.6.2 Minecraft mod that can help you manage your inventory and chests with just a click of a button. To use this mod, put this jar file into your mods profile folder, and load it with Forge."
-			  },
-			  "[1.6.2]ReiMinimap_v3.4_01.zip": {
-			  	"Type": "archive",
-			  	"Description": "ReiMinimap is a minecraft mod that gives you a little live map with coordinates, chunk types, themes and more. This specific file mod is compatible with minecraft 1.6.2 only. To install this mod, put this file in your minecraft profile's mods folder."
-			  },
-			  "5459-craftguide-162.zip": {
-			  	"Type": "archive",
-			  	"Description": "CraftGuide is a minecraft mod that gives you all the recipes in a handy book. This specific file mod is compatible with minecraft 1.6.2 only. To install this mod, put this file in your minecraft profile's mods folder."
-			  }
+				"Description": "A collection of individual mods for Minecraft. Place .jar or extracted .zip contents into your Minecraft profile's mods folder and load with Forge unless otherwise noted.",
+				"InventoryTweaks-MC1.6.2-1.56-b77.jar": {
+					"Type": "jar",
+					"Description": "Inventory Tweaks for Minecraft 1.6.2 (build b77). Adds one-click inventory and chest sorting, auto-refill for tools and ammo, and custom sorting rules. Place this jar in your profile's mods folder and load with Forge. License: <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>. - <a href=\"https://github.com/Ench/InventoryTweaks\">GitHub</a>"
+				},
+				"Shader-mod-folder.zip": {
+					"Type": "archive",
+					"Description": "A zip archive containing shader mod files intended to be placed into a Minecraft profile's mods folder. Likely contains the Shader Mod or related shader support files for a 1.6.x or 1.7.x profile. Extract and inspect contents before installing."
+				},
+				"5459-craftguide-162.zip": {
+					"Type": "archive",
+					"Description": "CraftGuide for Minecraft 1.6.2. A lightweight mod that provides an in-game book listing all available crafting recipes, making it easy to look up how to craft any item without a wiki. Place the extracted contents in your profile's mods folder."
+				},
+				"[1.6.2]ReiMinimap_v3.4_01.zip": {
+					"Type": "archive",
+					"Description": "Rei's Minimap v3.4 for Minecraft 1.6.2. Adds a live minimap overlay to the HUD displaying your surroundings, coordinates, chunk borders, biome colouring, and waypoint markers. Place the extracted contents in your profile's mods folder."
+				},
+				"Device": {
+					"Type": "dir",
+					"Description": "A collection of Minecraft mods related to in-game device or web-browser functionality for Minecraft 1.12.2.",
+					"omca": {
+						"Type": "dir",
+						"Description": "Contains the OMCA (Open Minecraft Computer API) mod and its metadata for Minecraft 1.12.2.",
+						"omca-1.12.2-2.0.0.jar": {
+							"Type": "jar",
+							"Description": "OMCA (Open Minecraft Computer API) v2.0.0 for Minecraft 1.12.2. A mod that provides a programmable computer API within Minecraft. Place in your profile's mods folder."
+						},
+						"mcmod.info": {
+							"Type": "json",
+							"Description": "Metadata descriptor file for the OMCA mod. Contains display name, version, description, and author information used by Forge."
+						}
+					},
+					"device-mod-0.4.1-1.12.2.Sal.jar": {
+						"Type": "jar",
+						"Description": "The Device Mod v0.4.1 for Minecraft 1.12.2, modified by Salzamar. Adds in-game device or computer-like functionality. Place in your profile's mods folder and load with Forge."
+					},
+					"gitweb-builder": {
+						"Type": "dir",
+						"Description": "Contains the GitWeb Builder mod for Minecraft 1.12.2, which allows interacting with a Git repository or web-based interface from within the game.",
+						"GitWeb+Builder-1.1.jar": {
+							"Type": "jar",
+							"Description": "GitWeb Builder v1.1 for Minecraft 1.12.2. Adds a GitWeb-style interface or Git integration feature inside Minecraft. Place in your profile's mods folder."
+						},
+						"mcmod.info": {
+							"Type": "json",
+							"Description": "Metadata descriptor file for the GitWeb Builder mod. Contains display name, version, description, and author information used by Forge."
+						}
+					}
+				}
 			},
-			"Optifine": {
-				"Type": "dir",
-				"Description": "Optifine optimizer for Minecraft",
-			  "OptiFine_1.6.2_HD_C4.jar": {
-			  	"Type": "jar",
-			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
-			  },
-			  "OptiFine_1.6.2_HD_U_C4.jar": {
-			  	"Type": "jar",
-			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
-			  },
-			  "OptiFine_1.6.2_L_C4.jar": {
-			  	"Type": "jar",
-			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.6.2."
-			  },
-			  "OptiFine_1.7.10_HD_U_E7.jar": {
-			  	"Type": "jar",
-			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.7.10."
-			  },
-			  "OptiFine_1.12.2_HD_U_G5.jar": {
-			  	"Type": "jar",
-			  	"Description": "Optifine is a mod that optimizes your minecraft session and gives you more visual settings than the default minecraft settings. To install it, double click it and install the optifine profile, or put this is your profile's mods folder. This version of optifine is supported only in minecraft version 1.12.2."
-			  }
-			},
-		  "ZeldaTexturePackmc-15.zip": {
-		  	"Type": "archive",
-		  	"Description": "A texture pack for minecraft that looks like zelda (the game). To install this texture pack, put the files in your profile's texturepack directory, and in minecraft settings change the texturepack."
-		  },
 			"Server": {
-			  "Type": "dir",
-			  "Description": "Server files",
-			  "TheForgottenLand2.0.zip": {
-			  	"Type": "archive",
-			  	"Description": "null"
-			  },
-			  "craftbukkit-1.6.2-R1.0.jar": {
-			  	"Type": "jar",
-			  	"Description": "This is a Minecraft 1.6.2 mod."
-			  }
-			},
-			"ShadersModCore-mc1.6.2-f804-v2.0.1-beta1.jar": {
-				"Type": "jar",
-				"Description": "ShadersModCore-mc1.6.2 is a minecraft shader mod. To install this mod, put this file in your profile's mods folder. This version of ShaderModCore is supported for minecraft version 1.6.2 only."
-			},
-			"cursemodpackdownloader-2.3.0.jar": {
-				"Type": "jar",
-				"Description": "This is a Minecraft mod."
-			},
-			"plugins.zip": {
-				"Type": "archive",
-				"Description": "A zip file containing all the plugins the advguild.myftp.org 1.6.2 vanilla server is currently running."
-			},
-			"serversync-2.6.17.jar": {
-				"Type": "jar",
-				"Description": "A java program that syncs the mods from the modded server you are playing with your computer."
+				"Type": "dir",
+				"Description": "Files related to running or supporting a Minecraft server, including server software, plugin archives, world data, and image assets.",
+				"craftbukkit-1.6.2-R1.0.jar": {
+					"Type": "jar",
+					"Description": "CraftBukkit R1.0 server jar for Minecraft 1.6.2. CraftBukkit is a modified Minecraft server that adds the Bukkit plugin API, allowing server administrators to install and manage community-created plugins. Proprietary freeware. - <a href=\"https://www.bukkit.org/\">Bukkit project</a>"
+				},
+				"TheForgottenLand2.0.zip": {
+					"Type": "archive",
+					"Description": "The Forgotten Land v2.0 \u2014 a Minecraft server world or adventure map archive. Likely the full world or server-side data for the 'Forgotten Land' themed server referenced elsewhere in this collection."
+				},
+				"plugins.zip": {
+					"Type": "archive",
+					"Description": "A zip archive containing all Bukkit plugins used by the advguild.myftp.org Minecraft 1.6.2 vanilla (CraftBukkit) server at the time of this backup."
+				},
+				"ILAJono.jpg": {
+					"Type": "image",
+					"Description": "Server-related image asset. Origin or exact purpose unknown; likely a screenshot, banner, or upload associated with the server."
+				},
+				"gPcdFpO.jpg": {
+					"Type": "image",
+					"Description": "Server-related image asset. Origin or exact purpose unknown; likely a screenshot, banner, or upload associated with the server."
+				},
+				"ZcGuOoD.jpg": {
+					"Type": "image",
+					"Description": "Server-related image asset. Origin or exact purpose unknown; likely a screenshot, banner, or upload associated with the server."
+				},
+				"5maRaEg.jpg": {
+					"Type": "image",
+					"Description": "Server-related image asset. Origin or exact purpose unknown; likely a screenshot, banner, or upload associated with the server."
+				},
+				"MdYTokk.jpg": {
+					"Type": "image",
+					"Description": "Server-related image asset. Origin or exact purpose unknown; likely a screenshot, banner, or upload associated with the server."
+				},
+				"B3fw1J2.jpg": {
+					"Type": "image",
+					"Description": "Server-related image asset. Origin or exact purpose unknown; likely a screenshot, banner, or upload associated with the server."
+				},
+				"yKKW2Ze.jpg": {
+					"Type": "image",
+					"Description": "Server-related image asset. Origin or exact purpose unknown; likely a screenshot, banner, or upload associated with the server."
+				}
 			},
 			"LUA": {
 				"Type": "dir",
-				"Description": "LUA code for ComputerCraft and OpenComuters Minecraft mods for simulating a computer with the lua4j interpreter.",
+				"Description": "LUA scripts for use with in-game programmable computer mods \u2014 specifically <a href=\"https://github.com/MightyPirates/OpenComputers\">OpenComputers</a> and <a href=\"https://tweaked.cc\">ComputerCraft: Tweaked</a>. Both mods simulate real computers inside Minecraft using the Lua scripting language.",
 				"OC": {
 					"Type": "dir",
-					"Description": "A collection of LUA scripts for the <a href=\"https://github.com/MightyPirates/OpenComputers\">OpenComputers</a> Minecraft mod"
+					"Description": "A collection of LUA scripts for the <a href=\"https://github.com/MightyPirates/OpenComputers\">OpenComputers</a> Minecraft mod. OpenComputers is free software licensed under the <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>.",
+					"ftp.lua": {
+						"Type": "lua",
+						"Description": "An FTP client or utility script for OpenComputers, allowing in-game computers to connect to and interact with an FTP server."
+					},
+					"localftpserver.lua": {
+						"Type": "lua",
+						"Description": "A local FTP server script for OpenComputers, enabling an in-game computer to act as an FTP server accessible from other computers or external clients."
+					},
+					"localftpclient.lua": {
+						"Type": "lua",
+						"Description": "A local FTP client script for OpenComputers, used to connect to local FTP servers from within the game."
+					},
+					"Explorer.lua": {
+						"Type": "lua",
+						"Description": "A file explorer application for OpenComputers, providing a graphical or text-based interface to browse the virtual filesystem of an in-game computer."
+					},
+					"Install-FOS.lua": {
+						"Type": "lua",
+						"Description": "An installer script for FOS (Floppy OS), a community-made operating system designed to run on OpenComputers in-game machines."
+					},
+					"LuaTutorial.lua": {
+						"Type": "lua",
+						"Description": "A tutorial or example script demonstrating Lua programming concepts and OpenComputers API usage."
+					},
+					"mpt.lua": {
+						"Type": "lua",
+						"Description": "A Lua script for OpenComputers. Likely a multi-purpose tool or utility; inspect contents for specifics."
+					},
+					"betterbios.lua": {
+						"Type": "lua",
+						"Description": "A replacement or enhanced BIOS script for OpenComputers, improving or extending the default boot and initialisation behaviour of in-game computers."
+					},
+					"gamax92-Programs-master.zip": {
+						"Type": "archive",
+						"Description": "A zip archive of programs and utilities by gamax92 for OpenComputers. Contains a variety of community scripts and tools."
+					},
+					"wget+.lua": {
+						"Type": "lua",
+						"Description": "An enhanced wget-style download utility for OpenComputers, allowing in-game computers to fetch files from URLs via the in-game network or OpenNet."
+					},
+					"Loop.lua": {
+						"Type": "lua",
+						"Description": "A Lua script for OpenComputers. Likely demonstrates or implements a looping mechanism or background task runner."
+					},
+					"FOS-Dev.zip": {
+						"Type": "archive",
+						"Description": "Development files or source code for FOS (Floppy OS), the community operating system for OpenComputers."
+					},
+					"ocwe.lua": {
+						"Type": "lua",
+						"Description": "A Lua script for OpenComputers. Likely a web editor or similar interactive utility; inspect contents for specifics."
+					},
+					"luapp.lua": {
+						"Type": "lua",
+						"Description": "A Lua application loader or package manager script for OpenComputers, facilitating the installation or launching of other Lua programs."
+					}
 				},
 				"CC-T": {
 					"Type": "dir",
-					"Description": "A collection of LUA scripts for the - <a href=\"https://tweaked.cc\">ComputerCraft: Tweaked</a> - Minecraft mod"
+					"Description": "A collection of LUA scripts for <a href=\"https://tweaked.cc\">ComputerCraft: Tweaked</a>, a free and open-source Minecraft mod that adds programmable computers and turtles. Licensed under the <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>. - <a href=\"https://github.com/computercraft/cc-tweaked\">GitHub (source)</a>",
+					"CCDrop.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft script that likely handles dropping or distributing items, possibly for automated sorting or dispensing systems."
+					},
+					"install.levelos.lua": {
+						"Type": "lua",
+						"Description": "An installer script for LevelOS, a community-created operating system designed to run on ComputerCraft computers."
+					},
+					"PrintShop.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft program that functions as a print shop, likely formatting and outputting text to in-game monitors or printers."
+					},
+					"cPrint.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft print utility. Likely provides colour-formatted or advanced text printing capabilities for monitors."
+					},
+					"WordWrap-Code.LUA": {
+						"Type": "lua",
+						"Description": "A ComputerCraft utility that implements word-wrapping logic for text output, ensuring long lines break cleanly on in-game monitors."
+					},
+					"WYSIwrite.lua": {
+						"Type": "lua",
+						"Description": "A WYSIWYG (What You See Is What You Get) text editor for ComputerCraft, allowing users to compose and format text on in-game monitors interactively."
+					},
+					"wave-amp2.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft script that likely visualises or manipulates audio waveforms or signal amplitudes, possibly for use with the Computronics sound system."
+					},
+					"FWserver.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft script that acts as a 'FW' (likely FileWare or FortWare) server, handling requests from connected clients over the in-game rednet or modem network."
+					},
+					"FWclient.lua": {
+						"Type": "lua",
+						"Description": "The client-side counterpart to FWserver.lua. Connects to a FW server over the in-game network to exchange data or commands."
+					},
+					"RednetExplorer.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft network explorer that scans and displays devices connected via Rednet, showing their IDs, labels, and types."
+					},
+					"Reactor-startup.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft startup script for controlling a nuclear reactor (typically from the Fission Reactor or similar mod). Automates initial reactor configuration or safety checks on computer boot."
+					},
+					"Reactor.LUA": {
+						"Type": "lua",
+						"Description": "A ComputerCraft reactor control program providing a monitor-based GUI for monitoring and managing an in-game nuclear reactor's status, output, and safety parameters."
+					},
+					"LUA Reactor Codes.txt": {
+						"Type": "text",
+						"Description": "A plain-text file containing reactor control codes, coordinates, or configuration values used by the Reactor.LUA and/or Reactor-startup.lua scripts."
+					},
+					"Write.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft text-writing utility, likely for composing or saving text files on in-game disks or to monitors."
+					},
+					"wirelessupdate.lua": {
+						"Type": "lua",
+						"Description": "A ComputerCraft script that enables over-the-air (wireless/rednet) updating of programs on remote computers without physical disk access."
+					},
+					"opus-apps-develop-1.8.zip": {
+						"Type": "archive",
+						"Description": "Development build (v1.8) of the Opus application suite for ComputerCraft. Opus is an open-source package manager and app store ecosystem for CC computers. - <a href=\"https://github.com/digimaun/opus-apps\">GitHub</a>"
+					},
+					"opus-master.zip": {
+						"Type": "archive",
+						"Description": "Master branch source archive of the Opus package manager and application suite for ComputerCraft. - <a href=\"https://github.com/digimaun/opus-apps\">GitHub</a>"
+					},
+					"opus-develop-1.8.zip": {
+						"Type": "archive",
+						"Description": "Develop branch source archive (v1.8) of the Opus package manager and application suite for ComputerCraft. - <a href=\"https://github.com/digimaun/opus-apps\">GitHub</a>"
+					},
+					"CC-Archive-master.zip": {
+						"Type": "archive",
+						"Description": "A master archive of ComputerCraft programs and utilities, likely a curated or community-compiled collection of scripts."
+					},
+					"MineExplorer-master.zip": {
+						"Type": "archive",
+						"Description": "Source archive for MineExplorer, a ComputerCraft application that provides a graphical or text-based mapping or exploration tool for the Minecraft world."
+					},
+					"marytts": {
+						"Type": "dir",
+						"Description": "Contains the MaryTTS text-to-speech engine jars required for in-game speech synthesis via the Computronics mod. MaryTTS is free software licensed under the <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL v2.1+</a>. - <a href=\"https://github.com/dfki-aic/marytts\">GitHub (source)</a>",
+						"marytts-lang-en-5.2.jar": {
+							"Type": "jar",
+							"Description": "MaryTTS v5.2 English language data package. Provides the English language model and lexicon required for text-to-speech synthesis."
+						},
+						"marytts-runtime-5.2-jar-for-computronics.jar": {
+							"Type": "jar",
+							"Description": "MaryTTS v5.2 runtime engine, repackaged by the Computronics project for compatibility with the Computronics Minecraft mod's speech block."
+						},
+						"voice-cmu-slt-hsmm-5.2.jar": {
+							"Type": "jar",
+							"Description": "MaryTTS v5.2 CMU SLT voice model using Hidden Semi-Markov Models (HSMM). This is the voice data jar that defines the actual spoken voice output."
+						}
+					}
 				}
+			},
+			"minecraft_launcher.zip": {
+				"Type": "archive",
+				"Description": "A Minecraft launcher archive. May be an older or third-party launcher. NOTE: This file is not present in the latest directory listing and may have been removed or renamed."
+			},
+			"cursemodpackdownloader-2.3.0.jar": {
+				"Type": "jar",
+				"Description": "A Java utility for downloading Minecraft modpacks from CurseForge. Automates the process of fetching a modpack and its mod dependencies. Proprietary freeware."
+			},
+			"ShadersModCore-mc1.6.2-f804-v2.0.1-beta1.jar": {
+				"Type": "jar",
+				"Description": "Shaders Mod Core v2.0.1-beta1 for Minecraft 1.6.2 (build f804). Adds advanced OpenGL shader support to Minecraft 1.6.2, enabling GLSL-based visual effects such as dynamic lighting, shadows, and reflections. Place in your profile's mods folder. Proprietary freeware."
 			}
 		},
 		"Toys": {
-		  "InnerSpace.zip": {
-		  	"Type": "archive",
-		  	"Description": "null"
-		  }
+			"Type": "dir",
+			"Description": "A collection of small DOS-era games or toy programs.",
+			"Pinball.zip": {
+				"Type": "archive",
+				"Description": "A DOS-era pinball game. Extract and inspect contents for a readme or executable. May require <a href=\"https://www.dosbox.com/\">DOSBox</a> (free software, <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPLv2</a>) to run on modern systems."
+			},
+			"Slug's PR v1.2.pk3": {
+				"Type": "pk3",
+				"Description": "A .pk3 file (zip archive renamed) containing a mod or total conversion, likely for a Doom-engine or Quake-engine game. 'Slug' may refer to a character or mod theme. Place in the appropriate game's mod directory or load via the game's command-line mod parameter."
+			},
+			"InnerSpace.zip": {
+				"Type": "archive",
+				"Description": "A DOS-era game or program archive. Extract and inspect contents for a readme or executable. May require <a href=\"https://www.dosbox.com/\">DOSBox</a> (free software, <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPLv2</a>) to run on modern systems."
+			}
 		},
 		"Tools": {
-		  "Fxp32.zip": {
-		  	"Type": "archive",
-		  	"Description": "A proprietary minimalistic FTP Client for Windows."
-		  },
-		  "HAKTEK.EXE": {
-		  	"Type": "exe",
-		  	"Description": "HakTek is a proprietary pentesting program that can mailbomb, anti-mailbomb, scan ports and scan IPs."
-		  },
-		  "flashplayer_32_sa_debug.exe": {
-		  	"Type": "exe",
-		  	"Description": "A standalone FlashPlayer Debugger for Windows."
-		  },
-		  "war-ftpd-1.82-RC13-update.zip": {
-		  	"Type": "archive",
-		  	"Description": "War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">wikipedia</a>.<br> This version is the latest stable release from 2014."
-		  },
-		  "warftpd-1.82-00-RC12-i386.exe": {
-		  	"Type": "exe",
-		  	"Description": "War FTP Daemon is a free proprietary minimalistic GUI FTP server for Windows, written by Jarle Aase. When it was first released in 1996, it was the first free FTP server on this software platform. Warftpd has received lots of awards over the years. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">wikipedia</a>."
-		  },
-		  "wrar351.exe": {
-		  	"Type": "exe",
-		  	"Description": "This program runs in Microsoft Windows."
-		  }
+			"Type": "dir",
+			"Description": "A collection of network utilities and small Windows programs, mostly from the late 1990s and early 2000s. Most are proprietary freeware targeting 32-bit Windows.",
+			"warftpd-1.82-00-RC12-i386.exe": {
+				"Type": "exe",
+				"Description": "War FTP Daemon v1.82 RC12 (32-bit) \u2014 a freeware GUI FTP server for Windows, originally written by Jarle Aase. First released in 1996, it was the first free FTP server on the Windows platform and has received numerous awards. This is the RC12 release candidate build. Proprietary freeware. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">Wikipedia</a>"
+			},
+			"war-ftpd-1.82-RC13-update.zip": {
+				"Type": "archive",
+				"Description": "War FTP Daemon v1.82 RC13 update zip \u2014 the latest stable release from 2014 of the freeware GUI FTP server for Windows by Jarle Aase. Extract and run the installer or copy files over the existing War FTP Daemon installation. Proprietary freeware. - <a href=\"https://en.wikipedia.org/wiki/War_FTP_Daemon\">Wikipedia</a>"
+			},
+			"Fxp32.zip": {
+				"Type": "archive",
+				"Description": "FXP \u2014 a proprietary, minimalistic FTP client for 32-bit Windows. Supports FXP (File eXchange Protocol) for direct server-to-server file transfers."
+			},
+			"Fxp70.exe": {
+				"Type": "exe",
+				"Description": "FXP v7.0 \u2014 a proprietary FTP client executable for Windows supporting FXP (File eXchange Protocol) direct server-to-server transfers. Run directly to install or launch."
+			},
+			"wrar351.exe": {
+				"Type": "exe",
+				"Description": "WinRAR v3.51 installer for Windows. WinRAR is a proprietary archive manager supporting RAR, ZIP, and many other archive formats. A trial version with full functionality is provided; a licence must be purchased for continued use after the trial period."
+			},
+			"install_flash_player-No-Expire-Timer.exe": {
+				"Type": "exe",
+				"Description": "Adobe Flash Player standalone installer, modified or repackaged to remove the expiry/nag timer that Adobe introduced after Flash Player reached end-of-life on 31 December 2020. Intended for running legacy Flash content on older or isolated systems. Flash Player is proprietary software (formerly by Adobe, now discontinued)."
+			},
+			"pixie.exe": {
+				"Type": "exe",
+				"Description": "Pixie \u2014 a small Windows utility for capturing and displaying the exact RGB colour values of any pixel on the screen by hovering the crosshair cursor over it. Useful for graphic design and web development colour-picking. Proprietary freeware."
+			},
+			"HAKTEK.EXE": {
+				"Type": "exe",
+				"Description": "HakTek \u2014 a proprietary pentesting / network-utility program for Windows that can mailbomb, anti-mailbomb, scan ports, and scan IP addresses. NOTE: Use only in authorised, isolated lab environments; unsanctioned use of mailbombing or port-scanning tools may violate laws and terms of service."
+			},
+			"flashplayer_32_sa_debug.exe": {
+				"Type": "exe",
+				"Description": "Adobe Flash Player v32 Standalone Debug Edition for Windows. The debug version outputs a log file (flashlog.txt) detailing all ActionScript errors and trace() output, useful for developers testing or debugging Flash content. Proprietary software (discontinued by Adobe)."
+			}
+		},
+		"OldGames": {
+			"Type": "dir",
+			"Description": "A collection of classic DOS first-person shooter games from the 1990s. Most titles require <a href=\"https://www.dosbox.com/\">DOSBox</a> (free software, <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPLv2</a>) to run on modern operating systems. Several of these games have had their source code released under the <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPL</a> by their original authors, enabling free and open-source source ports.",
+			"DOOM.ZIP": {
+				"Type": "archive",
+				"Description": "DOOM (1993) \u2014 the landmark first-person shooter by id Software. Uses the id Tech 1 engine. The game data files in this archive remain proprietary; however, the source code to the engine was released under the <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPLv2+</a> in 1999, enabling many free and open-source source ports such as <a href=\"https://github.com/chocolate-doom/chocolate-doom\">Chocolate Doom</a> and <a href=\"https://github.com/id-Software/DOOM\">the official id Software GitHub release</a>. To play on modern systems, use DOSBox or a source port."
+			},
+			"DOOM2.ZIP": {
+				"Type": "archive",
+				"Description": "DOOM II: Hell on Earth (1994) \u2014 the sequel to DOOM, also by id Software, using the same id Tech 1 engine. Like DOOM, the game data is proprietary but the engine source was released under the <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPLv2+</a>. To play on modern systems, use DOSBox or a source port. - <a href=\"https://github.com/id-Software/DOOM\">id Software DOOM source (GitHub)</a>"
+			},
+			"HERETIC.ZIP": {
+				"Type": "archive",
+				"Description": "Heretic (1994) \u2014 a dark-fantasy first-person shooter developed by Raven Software and published by id Software. Uses a modified Doom engine and was one of the first FPS games to feature an inventory system and free look (up/down). The engine source code was initially released in 1999 and later re-licensed under the <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPLv2</a> in 2008. Game data files remain proprietary. - <a href=\"https://en.wikipedia.org/wiki/Heretic_(video_game)\">Wikipedia</a>"
+			},
+			"HERETIC1_3.zip": {
+				"Type": "archive",
+				"Description": "Heretic v1.3 \u2014 an updated or patched version of the Heretic (1994) shareware or full release by Raven Software / id Software. Contains the same gameplay as HERETIC.ZIP but with bug-fixes and improvements present in the v1.3 patch."
+			},
+			"HEXEN.ZIP": {
+				"Type": "archive",
+				"Description": "Hexen: Beyond Heretic (1995) \u2014 the sequel to Heretic, also developed by Raven Software and published by id Software. Features three playable character classes (Fighter, Cleric, Mage) and a hub-based level structure with Action Code Script (ACS). The engine source was re-licensed under the <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPLv2</a> in 2008. Game data files remain proprietary. - <a href=\"https://en.wikipedia.org/wiki/Hexen:_Beyond_Heretic\">Wikipedia</a>"
+			},
+			"blood.zip": {
+				"Type": "archive",
+				"Description": "Blood (1997) \u2014 a horror-themed first-person shooter developed by Monolith Productions and published by GT Interactive, using the Build engine (the same engine as Duke Nukem 3D). Known for its dark humour, extensive horror-film references, and graphic violence. The game data is proprietary; unlike Duke Nukem 3D and Shadow Warrior, the Blood source code has never been officially released under a free software licence, though a remastered version, Blood: Fresh Supply, is available on Steam and GOG. - <a href=\"https://en.wikipedia.org/wiki/Blood_(video_game)\">Wikipedia</a>"
+			},
+			"DUKE3D.ZIP": {
+				"Type": "archive",
+				"Description": "Duke Nukem 3D (1996) \u2014 the iconic first-person shooter by 3D Realms / Apogee Software, built on Ken Silverman's Build engine. The v1.5 source code was released in 2003 under the <a href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU GPL</a>, making it one of the pioneering open-source game engine releases. Game data files remain copyrighted by 3D Realms. Free and open-source source ports exist, such as <a href=\"https://github.com/jonof/jfduke3d\">jfduke3d</a>. - <a href=\"https://github.com/videogamepreservation/dukenukem3d\">GitHub (source)</a>"
+			}
+		},
+		"android": {
+			"Type": "dir",
+			"Description": "A collection of Android application packages (.apk files) for various utilities and apps.",
+			"VLC_3.5.1.apk": {
+				"Type": "apk",
+				"Description": "VLC media player v3.5.1 for Android. VLC is a free and open-source, multimedia player and framework that plays most multimedia files and nearly all audio and video formats. Licensed under the <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPLv2.1+</a>. - <a href=\"https://www.videolan.org/vlc/\">Official site</a> - <a href=\"https://gitlab.videolan.org/videolan/vlc-android\">GitLab (source)</a>"
+			},
+			"fitbit-3-75-fitbit-mobile-37550021-506044250.apk": {
+				"Type": "apk",
+				"Description": "Fitbit mobile companion app v3.75 for Android. Used to sync and manage Fitbit fitness tracker devices. Proprietary software."
+			},
+			"com.ashampoo.droid.optimizer_2017-08-24.apk": {
+				"Type": "apk",
+				"Description": "Ashampoo Droid Optimizer (2017-08-24 build) for Android. A system-optimisation utility that cleans caches, manages apps, and monitors device performance. Proprietary freeware by Ashampoo."
+			},
+			"org.mozilla.firefox_47.0-2015422360.apk": {
+				"Type": "apk",
+				"Description": "Mozilla Firefox v47.0 for Android. Firefox is a free and open-source web browser licensed under the <a href=\"https://www.mozilla.org/en-US/MPL/2.0/\">Mozilla Public License 2.0</a>. This is an older build; newer versions are available from the Play Store or Mozilla's website. - <a href=\"https://www.mozilla.org/en-US/firefox/\">Official site</a> - <a href=\"https://github.com/mozilla-mobile/firefox-android\">GitHub (source)</a>"
+			},
+			"Simple Keyboard_5.13.apk": {
+				"Type": "apk",
+				"Description": "Simple Keyboard v5.13 for Android. A lightweight, privacy-focused soft keyboard with no data collection. Free and open-source, licensed under the <a href=\"https://www.gnu.org/licenses/lgpl-2.1.html\">GNU LGPL</a>. - <a href=\"https://github.com/petertseng/simple-keyboard\">GitHub</a>"
+			},
+			"ES File Explorer_3.2.5.4.apk": {
+				"Type": "apk",
+				"Description": "ES File Explorer v3.2.5.4 for Android. A popular file manager supporting local storage, SD cards, network shares (SMB/FTP), and cloud services. Proprietary freeware (with optional in-app purchases)."
+			},
+			"com.lifescan.reveal5.3.apk": {
+				"Type": "apk",
+				"Description": "LifeScan Reveal v5.3 for Android. A companion app for LifeScan OneTouch blood glucose monitors, used for logging and viewing diabetes management data. Proprietary software."
+			}
 		},
 		"Fix for Sept 2021 Certificate Expired": {
 			"Type": "dir",
-			"Description": "A fix for old browser certificates, especially for Windows XP browsers. Google Chrome for Windows XP can no longer access https websites because the installed trusted ssl certificates are outdated. Install these .pem files into your browser's Certificate Settings to resolve this issue."
+			"Description": "A fix for outdated root certificates on older browsers, especially Windows XP. Google Chrome for Windows XP can no longer access HTTPS websites because the installed trusted SSL certificates expired in September 2021. Install the included .pem certificate files into your browser's Certificate Settings to resolve this issue. NOTE: This directory is not present in the latest directory listing and may have been removed or renamed."
+		},
+		"Website-tiny-Astolfo.jpg": {
+			"Type": "image",
+			"Description": "An image of Astolfo holding a box of chocolates."
+		},
+		"never-forget-1920-1080.jpg": {
+			"Type": "image",
+			"Description": "A digital wallpaper commemorating old storage medium devices."
+		},
+		"cad-20060823-d025d.x70848.jpg": {
+			"Type": "image",
+			"Description": "An image of an internet meme, showing the differences of a newbie and a noob."
 		}
 	},
 	"Video": {
 		"Type": "dir",
-		"Description": "null",
+		"Description": "Video media files",
 		"The Melancholy of Haruhi Suzumiya": {
 			"Type": "dir",
-			"Description": "null",
+			"Description": "Media files for the anime series and film 'The Melancholy of Haruhi Suzumiya'",
 			"SubFile": {
 				"Movie - The Disappearance of Haruhi Suzumiya.mkv": {
 					"Type": "video",
-					"Description": "The Melancholy of Haruhi Suzumiya - The Disappearance of Haruhi Suzumiya - Anime Movie (2010)"
+					"Description": "The Melancholy of Haruhi Suzumiya \u2014 The Disappearance of Haruhi Suzumiya \u2014 Anime Movie (2010)."
 				},
 				"The Melancholy of Haruhi Suzumiya.zip": {
 					"Type": "archive",
-					"Description": "The Melancholy of Haruhi Suzumiya - Anime Series (2006-2009)"
+					"Description": "The Melancholy of Haruhi Suzumiya \u2014 Anime Series (2006\u20132009)."
 				}
 			}
 		}
 	},
 	"upload": {
 		"Type": "dir",
-		"Description": "null",
+		"Description": "User-facing upload area of the advguild.myftp.org FTP server.",
 		"Minecraft": {
 			"Type": "dir",
-			"Description": "null",
+			"Description": "Minecraft-related files uploaded by users.",
 			"SpaceChickens.zip": {
 				"Type": "archive",
-				"Description": "SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB."
+				"Description": "SpaceChickens is a modpack for Minecraft 1.7.10 made by rubysown, modified by Salzamar. The minimum RAM amount your computer needs to have in order to run this modpack is 4GB. - <a href=\"https://www.curseforge.com/minecraft/modpacks/space-chickens\">CurseForge</a>"
 			},
 			"ClearSkies.zip": {
 				"Type": "archive",
@@ -230,7 +594,11 @@
 		},
 		"Web": {
 			"Type": "dir",
-			"Description": "A place where every user can upload their own files in advguild.myftp.org."
+			"Description": "A place where every user can upload their own files on advguild.myftp.org."
+		},
+		"Misc": {
+			"Type": "dir",
+			"Description": "A miscellaneous upload directory for files that do not fit other categories."
 		}
 	}
 }
