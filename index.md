@@ -18,7 +18,7 @@ keywords: bio, homepage
 {% assign age = '2004-03-08' | date_diff_in_years: current_date %}
 
 # user@therealone78.ddns.net:~$ whoareyou
-I go by the name of TheRealOne78 or RealOne. <abbr title="In Real Life">IRL</abbr> I am a {{ age }} years old person called BAJCSI deadname. I like dev, games, electronics, cooking, my bike and my Ender 3 V2 3D printer.<br>
+I go by the name of TheRealOne78, or RealOne. <abbr title="In Real Life">IRL</abbr> I am a {{ age }} years old person called BAJCSI deadname. I like dev, games, electronics, cooking, my bike and my Ender 3 V2 3D printer.<br>
 I live in Romania (cuz why not <abbr title="Laugh Out Loud">LOL</abbr>), in a nice city called Brașov.
 
 # user@therealone78.ddns.net:~$ Why did you make this website
