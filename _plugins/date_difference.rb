@@ -2,18 +2,36 @@ require 'date'
 
 module Jekyll
   module DateDifference
-    # Calculate the difference in years between date1 and date2
     def date_diff_in_years(date1, date2)
       d1 = Date.parse(date1.to_s)
       d2 = Date.parse(date2.to_s)
 
-      # Calculate the difference in days
-      difference_in_days = (d2 - d1).to_i
+      years = d2.year - d1.year
+      years -= 1 if d2.month < d1.month || (d2.month == d1.month && d2.day < d1.day)
 
-      # Convert days to years
-      difference_in_years = difference_in_days / 365.25
+      years
+    end
 
-      difference_in_years.to_i
+    def date_diff_in_months(date1, date2)
+      d1 = Date.parse(date1.to_s)
+      d2 = Date.parse(date2.to_s)
+
+      months = (d2.year * 12 + d2.month) - (d1.year * 12 + d1.month)
+      months -= 1 if d2.day < d1.day
+
+      months
+    end
+
+    # Remainder months after full years
+    def date_diff_in_months_remainder(date1, date2)
+      d1 = Date.parse(date1.to_s)
+      d2 = Date.parse(date2.to_s)
+
+      years = date_diff_in_years(d1, d2)
+      total_months = date_diff_in_months(d1, d2)
+
+      remainder = total_months - (years * 12)
+      remainder
     end
   end
 end

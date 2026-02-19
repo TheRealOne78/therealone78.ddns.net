@@ -11,13 +11,13 @@ Please do not abuse (spam, pranks and things like that). Thank you.
 
 ## Direct contact info
 - E-Mail
-  - Primary: [bajcsielias78@gmail.com](mailto:bajcsielias78@gmail.com){:target="_blank" class="thirdParty"}
-  - Secondary: [bajcsielias79@gmail.com](mailto:bajcsielias79@gmail.com){:target="_blank" class="thirdParty"}
-- Matrix [@therealone78:matrix.org](https://matrix.to/#/@therealone78:matrix.org){:target="_blank" class="thirdParty"}
+  - Primary: [{{ site.email }}](mailto:{{ site.email }}){:target="_blank" class="thirdParty"}
+  - Secondary: [{{ site.sec_email }}](mailto:{{ site.sec_email }}){:target="_blank" class="thirdParty"}
+- Matrix [{{ site.matrix_username }}](https://matrix.to/#/{{ site.matrix_username }}){:target="_blank" class="thirdParty"}
 
 ## Other unrealiable ways to contact me
-- GitHub: [TheRealOne78](https://github.com/TheRealOne78){:target="_blank" class="github"}
-- YouTube: [@therealone78](http://www.youtube.com/@therealone78){:target="_blank" class="youtube"}
+- GitHub: [{{ site.github_username }}](https://github.com/{{ site.github_username }}){:target="_blank" class="github"}
+- YouTube: [{{ site.youtube_username }}](http://www.youtube.com/{{ site.youtube_username }}){:target="_blank" class="youtube"}
 
 # Disclaimer
 Page under construction. Don't expect any deadline...

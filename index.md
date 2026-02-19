@@ -15,11 +15,16 @@ keywords: bio, homepage
 </style>
 
 {% assign current_date = 'now' | date: '%Y-%m-%d' %}
-{% assign age = '2004-03-08' | date_diff_in_years: current_date %}
+{% assign age = site.birthday | date_diff_in_years: current_date %}
+{% assign ggd_years = site.ggd | date_diff_in_years: current_date %}
+{% assign ggd_months = site.ggd | date_diff_in_months_remainder: current_date %}
 
 # user@therealone78.ddns.net:~$ whoareyou
 I go by the name of TheRealOne78, or RealOne. <abbr title="In Real Life">IRL</abbr> I am a {{ age }} years old person called BAJCSI deadname. I like dev, games, electronics, cooking, my bike and my Ender 3 V2 3D printer.<br>
+
 I live in Romania (cuz why not <abbr title="Laugh Out Loud">LOL</abbr>), in a nice city called Brașov.
+
+I've also been on <abbr title="Good Girl Drugs &#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;">ggd</abbr> for {{ ggd_years }} years and {{ ggd_months }} months :3
 
 # user@therealone78.ddns.net:~$ Why did you make this website
 Because it is:
