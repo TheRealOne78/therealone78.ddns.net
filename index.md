@@ -19,14 +19,14 @@ keywords: bio, homepage
 {% assign ggd_years = site.ggd | date_diff_in_years: current_date %}
 {% assign ggd_months = site.ggd | date_diff_in_months_remainder: current_date %}
 
-# user@therealone78.ddns.net:~$ whoareyou
-I go by the name of TheRealOne78, or RealOne. <abbr title="In Real Life">IRL</abbr> I am a {{ age }} years old person called BAJCSI deadname. I like dev, games, electronics, cooking, my bike and my Ender 3 V2 3D printer.<br>
+# user@ariimeow78.ddns.net:~$ whoareyou
+I go online by the name of Ariimeow78. <abbr title="In Real Life">IRL</abbr>, I am a {{ age }} years old person, and I go by Ariimia. I like dev, games, electronics, cooking, my bike and my Ender 3 V2 3D printer.<br>
 
 I live in Romania (cuz why not <abbr title="Laugh Out Loud">LOL</abbr>), in a nice city called Brașov.
 
 I've also been on <abbr title="Good Girl Drugs &#x1F3F3;&#xFE0F;&#x200D;&#x26A7;&#xFE0F;">ggd</abbr> for {{ ggd_years }} years and {{ ggd_months }} months :3
 
-# user@therealone78.ddns.net:~$ Why did you make this website
+# user@ariimeow78.ddns.net:~$ Why did you make this website
 Because it is:
 - My right
 - My internet subscription
@@ -45,12 +45,12 @@ I met the owner of a minecraft server, a very nice guy, <span class="red-role">@
 
 Here is his 1.6.2 minecraft server, <a href="http://advguild.myftp.org" target="_blank" class="thirdParty">advguild.myftp.org</a>.
 
-# user@therealone78.ddns.net:~$ Do you have TikTok
+# user@ariimeow78.ddns.net:~$ Do you have TikTok
 Do: Fatal Error: Unknown argument "TikTok". Please shut down your current computing device with the help of a hammer and other tools immediately to resolve this error!
 
 Check this video if you need more clear instructions: <a href="https://youtu.be/HtTUsOKjWyQ" target="_blank" class="youtube">https://youtu.be/HtTUsOKjWyQ</a>.
 
-# user@therealone78.ddns.net:~$ Does this website use any cookies?
+# user@ariimeow78.ddns.net:~$ Does this website use any cookies?
 **NO!** this website does **NOT** use [cookies&trade;](https://gdpr.eu/cookies){:target="_blank" class="thirdParty"}. YAY, more cookies for you to eat!
 
 <abbr title="By The Way">BTW</abbr>, you reached as well the end of this webpage.

@@ -13,7 +13,7 @@ Note that there are still hidden HTML pages, because of copyright issues I can't
 - [/](/) - Home
 - [/software.html](/software.html) - Software I've created so far
 - [/music.git/](/music.git/) - Music directory tree
-- [ftp://therealone78.ddns.net/](ftp://therealone78.ddns.net/) - FTP
+- [ftp://ariimeow78.ddns.net/](ftp://ariimeow78.ddns.net/) - FTP
 - [/IRC.html](/IRC.html) - IRC
 - [/torrents/](/torrents/) - Torrents
 - [/advguild.html](/advguild.html) - AdvGuild Mirror
@@ -22,18 +22,18 @@ Note that there are still hidden HTML pages, because of copyright issues I can't
 - [/uploads/](/uploads/) - Uploads directory tree
 - [/blog/](/blog/) - Eventual blogs directory tree
 - [/mc/](/mc/) - Minecraft files directory tree
-- ~~[/firma/](/firma) - Exercise Firm - "F.E." directory tree~~ - The F.E. project ended and is available on <a href="https://github.com/TheRealOne78/firma" target="_blank" class="github">GitHub</a>
-- ~~[/firma/agrodeep.htm](/firma/agrodeep.htm) - F.E. Agrodeep S.R.L. directory tree~~ -The F.E. project ended and is available on <a href="https://github.com/TheRealOne78/firma" target="_blank" class="github">GitHub</a>
-- ~~[/firma/trd.htm](/firma/trd.htm) - F.E. Traditional Romanian Delivery S.R.L. directory tree~~ - The F.E. project ended and is available on <a href="https://github.com/TheRealOne78/firma" target="_blank" class="github">GitHub</a>
+- ~~[/firma/](/firma) - Exercise Firm - "F.E." directory tree~~ - The F.E. project ended and is available on <a href="https://github.com/Ariimeow78/firma" target="_blank" class="github">GitHub</a>
+- ~~[/firma/agrodeep.htm](/firma/agrodeep.htm) - F.E. Agrodeep S.R.L. directory tree~~ -The F.E. project ended and is available on <a href="https://github.com/Ariimeow78/firma" target="_blank" class="github">GitHub</a>
+- ~~[/firma/trd.htm](/firma/trd.htm) - F.E. Traditional Romanian Delivery S.R.L. directory tree~~ - The F.E. project ended and is available on <a href="https://github.com/Ariimeow78/firma" target="_blank" class="github">GitHub</a>
 - [/bad_gateway](/bad_gateway) - 502 Bad Gateway Meme HTML WebPage
 - [/first/](/first/) - My first HTML WebPage directory tree
 - [/first/first.html](/first/first.html) - My first HTML WebPage
-- ~~[/md/](/md/) - Random GitHub page md resources~~ - moved to <a href="https://github.com/TheRealOne78/calculator" target="_blank" class="github">GitHub</a>
-- ~~[/git-hw.png](/git-hw.png) - Random GitHub page md png resource file~~ - moved to <a href="https://github.com/TheRealOne78/english-homework" target="_blank" class="github">GitHub</a>
-- [/SHG/](/SHG/) - Old failed website project - <span style="color:orange">This is copyrighted by both TheRealOne78 and Cake</span>
+- ~~[/md/](/md/) - Random GitHub page md resources~~ - moved to <a href="https://github.com/Ariimeow78/calculator" target="_blank" class="github">GitHub</a>
+- ~~[/git-hw.png](/git-hw.png) - Random GitHub page md png resource file~~ - moved to <a href="https://github.com/Ariimeow78/english-homework" target="_blank" class="github">GitHub</a>
+- [/SHG/](/SHG/) - Old failed website project - <span style="color:orange">This is copyrighted by both Ariimeow78 and Cake</span>
 - [/resources/](/resources/) - Directory listing of every resource used for this domain's WebPages (excluding copyrighted content pages and next line)
 - ~~[/footerGame.png](/footerGame.png) - Footer png resource file~~ - Replaced with SVG, see [Resources](/resources/)
 - ~~[/3d-mania.html](/3d-mania.html) - Fictive 3d-printing company web-page for C.D.L. my class~~
 
 # Exceptions - 3rd party websites
-- [https://github.com/TheRealOne78/therealone78.ddns.net](https://github.com/TheRealOne78/therealone78.ddns.net){:target="_blank" class="github"} - GitHub git repository for all the Web-pages available for this domain
+- [https://github.com/Ariimeow78/ariimeow78.ddns.net](https://github.com/Ariimeow78/ariimeow78.ddns.net){:target="_blank" class="github"} - GitHub git repository for all the Web-pages available for this domain

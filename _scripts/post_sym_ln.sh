@@ -4,9 +4,9 @@
 #                                                                      #
 # SPDX-License-Identifier: GPL-3.0-or-later                            #
 #                                                                      #
-# Copyright (C) 2020-2026 TheRealOne78 <bajcsielias78@gmail.com>       #
+# Copyright (C) 2020-2026 Ariimeow78 <ariimeow@disroot.org>            #
 #                                                                      #
-# This file is part of the therealone78.ddns.net website project       #
+# This file is part of the ariimeow78.ddns.net website project         #
 #                                                                      #
 # This is free software: you can redistribute it and/or modify         #
 # it under the terms of the GNU General Public License as published by #
